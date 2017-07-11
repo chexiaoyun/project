@@ -1,0 +1,212 @@
+@import "common";
+@color:#e60012;
+@font-color:#555;
+@font-bcolor:#c6c6c6;
+@border-color:#ddd;
+@price-color:#ff0000;
+#yd-demand-header{
+  width: 100%;
+  height: 0.8rem;
+  background: #fff;
+  .yd-demand-left{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    position: relative;
+    img{
+      width: 0.19rem;
+      height: 0.34rem;
+      float: left;
+      position: absolute;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      margin:auto;
+    }
+  }
+  .yd-demand-content{
+    width: 82%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    span{
+      font-size:0.3rem;
+      color:@font-color;
+      float: left;
+      width: 100%;
+      line-height: 0.8rem;
+    }
+
+  }
+}
+#yd-demand-container{
+  width:100%;
+  height:auto;
+  .yd-demand-describe{
+    background: #fff;
+    width: 100%;
+    height:auto;
+    .yd-describe-tip{
+      width: 100%;
+      height: 0.6rem;
+      background: @color;
+      span{
+        font-size: 0.26rem;
+        line-height: 0.6rem;
+        padding-left:0.1rem;
+        color:#fff;
+        float: left;
+      }
+    }
+    form{
+      width: 100%;
+      height: auto;
+    }
+    textarea{
+      border:none;
+      border-bottom:1px solid @border-color;
+      resize: none;
+      width: 97%;
+      height: 2.8rem;
+      float: left;
+      outline: none;
+      padding:0.1rem;
+    }
+    .yd-load-photo{
+      padding:0.2rem 0;
+      width: 100%;
+      height:auto;
+      overflow: hidden;
+      .yd-enclosure{
+        width: 100%;
+        height: 100%;
+        .yd-add-pic{
+          .yd-menu-first{
+            display: none;
+          }
+        }
+      }
+      img{
+        width: 0.42rem;
+        height: 0.36rem;
+        margin-left:0.1rem;
+        float: left;
+      }
+    }
+  }
+}
+#yd-demand-container{
+  .yd-demand-choice{
+    margin-top:0.2rem;
+    background: #fff;
+    padding:0.3rem 0;
+    width: 100%;
+    h1{
+      padding:0 0.1rem 0 0.1rem;
+      font-size:0.26rem;
+      color:@font-color;
+    }
+    .yd-demand-minchoice{
+      padding:0 0.1rem;
+      .yd-demand-one{
+        border:1px solid @border-color;
+        border-radius: 0.05rem;
+        width: 100%;
+        height: 0.6rem;
+        margin-top:0.2rem;
+        select{
+          border:none;
+          width: 100%;
+          float: left;
+          //margin-top:2%;
+          outline: none;
+          height: 100%;
+          background: #fff;
+        }
+        input{
+          border:none;
+          outline: none;
+          float: left;
+          width: 95%;
+          height: 100%;
+          padding:0 0.1rem;
+        }
+      }
+    }
+  }
+}
+#yd-demand-container{
+  .yd-demand-money{
+    margin-top:0.2rem;
+    background: #fff;
+    width: 100%;
+    height: 0.64rem;
+    .yd-demand-name{
+      width: 20%;
+      height: 0.4rem;
+      text-align: center;
+      line-height: 0.4rem;
+      border-right:1px solid @border-color;
+      font-size: 0.26rem;
+      color:@font-color;
+      float: left;
+      display: inline-block;
+      margin-top: 2%;
+    }
+    input{
+      border:none;
+      outline: none;
+      font-size: 0.23rem;
+      color:#c6c6c6;
+      float: left;
+      padding-left:0.1rem;
+      width: 70%;
+      margin-top: 0.23rem;
+    }
+  }
+}
+#yd-demand-container{
+  .yd-demand-tel{
+    margin-top: 0.2rem;
+    padding:0 0.1rem;
+    background: #fff;
+    height:auto;
+    overflow: hidden;
+    padding-bottom:1.16rem;
+    h1{
+      font-size:0.26rem;
+      color:@font-color;
+      padding-top:0.32rem;
+    }
+    .yd-tel{
+      margin:0.2rem 0 0.3rem 0;
+      border:1px solid @border-color;
+      height: 0.64rem;
+      float: left;
+      width: 100%;
+      box-sizing: border-box;
+      input{
+        border:none;
+        outline: none;
+        float: left;
+        height: 100%;
+        padding:0 0.1rem;
+      }
+    }
+  }
+  button{
+    background: @color;
+    color:#fff;
+    text-align: center;
+    width: 100%;
+    height: 0.84rem;
+    font-size: 0.26rem;
+    line-height: 0.84rem;
+    border:none;
+    outline: none;
+    float: left;
+    border-radius: 0.05rem;
+  }
+}

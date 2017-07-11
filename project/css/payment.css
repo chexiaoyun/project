@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft YaHei";
+  color: #565656;
+  list-style: none;
+  font-weight: normal;
+}
+body {
+  background: #f1f1f1;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+.clear {
+  display: block;
+  clear: both;
+  content: '';
+}
+body {
+  background: #fff;
+}
+.position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-payment-header {
+  width: 100%;
+  height: 0.8rem;
+}
+#yd-payment-header .yd-payment-left {
+  width: 12%;
+  height: 0.8rem;
+  float: left;
+  position: relative;
+}
+#yd-payment-header .yd-payment-left img {
+  width: 0.19rem;
+  height: 0.34rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-payment-header .yd-payment-center {
+  width: 88%;
+  height: 0.8rem;
+  float: left;
+}
+#yd-payment-header .yd-payment-center span {
+  color: #555555;
+  font-size: 0.3rem;
+  line-height: 0.8rem;
+  float: left;
+  padding-left: 2rem;
+}
+#yd-payment-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-payment-container .yd-payment-pay {
+  width: 100%;
+  height: 2rem;
+  background: #ee4451;
+}
+#yd-payment-container .yd-payment-pay .yd-pay-center {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+#yd-payment-container .yd-payment-pay .yd-pay-center img {
+  width: 0.59rem;
+  height: 0.59rem;
+  float: left;
+  margin-right: 0.3rem;
+}
+#yd-payment-container .yd-payment-pay .yd-pay-center span {
+  color: #fcfbf9;
+  font-size: 0.3rem;
+  float: left;
+  line-height: 0.59rem;
+}
+#yd-payment-container .yd-payment-money {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0.23rem 0.22rem;
+}
+#yd-payment-container .yd-payment-money span {
+  color: #555555;
+  font-size: 0.23rem;
+  float: left;
+}
+#yd-payment-container .yd-payment-money span strong {
+  color: #e60012;
+  font-size: 0.23rem;
+}
+#yd-payment-container .yd-payment-btn {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-payment-container .yd-payment-btn a {
+  width: 2.48rem;
+  height: 0.62rem;
+  border: 1px solid #dddddd;
+  float: left;
+  border-radius: 0.05rem;
+  color: #555555;
+  font-size: 0.23rem;
+  text-align: center;
+  line-height: 0.64rem;
+}
+#yd-payment-container .yd-payment-btn .yd-payment-look {
+  margin: 0 7%;
+}

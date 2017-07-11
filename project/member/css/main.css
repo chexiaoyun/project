@@ -1,0 +1,3186 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei";
+  box-sizing: border-box;
+  color: #333;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  border: 0;
+}
+.com {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-LoginBox {
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+}
+#yd-LoginBox .yd-Login-title {
+  height: 0.8rem;
+  text-align: center;
+  line-height: 0.8rem;
+  font-size: 0.3rem;
+  text-indent: -0.25rem;
+  border-bottom: #dddddd 1px solid;
+}
+#yd-LoginBox .yd-Login-title span {
+  width: 0.19rem;
+  height: 0.34rem;
+  float: left;
+  margin-top: 0.23rem;
+  margin-left: 0.25rem;
+  background: url(../img/Chord/return.png) no-repeat;
+  background-size: 100%;
+}
+#yd-LoginBox .yd-Login-title span a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#yd-LoginBox .yd-Login-banner {
+  height: 2.92rem;
+  position: relative;
+}
+#yd-LoginBox .yd-Login-banner div {
+  width: 3rem;
+  height: 1.13rem;
+  background: url(../img/Chord/login_logo.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0.895rem;
+  left: 50%;
+  margin-left: -1.5rem;
+}
+#yd-LoginBox .yd-Login-input {
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 0.25rem;
+}
+#yd-LoginBox .yd-Login-input .yd-Login-box {
+  height: 0.83rem;
+  background: #f1f1f1;
+  border-radius: 0.1rem;
+  margin-bottom: 0.02rem;
+}
+#yd-LoginBox .yd-Login-input .yd-Login-box .yd-Login-name {
+  width: 1.3rem;
+  height: 0.83rem;
+  float: left;
+  font-size: 0.26rem;
+  text-align: left;
+  text-indent: 0.3rem;
+  line-height: 0.83rem;
+  color: #666;
+}
+#yd-LoginBox .yd-Login-input .yd-Login-box input {
+  float: left;
+  width: 4.5rem;
+  height: 0.83rem;
+  border: none;
+  outline: none;
+  background: #f1f1f1;
+  font-size: 0.26rem;
+}
+#yd-LoginBox .yd-Login-input .yd-Login-box .yd-Login-name1 {
+  float: left;
+  width: 2.8rem;
+  height: 0.83rem;
+  border: none;
+  outline: none;
+  background: #f1f1f1;
+}
+#yd-LoginBox .yd-Login-input .yd-Login-box a {
+  display: block;
+  width: 1.6rem;
+  height: 0.43rem;
+  background: #dddddd;
+  border-radius: 0.8rem;
+  float: left;
+  text-align: center;
+  font-size: 0.2rem;
+  color: #999;
+  margin-top: 0.2rem;
+  line-height: 0.43rem;
+}
+#yd-LoginBox .yd-Login-button {
+  height: 0.83rem;
+  padding: 0 0.25rem;
+  margin-top: 0.3rem;
+  overflow: hidden;
+}
+#yd-LoginBox .yd-Login-button a {
+  display: block;
+  background: #e60012;
+  border-radius: 0.1rem;
+  text-align: center;
+  color: #fff;
+  line-height: 0.83rem;
+  font-size: 0.26rem;
+  letter-spacing: 0.1rem;
+}
+#yd-LoginBox .yd-Login-registered {
+  height: auto;
+  padding: 0 0.25rem;
+  margin-top: 0.2rem;
+  overflow: hidden;
+  font-size: 0.26rem;
+  color: #666;
+}
+#yd-LoginBox .yd-Login-registered span {
+  float: left;
+}
+#yd-LoginBox .yd-Login-registered span a {
+  color: #e60012;
+}
+#yd-LoginBox .yd-Login-registered .yd-Login-password {
+  float: right;
+  color: #666;
+}
+#yd-PersonalBox {
+  height: auto;
+  background: #f1f1f1;
+  overflow: hidden;
+}
+#yd-PersonalBox .yd-Personal-title {
+  height: 2.12rem;
+  background: #ef4351;
+  position: relative;
+}
+#yd-PersonalBox .yd-Personal-title a {
+  font-size: 0.3rem;
+  color: #fff;
+  float: left;
+  margin-top: 0.2rem;
+  margin-left: 0.2rem;
+}
+#yd-PersonalBox .yd-Personal-title .yd-Personal-Head {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.5rem;
+  margin-left: -0.5rem;
+  padding: 0;
+  overflow: hidden;
+}
+#yd-PersonalBox .yd-Personal-title .yd-Personal-Head .yd-PersonalHead-pic {
+  width: 1rem;
+  height: 1rem;
+  overflow: hidden;
+  padding: 0;
+}
+#yd-PersonalBox .yd-Personal-title .yd-Personal-Head .yd-PersonalHead-pic img {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  margin: 0;
+  border: 0;
+}
+#yd-PersonalBox .yd-Personal-title .yd-Personal-Head .yd-PersonalHead-vip {
+  width: 0.3rem;
+  height: 0.3rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url(../img/Chord/vip.png) no-repeat;
+  background-size: 100%;
+}
+#yd-PersonalBox .yd-Personal-title .yd-user-name {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 0.24rem;
+  color: #fff;
+  float: left;
+  margin-top: 18%;
+  overflow: hidden;
+}
+#yd-PersonalBox .yd-Personal-content {
+  height: auto;
+}
+#yd-PersonalBox .yd-Personal-content .yd-Personal-line {
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  margin-bottom: 0.2rem;
+}
+#yd-PersonalBox .yd-Personal-content .yd-Personal-line li {
+  height: 1rem;
+  border-bottom: #ddd 1px solid;
+  font-size: 0.26rem;
+  padding: 0 0.25rem;
+  line-height: 1rem;
+}
+#yd-PersonalBox .yd-Personal-content .yd-Personal-line li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#yd-PersonalBox .yd-Personal-content .yd-Personal-line li a img {
+  width: 0.6rem;
+  height: 0.6rem;
+  float: left;
+  margin-top: 0.2rem;
+  border-radius: 50%;
+}
+#yd-PersonalBox .yd-Personal-content .yd-Personal-line li a p {
+  height: 1rem;
+  width: auto;
+  text-indent: 0.2rem;
+  color: #666;
+  float: left;
+}
+#yd-PersonalBox .yd-Personal-content .yd-Personal-line li a div {
+  width: 1.3rem;
+  height: 1rem;
+  float: right;
+  font-size: 0.22rem;
+  background: url(../img/Chord/Enter_icon.png) no-repeat 1.14rem 0.36rem;
+  background-size: 10%;
+  overflow: hidden;
+}
+#yd-PersonalBox .yd-Personal-content .yd-Personal-line li a div span {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  float: left;
+  color: #999;
+  line-height: 1rem;
+  text-align: right;
+}
+#yd-PersonalBox .yd-Personal-content .yd-Personal-line li a:active {
+  background: #fbfbfb;
+}
+#yd-PersonalBox .yd-Personal-menu {
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 0.2rem;
+}
+#yd-PersonalBox .yd-Personal-menu ul {
+  height: auto;
+  margin-left: -1px;
+  background: #fff;
+  overflow: hidden;
+}
+#yd-PersonalBox .yd-Personal-menu ul li {
+  width: 25%;
+  height: 1.95rem;
+  float: left;
+  border: #ddd 1px solid;
+  border-top: hidden;
+  border-left: none;
+}
+#yd-PersonalBox .yd-Personal-menu ul li div {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin: 0.2rem auto 0.4rem;
+}
+#yd-PersonalBox .yd-Personal-menu ul li div img {
+  width: 100%;
+}
+#yd-PersonalBox .yd-Personal-menu ul li span {
+  display: block;
+  width: 100%;
+  font-size: 0.26rem;
+  margin: 0 auto;
+  text-align: center;
+  color: #666;
+}
+#yd-PersonalBox .yd-marginheight {
+  width: 100%;
+  background: #fff;
+  height: 1.5rem;
+}
+#yd-PersonalBox .yd-Personal-button {
+  width: 100%;
+  border-top: #e60012 0.02rem solid;
+  height: 0.93rem;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 99999;
+}
+#yd-PersonalBox .yd-Personal-button ul {
+  width: 100%;
+  height: 0.93rem;
+}
+#yd-PersonalBox .yd-Personal-button ul li {
+  width: 33.3%;
+  height: 0.93rem;
+  float: left;
+}
+#yd-PersonalBox .yd-Personal-button ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#yd-PersonalBox .yd-Personal-button ul li a div {
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: 0 auto;
+}
+#yd-PersonalBox .yd-Personal-button ul li a div img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+#yd-PersonalBox .yd-Personal-button ul li a .yd-Personal-release {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #e60012;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 0.8rem;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-top: -0.3rem;
+}
+#yd-PersonalBox .yd-Personal-button ul li a span {
+  display: block;
+  text-align: center;
+  font-size: 0.24rem;
+}
+#yd-SetupBox {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-Setup-title {
+  height: 0.8rem;
+  text-align: center;
+  line-height: 0.8rem;
+  font-size: 0.3rem;
+  text-indent: -0.25rem;
+  border-bottom: #dddddd 1px solid;
+  background: #fff;
+}
+#yd-SetupBox .yd-Setup-title span {
+  width: 0.19rem;
+  height: 0.34rem;
+  float: left;
+  margin-top: 0.23rem;
+  margin-left: 0.25rem;
+  background: url(../img/Chord/return.png) no-repeat;
+  background-size: 100%;
+}
+#yd-SetupBox .yd-Setup-title span a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#yd-SetupBox .yd-setup-content {
+  height: auto;
+  background: #fff;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-setup-content ul {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-setup-content ul li {
+  height: 0.88rem;
+}
+#yd-SetupBox .yd-setup-content ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-setup-content ul li a div {
+  width: 0.48rem;
+  height: 0.48rem;
+  float: left;
+  margin: 0.2rem;
+}
+#yd-SetupBox .yd-setup-content ul li a div img {
+  width: 100%;
+  vertical-align: top;
+}
+#yd-SetupBox .yd-setup-content ul li a span {
+  margin-left: 0.88rem;
+  display: block;
+  line-height: 0.87rem;
+  font-size: 0.3rem;
+  border-bottom: #ddd 1px solid;
+}
+#yd-SetupBox .yd-setup-content ul li a:active {
+  background: #fbfbfb;
+}
+#yd-SetupBox .yd-setup-content ul li:last-child span {
+  border-bottom: hidden;
+}
+#yd-SetupBox .yd-setup-back {
+  width: 100%;
+  height: 0.88rem;
+  background: #E60012;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+#yd-SetupBox .yd-setup-back a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 0.3rem;
+  line-height: 0.88rem;
+}
+#yd-SetupBox .yd-basic-content {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+}
+#yd-SetupBox .yd-basic-content ul {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-basic-content ul li {
+  height: 0.9rem;
+  border-bottom: #f1f1f1 1px solid;
+}
+#yd-SetupBox .yd-basic-content ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 0.25rem;
+}
+#yd-SetupBox .yd-basic-content ul li a span {
+  height: 0.9rem;
+  font-size: 0.3rem;
+  line-height: 0.9rem;
+  float: left;
+  color: #555;
+}
+#yd-SetupBox .yd-basic-content ul li a div {
+  width: 2rem;
+  height: 0.9rem;
+  float: right;
+  background-size: 5%;
+}
+#yd-SetupBox .yd-basic-content ul li a div i {
+  display: block;
+  width: 0.1rem;
+  height: 100%;
+  background: url(../img/Chord/Enter_icon.png) no-repeat 0 0.36rem;
+  background-size: 100%;
+  float: right;
+}
+#yd-SetupBox .yd-basic-content ul li a .yd-ba-gender {
+  width: 4rem;
+  height: 0.9rem;
+  float: right;
+  background-size: 3%;
+}
+#yd-SetupBox .yd-basic-content ul li a .yd-ba-gender .aa {
+  border: 0;
+  float: left;
+  width: 3.6rem;
+  height: 0.9rem;
+  appearance: none;
+  text-align: right;
+  -webkit-appearance: none;
+  font-size: 0.26rem;
+  color: #555;
+  outline: none;
+  background: #fff;
+}
+#yd-SetupBox .yd-basic-content ul .yd-basic-page1 {
+  height: 1.7rem;
+}
+#yd-SetupBox .yd-basic-content ul .yd-basic-page1 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 0.25rem;
+}
+#yd-SetupBox .yd-basic-content ul .yd-basic-page1 a span {
+  height: 1.7rem;
+  font-size: 0.3rem;
+  line-height: 1.7rem;
+  float: left;
+  color: #555;
+}
+#yd-SetupBox .yd-basic-content ul .yd-basic-page1 a div {
+  width: 1.4rem;
+  height: 1.7rem;
+  float: right;
+  background-size: 7%;
+}
+#yd-SetupBox .yd-basic-content ul .yd-basic-page1 a div i {
+  display: block;
+  width: 0.1rem;
+  height: 100%;
+  background: url(../img/Chord/Enter_icon.png) no-repeat 0 0.76rem;
+  background-size: 100%;
+  float: right;
+}
+#yd-SetupBox .yd-basic-content ul .yd-basic-page1 a div img {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  margin-top: 0.3rem;
+}
+#yd-SetupBox .yd-modify-content {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-modify-content .yd-moidfy-prompt {
+  height: 0.7rem;
+  line-height: 0.5rem;
+  font-size: 0.3rem;
+  color: #555;
+  padding-left: 0.25rem;
+}
+#yd-SetupBox .yd-modify-content .yd-moidfy-prompt1 {
+  height: auto;
+  text-align: center;
+  line-height: 0.5rem;
+  font-size: 0.26rem;
+  color: #555;
+  padding-left: 0.25rem;
+}
+#yd-SetupBox .yd-modify-content .yd-moidfy-prompt1 span {
+  display: block;
+  height: 0.6rem;
+  font-size: 0.3rem;
+}
+#yd-SetupBox .yd-modify-content ul {
+  height: auto;
+  background: #fff;
+}
+#yd-SetupBox .yd-modify-content ul li {
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 0.3rem;
+  border-bottom: #F1F1F1 1px solid;
+  padding: 0 0.25rem;
+  color: #555;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-modify-content ul li div {
+  width: auto;
+  height: 0.9rem;
+  float: left;
+}
+#yd-SetupBox .yd-modify-content ul li select {
+  width: 2.4rem;
+  height: 0.9rem;
+  float: right;
+  border: 0;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  font-size: 0.26rem;
+  color: #999;
+  background: url(../img/Chord/Enter_icon_down.png) no-repeat 2rem 0.4rem;
+  background-size: 8%;
+}
+#yd-SetupBox .yd-modify-content ul li select option {
+  outline: none;
+}
+#yd-SetupBox .yd-modify-content ul li input {
+  width: 2.6rem;
+  height: 0.9rem;
+  float: right;
+  border: 0;
+  outline: none;
+  font-size: 0.26rem;
+  color: #999;
+}
+#yd-SetupBox .yd-modify-content .yd-modify-next {
+  width: 90%;
+  height: 0.82rem;
+  border-radius: 0.05rem;
+  background: #E60012;
+  margin: 0.3rem auto;
+  text-align: center;
+}
+#yd-SetupBox .yd-modify-content .yd-modify-next a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  line-height: 0.82rem;
+  font-size: 0.3rem;
+}
+#yd-SetupBox .yd-modify-content .yd-validation {
+  height: 0.9rem;
+  background: #fff;
+  overflow: hidden;
+  padding: 0 0.25rem;
+}
+#yd-SetupBox .yd-modify-content .yd-validation span {
+  float: left;
+  height: 0.9rem;
+  font-size: 0.3rem;
+  line-height: 0.9rem;
+  color: #555;
+}
+#yd-SetupBox .yd-modify-content .yd-validation input {
+  float: left;
+  color: #999;
+  border: 0;
+  width: 4rem;
+  height: 0.9rem;
+  text-indent: 0.2rem;
+  font-size: 0.24rem;
+  line-height: 0.9rem;
+  outline: none;
+}
+#yd-SetupBox .yd-modify-content .yd-validation a {
+  display: block;
+  width: 1rem;
+  height: 0.9rem;
+  float: right;
+  font-size: 0.2rem;
+  text-align: center;
+  line-height: 0.9rem;
+  color: #E60012;
+}
+#yd-SetupBox .yd-address-content {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-address-content ul {
+  height: auto;
+  padding: 0.25rem 0.1rem;
+}
+#yd-SetupBox .yd-address-content ul li {
+  height: 1.84rem;
+  border: #ddd 0.03rem solid;
+  margin-bottom: 0.25rem;
+  padding: 0.1rem 0.1rem;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-address-content ul li div {
+  height: 0.4rem;
+  font-size: 0.22rem;
+  line-height: 0.4rem;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-address-content ul li div span {
+  height: 0.4rem;
+  float: left;
+  line-height: 0.4rem;
+  font-size: 0.22rem;
+}
+#yd-SetupBox .yd-address-content ul li div p {
+  height: 0.4rem;
+  float: left;
+  line-height: 0.4rem;
+  font-size: 0.22rem;
+}
+#yd-SetupBox .yd-address-content ul li div .yd-add-name {
+  margin-right: 0.3rem;
+}
+#yd-SetupBox .yd-address-content ul li .yd-address-line {
+  height: 0.5rem;
+  border-bottom: #ddd 1px solid;
+}
+#yd-SetupBox .yd-address-content ul li .yd-address-operation {
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+#yd-SetupBox .yd-address-content ul li .yd-address-operation .yd-add-input {
+  height: 0.8rem;
+  float: left;
+}
+#yd-SetupBox .yd-address-content ul li .yd-address-operation .yd-add-input div {
+  width: 0.3rem;
+  height: 0.3rem;
+  border: #ddd 1px solid;
+  border-radius: 50%;
+  margin-top: 0.23rem;
+  float: left;
+}
+#yd-SetupBox .yd-address-content ul li .yd-address-operation .yd-add-input span {
+  float: left;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  margin-left: 0.1rem;
+  font-size: 0.22rem;
+}
+#yd-SetupBox .yd-address-content ul li .yd-address-operation .yd-address-Modify {
+  height: 0.8rem;
+  float: right;
+  width: 2rem;
+}
+#yd-SetupBox .yd-address-content ul li .yd-address-operation .yd-address-Modify div {
+  width: 50%;
+  height: 0.8rem;
+  float: left;
+}
+#yd-SetupBox .yd-address-content ul li .yd-address-operation .yd-address-Modify div span {
+  width: 0.2rem;
+  height: 0.2rem;
+  float: left;
+  margin-top: 0.3rem;
+  margin-right: 0.05rem;
+}
+#yd-SetupBox .yd-address-content ul li .yd-address-operation .yd-address-Modify div span img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+#yd-SetupBox .yd-address-content ul li .yd-address-operation .yd-address-Modify div a {
+  display: block;
+  float: left;
+  width: 0.6rem;
+  height: 0.8rem;
+  line-height: 0.89rem;
+  font-size: 0.22rem;
+}
+#yd-SetupBox .yd-address-content ul .yd-address-default {
+  border: #E60012 0.03rem solid;
+}
+#yd-SetupBox .yd-address-content ul .yd-address-default .yd-address-operation .yd-add-input div {
+  background: url(../img/Chord/default_icon.png) no-repeat;
+  background-size: 100%;
+  border: 0;
+}
+#yd-SetupBox .yd-address-add {
+  width: 100%;
+  height: 0.8rem;
+  background: #E60012;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+#yd-SetupBox .yd-address-add a {
+  display: block;
+  width: 100%;
+  height: 0.8rem;
+  text-align: center;
+  line-height: 0.8rem;
+  color: #fff;
+  font-size: 0.3rem;
+}
+#yd-SetupBox .yd-add-box {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-add-box ul {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-add-box ul li {
+  height: auto;
+  border-bottom: #ddd 1px solid;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-add-box ul li div {
+  height: 0.86rem;
+  float: left;
+  font-size: 0.26rem;
+  line-height: 0.86rem;
+  color: #555;
+  margin-left: 0.25rem;
+}
+#yd-SetupBox .yd-add-box ul li input {
+  float: left;
+  font-size: 0.26rem;
+  width: 4rem;
+  border: 0;
+  margin-left: 0.2rem;
+  height: 0.4rem;
+  margin-top: 0.23rem;
+  outline: none;
+}
+#yd-SetupBox .yd-add-box ul li select {
+  width: 1.5rem;
+  height: 0.86rem;
+  float: left;
+  -webkit-appearance: none;
+  appearance: none;
+  font-size: 0.26rem;
+  text-indent: 0.2rem;
+  border: 0;
+  color: #555;
+  outline: none;
+  background: #fff;
+}
+#yd-SetupBox .yd-add-box ul li i {
+  display: block;
+  width: 0.1rem;
+  height: 0.86rem;
+  background: url(../img/Chord/Enter_icon.png) no-repeat 0 0.36rem;
+  background-size: 100%;
+  float: right;
+  margin-right: 0.25rem;
+}
+#yd-SetupBox .yd-add-box ul li textarea {
+  width: 100%;
+  height: 1.6rem;
+  border: 0;
+  border-top: #ddd 1px solid;
+  border-radius: 0;
+  padding: 0.2rem 0.25rem;
+  -webkit-appearance: none;
+  appearance: none;
+  font-size: 0.26rem;
+  outline: none;
+  resize: none;
+}
+#yd-SetupBox .yd-add-box .yd-add-space {
+  height: 0.2rem;
+  background: #f1f1f1;
+}
+#yd-SetupBox .yd-add-box .yd-add-on {
+  height: 0.86rem;
+  border-bottom: #ddd 1px solid;
+}
+#yd-SetupBox .yd-add-box .yd-add-on div {
+  height: 0.86rem;
+  float: left;
+  line-height: 0.86rem;
+  font-size: 0.26rem;
+  margin-left: 0.25rem;
+  color: #555;
+}
+#yd-SetupBox .yd-add-box .yd-add-on span {
+  display: block;
+  float: right;
+  width: 1.2rem;
+  height: 0.6rem;
+  border: #ddd 0.02rem solid;
+  border-radius: 0.3rem;
+  margin-top: 0.13rem;
+  margin-right: 0.25rem;
+  position: relative;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+#yd-SetupBox .yd-add-box .yd-add-on span:after {
+  content: "";
+  display: block;
+  width: 0.56rem;
+  height: 0.56rem;
+  border-radius: 50%;
+  border: #ddd 0.02rem solid;
+  position: absolute;
+  left: -0.02rem;
+  top: -0.02rem;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+#yd-SetupBox .yd-add-box .yd-add-on span.active {
+  background: #1acb44;
+}
+#yd-SetupBox .yd-add-box .yd-add-on span.active:after {
+  content: "";
+  display: block;
+  width: 0.56rem;
+  height: 0.56rem;
+  border-radius: 50%;
+  border: #ddd 0.02rem solid;
+  position: absolute;
+  background: #fff;
+  left: -0.02rem;
+  top: -0.02rem;
+  transform: translateX(0.6rem);
+}
+#yd-SetupBox .yd-goods-content {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-title {
+  height: 0.6rem;
+  background: #E60012;
+  margin-bottom: 0.1rem;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-title ul {
+  height: 0.6rem;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-title ul li {
+  width: 20%;
+  height: 0.6rem;
+  overflow: hidden;
+  float: left;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-title ul li span {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  height: 0.5rem;
+  color: #fff;
+  font-size: 0.24rem;
+  line-height: 0.6rem;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-title ul li .yd-goods-spanline {
+  border-bottom: #fff 0.02rem solid;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-search {
+  height: 0.63rem;
+  background: #E60012;
+  padding: 0 0.2rem;
+  padding-top: 0.05rem;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-search div {
+  width: 100%;
+  height: 0.53rem;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 0.03rem;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-search input {
+  height: 0.53rem;
+  float: left;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0;
+  width: 80%;
+  text-indent: 0.2rem;
+  font-size: 0.26rem;
+  color: #999;
+  outline: none;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-search a {
+  display: block;
+  width: 0.41rem;
+  height: 0.41rem;
+  float: right;
+  background: url(../img/Chord/search_icon.png) no-repeat;
+  background-size: 100%;
+  margin-top: 0.06rem;
+  margin-right: 0.1rem;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order {
+  height: auto;
+  overflow: hidden;
+  display: none;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodsorder-title {
+  height: 0.82rem;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodsorder-title div {
+  height: 0.82rem;
+  overflow: hidden;
+  float: left;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodsorder-title div i {
+  width: 0.32rem;
+  height: 0.32rem;
+  float: left;
+  margin-top: 0.25rem;
+  margin-left: 0.25rem;
+  margin-right: 0.1rem;
+  background: url(../img/Chord/goodorder_icon.png) no-repeat;
+  background-size: 100%;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodsorder-title div a {
+  float: left;
+  line-height: 0.82rem;
+  font-size: 0.26rem;
+  color: #555;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodsorder-title span {
+  float: right;
+  height: 0.82rem;
+  line-height: 0.82rem;
+  font-size: 0.26rem;
+  margin-right: 0.25rem;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodsorder-title .yd-goodorder-successful {
+  color: #E60012;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodorder-con {
+  height: 2.2rem;
+  background: #f1f1f1;
+  padding: 0.2rem 0;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodorder-con a {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodorder-con a .yd-goodorder-left {
+  width: 1.8rem;
+  height: 1.8rem;
+  background: #fff;
+  float: left;
+  margin: 0 0.25rem;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodorder-con a .yd-goodorder-left img {
+  width: 100%;
+  height: 100%;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodorder-con a .yd-goodorder-right {
+  width: 3.8rem;
+  height: 1.8rem;
+  float: left;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodorder-con a .yd-goodorder-right .yd-goodorder {
+  width: 3.8rem;
+  height: auto;
+  float: left;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodorder-con a .yd-goodorder-right .yd-goodorder h3 {
+  width: 100%;
+  height: 0.4rem;
+  float: left;
+  line-height: 0.4rem;
+  font-size: 0.26rem;
+  color: #555;
+  font-weight: bold;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodorder-con a .yd-goodorder-right .yd-goodorder span {
+  width: 100%;
+  font-size: 0.22rem;
+  color: #999;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  float: left;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodorder-con a .yd-goodorder-right .yd-goodorder p {
+  width: 100%;
+  font-size: 0.22rem;
+  color: #E60012;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  float: left;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodorder-con a .yd-goodorder-right .yd-goodorder p i {
+  text-decoration: line-through;
+  font-style: normal;
+  color: #999;
+  margin-left: 0.1rem;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goodorder-con a .yd-goodorder-right .yd-good-number {
+  width: 3.8rem;
+  height: 0.3rem;
+  text-align: right;
+  font-size: 0.22rem;
+  float: left;
+  color: #999;
+  margin-top: 0.2rem;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goods-total {
+  height: 0.62rem;
+  width: 100%;
+  border-bottom: #ddd 1px solid;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goods-total p {
+  line-height: 0.62rem;
+  text-align: right;
+  font-size: 0.26rem;
+  color: #555;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goods-total p i {
+  font-style: normal;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goods-evaluation {
+  height: 0.94rem;
+  border-bottom: #ddd 1px solid;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order .yd-goods-goods .yd-goods-evaluation a {
+  display: block;
+  width: 1.48rem;
+  height: 0.52rem;
+  border: #ddd 1px solid;
+  border-radius: 0.04rem;
+  float: right;
+  text-align: center;
+  color: #555;
+  line-height: 0.52rem;
+  font-size: 0.22rem;
+  margin-top: 0.21rem;
+  margin-right: 0.25rem;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-order1 {
+  display: block;
+}
+#yd-SetupBox .yd-order-content {
+  height: auto;
+}
+#yd-SetupBox .yd-order-content .yd-order-state {
+  height: 2.38rem;
+  background: #fff;
+  margin-bottom: 0.2rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-state .yd-order-order {
+  display: block;
+  width: 2.5rem;
+  height: 0.7rem;
+  font-size: 0.22rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 0.4rem;
+  padding-top: 0.3rem;
+  color: #555;
+}
+#yd-SetupBox .yd-order-content .yd-order-state .yd-order-order span {
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  overflow: hidden;
+  background: url(../img/Chord/order_icon.png) no-repeat;
+  background-size: 100%;
+  float: left;
+}
+#yd-SetupBox .yd-order-content .yd-order-state .yd-order-information {
+  height: 1.67rem;
+  overflow: hidden;
+  padding-top: 0.3rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-state .yd-order-information li {
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 0.1rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-state .yd-order-information li .yd-order-icon {
+  width: 0.4rem;
+  height: 0.3rem;
+  float: left;
+  margin-left: 0.25rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-state .yd-order-information li .yd-order-icon img {
+  width: 60%;
+  vertical-align: top;
+}
+#yd-SetupBox .yd-order-content .yd-order-state .yd-order-information li .yd-order-name {
+  width: 1.2rem;
+  height: 0.3rem;
+  float: left;
+  font-size: 0.22rem;
+  line-height: 0.3rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-state .yd-order-information li p {
+  font-size: 0.22rem;
+  float: left;
+  display: block;
+  line-height: 0.3rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-state .yd-order-information li span {
+  font-size: 0.22rem;
+  float: right;
+  line-height: 0.3rem;
+  margin-right: 0.25rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-invoice {
+  height: auto;
+  background: #fff;
+  padding: 0.2rem 0.25rem;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-order-content .yd-order-invoice ul {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-order-content .yd-order-invoice ul li {
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 0.1rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-invoice ul li div {
+  float: left;
+  width: 1.2rem;
+  height: 0.3rem;
+  font-size: 0.22rem;
+  line-height: 0.3rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-invoice ul li span {
+  height: auto;
+  display: block;
+  float: left;
+  font-size: 0.22rem;
+  line-height: 0.3rem;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-order-content .yd-order-table {
+  height: 3rem;
+  background: #f1f1f1;
+  padding: 0.2rem 0.25rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-table .yd-order-infor {
+  height: 1.8rem;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-order-content .yd-order-table .yd-order-infor .yd-order-pic {
+  height: 1.8rem;
+  width: 1.8rem;
+  background: #fff;
+  float: left;
+  border: none;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-order-content .yd-order-table .yd-order-infor .yd-order-pic img {
+  width: 100%;
+}
+#yd-SetupBox .yd-order-content .yd-order-table .yd-order-infor .yd-order-text {
+  height: 1.8rem;
+  width: 3.9rem;
+  float: left;
+  margin-left: 0.2rem;
+  color: #555;
+}
+#yd-SetupBox .yd-order-content .yd-order-table .yd-order-infor .yd-order-text .yd-ordertext-up {
+  width: 3.8rem;
+  overflow: hidden;
+  float: left;
+  height: auto;
+}
+#yd-SetupBox .yd-order-content .yd-order-table .yd-order-infor .yd-order-text .yd-ordertext-up h3 {
+  font-size: 0.22rem;
+  color: #555;
+  line-height: 0.4rem;
+  height: 0.4rem;
+  float: left;
+  width: 100%;
+}
+#yd-SetupBox .yd-order-content .yd-order-table .yd-order-infor .yd-order-text .yd-ordertext-up span {
+  width: 100%;
+  font-size: 0.22rem;
+  color: #999;
+  line-height: 0.4rem;
+  height: 0.4rem;
+  float: left;
+}
+#yd-SetupBox .yd-order-content .yd-order-table .yd-order-infor .yd-order-text .yd-ordertext-up p {
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.22rem;
+  color: #E60012;
+  float: left;
+}
+#yd-SetupBox .yd-order-content .yd-order-table .yd-order-infor .yd-order-text .yd-ordertext-up p i {
+  text-decoration: line-through;
+  font-style: normal;
+  color: #999;
+}
+#yd-SetupBox .yd-order-content .yd-order-table .yd-order-infor .yd-order-text .yd-ordertext-down {
+  height: 0.6rem;
+  width: 3.8rem;
+  float: left;
+}
+#yd-SetupBox .yd-order-content .yd-order-table .yd-order-infor .yd-order-text .yd-ordertext-down span {
+  display: block;
+  float: right;
+  height: 0.6rem;
+  font-size: 0.2rem;
+  text-align: right;
+  line-height: 0.6rem;
+  color: #999;
+}
+#yd-SetupBox .yd-order-content .yd-order-table .yd-order-button {
+  height: 0.6rem;
+  margin-top: 0.2rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-table .yd-order-button a {
+  display: block;
+  width: 1.58rem;
+  height: 0.58rem;
+  border: #ddd solid 1px;
+  border-radius: 0.05rem;
+  color: #555;
+  line-height: 0.58rem;
+  float: right;
+  font-size: 0.22rem;
+  text-align: center;
+  background: #fff;
+}
+#yd-SetupBox .yd-order-content .yd-order-price {
+  height: 2.54rem;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: 0.2rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-price {
+  height: 1.26rem;
+  overflow: hidden;
+  border-bottom: #ddd 1px solid;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-price ul {
+  height: 100%;
+  overflow: hidden;
+  padding: 0 0.25rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-price ul li {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.2rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-price ul li p {
+  float: left;
+  color: #999;
+  font-size: 0.2rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-price ul li span {
+  float: right;
+  color: #999;
+  font-size: 0.2rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-price ul .yd-ordergood-all {
+  height: 0.46rem;
+  line-height: 0.46rem;
+  font-size: 0.24rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-price ul .yd-ordergood-all p {
+  float: left;
+  color: #555;
+  font-size: 0.24rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-price ul .yd-ordergood-all span {
+  float: right;
+  color: #555;
+  font-size: 0.24rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-real {
+  height: 0.63rem;
+  overflow: hidden;
+  border-bottom: #ddd 1px solid;
+  padding: 0 0.25rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-real p {
+  float: left;
+  color: #555;
+  font-size: 0.24rem;
+  line-height: 0.63rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-real span {
+  float: right;
+  color: #E60012;
+  font-size: 0.2rem;
+  line-height: 0.63rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-integral {
+  height: 0.63rem;
+  overflow: hidden;
+  padding: 0 0.25rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-integral p {
+  float: left;
+  color: #555;
+  font-size: 0.24rem;
+  line-height: 0.63rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-integral span {
+  float: left;
+  margin-left: 0.1rem;
+  color: #555;
+  font-size: 0.2rem;
+  line-height: 0.63rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-price .yd-ordergoods-integral span i {
+  color: #E60012;
+  font-style: normal;
+}
+#yd-SetupBox .yd-order-content .yd-order-time {
+  height: 2.33rem;
+  background: #fff;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-order-content .yd-order-time ul {
+  height: auto;
+  overflow: hidden;
+  padding: 0 0.25rem;
+}
+#yd-SetupBox .yd-order-content .yd-order-time ul li {
+  height: 0.46rem;
+  line-height: 0.46rem;
+  font-size: 0.22rem;
+  color: #999;
+}
+#yd-SetupBox .yd-order-content .yd-order-time ul li div {
+  height: 0.46rem;
+  float: left;
+  line-height: 0.46rem;
+  color: #999;
+}
+#yd-SetupBox .yd-order-content .yd-order-time ul li span {
+  height: 0.46rem;
+  float: left;
+  line-height: 0.46rem;
+  color: #999;
+}
+#yd-SetupBox .yd-change-content {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-change-content ul {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-change-content ul li {
+  padding: 0 0.25rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  color: #555;
+  font-size: 0.3rem;
+  background: #fff;
+  margin-bottom: 0.2rem;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-change-content ul li div {
+  width: 1.4rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  float: left;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-change-content ul li input {
+  width: 4.2rem;
+  height: 0.9rem;
+  float: left;
+  margin-left: 0.2rem;
+  border: none;
+  outline: none;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-change-content ul li:last-child {
+  margin-bottom: 0;
+}
+#yd-SetupBox .yd-change-content span {
+  display: block;
+  color: #c6c6c6;
+  font-size: 0.22rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  padding: 0 0.25rem;
+  margin-bottom: 0.2rem;
+}
+#yd-SetupBox .yd-change-content .yd-change-button {
+  padding: 0 0.25rem;
+  height: 0.82rem;
+}
+#yd-SetupBox .yd-change-content .yd-change-button a {
+  display: block;
+  background: #E60012;
+  height: 0.82rem;
+  border-radius: 0.05rem;
+  text-align: center;
+  line-height: 0.82rem;
+  color: #fff;
+  font-size: 0.24rem;
+  letter-spacing: 0.05rem;
+}
+#yd-SetupBox .yd-after-content {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-after-content ul {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-after-content ul li {
+  height: 1.58rem;
+  overflow: hidden;
+  border-bottom: #ddd 1px solid;
+  padding: 0 0.25rem;
+}
+#yd-SetupBox .yd-after-content ul li a {
+  display: block;
+  height: 1.58rem;
+}
+#yd-SetupBox .yd-after-content ul li a .yd-after-name {
+  height: 1rem;
+}
+#yd-SetupBox .yd-after-content ul li a .yd-after-name div {
+  height: 0.7rem;
+  width: 0.7rem;
+  float: left;
+  overflow: hidden;
+  margin-top: 0.15rem;
+  margin-right: 0.2rem;
+}
+#yd-SetupBox .yd-after-content ul li a .yd-after-name div img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+#yd-SetupBox .yd-after-content ul li a .yd-after-name p {
+  height: 1rem;
+  font-size: 0.26rem;
+  line-height: 1rem;
+  color: #555;
+}
+#yd-SetupBox .yd-after-content ul li a span {
+  display: block;
+  float: left;
+  height: 0.58rem;
+  font-size: 0.22rem;
+  color: #9c9c9c;
+}
+#yd-SetupBox .yd-refund-content {
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-refund-content ul {
+  height: auto;
+  overflow: hidden;
+  padding: 0 0.25rem;
+}
+#yd-SetupBox .yd-refund-content ul li {
+  height: 0.58rem;
+  border: #ddd 1px solid;
+  border-radius: 0.05rem;
+  margin: 0.2rem 0;
+}
+#yd-SetupBox .yd-refund-content ul li div {
+  float: left;
+  width: 25%;
+  font-size: 0.22rem;
+  color: #9c9c9c;
+  line-height: 0.58rem;
+}
+#yd-SetupBox .yd-refund-content ul li div i {
+  display: block;
+  color: #E60012;
+  float: left;
+  margin-right: 0.1rem;
+}
+#yd-SetupBox .yd-refund-content ul li span {
+  color: #E60012;
+  font-size: 0.22rem;
+  line-height: 0.58rem;
+  float: left;
+}
+#yd-SetupBox .yd-refund-content ul li select {
+  width: 75%;
+  height: 0.58rem;
+  float: right;
+  appearance: none;
+  border: 0;
+  background: url(../img/Chord/Enter_icon_down.png) no-repeat 98% 0.29rem;
+  background-size: 3%;
+  color: #9c9c9c;
+  font-size: 0.22rem;
+  outline: none;
+}
+#yd-SetupBox .yd-refund-content ul li select option {
+  font-size: 0.22rem;
+  color: #555;
+}
+#yd-SetupBox .yd-refund-content ul li input {
+  width: 75%;
+  height: 0.54rem;
+  color: #9c9c9c;
+  font-size: 0.22rem;
+  line-height: 0.58rem;
+  float: left;
+  outline: none;
+  border: 0;
+}
+#yd-SetupBox .yd-refund-submit {
+  width: 100%;
+  height: 0.8rem;
+  background: #E60012;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+#yd-SetupBox .yd-refund-submit a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 0.8rem;
+  font-size: 0.3rem;
+  color: #fff;
+}
+#yd-SetupBox .yd-return-container .yd-return-reason .yd-return-time {
+  float: left;
+  text-align: center;
+}
+#yd-SetupBox .yd-return-container .yd-return-reason .yd-return-time span {
+  width: 1.4rem;
+  height: 0.3rem;
+  border-radius: 0.05rem;
+  line-height: 0.3rem;
+  color: #9c9c9c;
+  font-size: 0.20rem;
+  display: inline-block;
+  margin: 0.2rem 0 0.2rem 2.5rem;
+  background: #f1f1f1;
+  float: left;
+}
+#yd-SetupBox .yd-return-container .yd-return-reason ul {
+  background: #f1f1f1;
+}
+#yd-SetupBox .yd-return-container .yd-return-reason ul li {
+  margin: 0 0.2rem;
+  padding: 0.2rem 0;
+  border-top: 1px solid #ddd;
+}
+#yd-SetupBox .yd-return-container .yd-return-reason ul li strong {
+  color: #555;
+  font-size: 0.23rem;
+  display: block;
+  font-weight: normal;
+}
+#yd-SetupBox .yd-return-container .yd-return-reason ul li strong:nth-child(2) {
+  margin-top: 0.1rem;
+}
+#yd-SetupBox .yd-return-container .yd-return-reason ul li:first-child {
+  border: 0;
+}
+#yd-SetupBox .yd-return-container .yd-return-reason:nth-child(2) ul,
+#yd-SetupBox .yd-return-container .yd-return-reason:nth-child(3) ul {
+  background: #2fb3fb;
+}
+#yd-SetupBox .yd-return-container .yd-return-reason:nth-child(2) ul li strong,
+#yd-SetupBox .yd-return-container .yd-return-reason:nth-child(3) ul li strong {
+  color: #fff;
+}
+#yd-SetupBox .yd-return-container .yd-return-reason:nth-child(4) ul {
+  background: #fd6d55;
+}
+#yd-SetupBox .yd-return-container .yd-return-reason:nth-child(4) ul li strong {
+  color: #fff;
+}
+.yd-goods-order .yd-goods-total .yd-apply {
+  float: right;
+  width: 1.48rem;
+  height: 0.52rem;
+  border: 1px solid #ddd;
+  display: inline-block;
+  color: #555;
+  font-size: 0.23rem;
+  text-align: center;
+  line-height: 0.54rem;
+  border-radius: 0.05rem;
+  margin-right: 0.2rem;
+  margin-top: 3%;
+}
+#yd-demand-header {
+  width: 100%;
+  height: 0.8rem;
+  background: #fff;
+}
+#yd-demand-header .yd-demand-left {
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+#yd-demand-header .yd-demand-left img {
+  width: 0.19rem;
+  height: 0.34rem;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#yd-demand-header .yd-demand-content {
+  width: 82%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+#yd-demand-header .yd-demand-content span {
+  font-size: 0.3rem;
+  color: #555;
+  float: left;
+  width: 100%;
+  line-height: 0.8rem;
+}
+#yd-demand-container {
+  width: 100%;
+  height: auto;
+}
+#yd-demand-container .yd-demand-describe {
+  background: #fff;
+  width: 100%;
+  height: auto;
+}
+#yd-demand-container .yd-demand-describe .yd-describe-tip {
+  width: 100%;
+  height: 0.6rem;
+  background: #e60012;
+}
+#yd-demand-container .yd-demand-describe .yd-describe-tip span {
+  font-size: 0.26rem;
+  line-height: 0.6rem;
+  padding-left: 0.1rem;
+  color: #fff;
+  float: left;
+}
+#yd-demand-container .yd-demand-describe form {
+  width: 100%;
+  height: auto;
+}
+#yd-demand-container .yd-demand-describe textarea {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  resize: none;
+  width: 100%;
+  height: 2.8rem;
+  float: left;
+  outline: none;
+  padding: 0.1rem;
+}
+#yd-demand-container .yd-demand-describe .yd-load-photo {
+  padding: 0.2rem 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+}
+#yd-demand-container .yd-demand-describe .yd-load-photo .yd-enclosure {
+  width: 100%;
+  height: 100%;
+}
+#yd-demand-container .yd-demand-describe .yd-load-photo .yd-enclosure .yd-add-pic .yd-menu-first {
+  display: none;
+}
+#yd-demand-container .yd-demand-describe .yd-load-photo img {
+  width: 0.42rem;
+  height: 0.36rem;
+  margin-left: 0.1rem;
+  float: left;
+}
+#yd-demand-container .yd-demand-tel {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.8rem;
+  background: #e60012;
+  text-align: center;
+}
+#yd-demand-container .yd-demand-tel button {
+  width: 100%;
+  height: 100%;
+  font-size: 0.3rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.8rem;
+  border: none;
+  outline: none;
+  background: #e60012;
+  float: left;
+}
+#yd-SetupBox .yd-Setup-title.yd-capital-header {
+  background: #e60012;
+  color: #fff;
+  border: none;
+}
+#yd-SetupBox .yd-Setup-title.yd-capital-header span {
+  background: url(../img/Chord/along.png) no-repeat;
+  width: 0.19rem;
+  height: 0.34rem;
+  background-size: 100%;
+}
+#yd-SetupBox .yd-balance {
+  width: 100%;
+  height: 1.4rem;
+  background: #f13643;
+  padding: 0 0 0 0.22rem;
+}
+#yd-SetupBox .yd-balance p {
+  width: 100%;
+  color: #fff;
+  font-size: 0.23rem;
+  float: left;
+  margin: 0.1rem 0 0.18rem 0;
+}
+#yd-SetupBox .yd-balance span {
+  color: #fff100;
+  font-size: 0.5rem;
+  float: left;
+}
+#yd-SetupBox .yd-balance span strong {
+  color: #fff;
+  font-size: 0.23rem;
+}
+#yd-SetupBox .yd-capital-where {
+  background: #ddd;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-capital-where ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-capital-where ul li {
+  box-sizing: border-box;
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+#yd-SetupBox .yd-capital-where ul li a {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+#yd-SetupBox .yd-capital-where ul li a .yd-capital-left {
+  float: left;
+}
+#yd-SetupBox .yd-capital-where ul li a .yd-capital-left img {
+  width: 0.6rem;
+  height: 0.6rem;
+  float: left;
+  margin: 10% 0.2rem 0;
+}
+#yd-SetupBox .yd-capital-where ul li a .yd-capital-left span {
+  color: #555;
+  font-size: 0.26rem;
+  float: left;
+  line-height: 1rem;
+}
+#yd-SetupBox .yd-capital-where ul li a .yd-capital-right {
+  float: right;
+  margin-right: 0.2rem;
+  height: 1rem;
+  width: 5%;
+  position: relative;
+}
+#yd-SetupBox .yd-capital-where ul li a .yd-capital-right img {
+  width: 0.2rem;
+  height: 0.3rem;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-SetupBox .yd-capital-where ul li:nth-child(3) {
+  margin-top: 0.2rem;
+}
+#yd-SetupBox .yd-capital-where.yd-integral-where ul li:nth-child(3) {
+  margin-top: 0;
+}
+#yd-SetupBox .yd-detail-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-detail-container .yd-month-one {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-detail-container .yd-month-one span.yd-one-time {
+  color: #9c9c9c;
+  font-size: 0.2rem;
+  display: block;
+  width: 100%;
+  height: 0.33rem;
+  background: #f1f1f1;
+  padding-left: 0.2rem;
+  line-height: 0.33rem;
+}
+#yd-SetupBox .yd-detail-container .yd-month-one ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-detail-container .yd-month-one ul li {
+  height: 1.03rem;
+  border-bottom: 1px solid #ddd;
+  padding: 0 0.2rem;
+}
+#yd-SetupBox .yd-detail-container .yd-month-one ul li .yd-month-top {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  padding: 0.15rem 0;
+}
+#yd-SetupBox .yd-detail-container .yd-month-one ul li .yd-month-top span {
+  color: #555;
+  font-size: 0.23rem;
+}
+#yd-SetupBox .yd-detail-container .yd-month-one ul li .yd-month-top span:first-child {
+  float: left;
+}
+#yd-SetupBox .yd-detail-container .yd-month-one ul li .yd-month-top span:nth-child(2) {
+  float: right;
+}
+#yd-SetupBox .yd-detail-container .yd-month-one ul li .yd-month-time {
+  float: left;
+  font-size: 0.2rem;
+  color: #9C9C9C;
+}
+#yd-SetupBox .yd-Setup-title span:nth-of-type(2) {
+  width: 0.36rem;
+  height: 0.3rem;
+  float: right;
+  background: url(../img/Chord/filter.png) no-repeat;
+  background-size: 100%;
+  margin-right: 0.1rem;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-banner {
+  width: 100%;
+  height: 2rem;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-banner img {
+  width: 100%;
+  height: 100%;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-list ul {
+  padding: 0.25rem 0.1rem 0 0.1rem;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-list ul li {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 0.25rem;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-list ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  float: left;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-list ul li .yd-exchange-img {
+  width: 40%;
+  height: 2.5rem;
+  float: left;
+  margin-right: 0.3rem;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-list ul li .yd-exchange-img img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-list ul li .yd-exchange-right {
+  float: left;
+  width: 55%;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-list ul li .yd-exchange-right p {
+  width: 100%;
+  color: #555;
+  font-size: 0.26rem;
+  float: left;
+  margin-top: 0.2rem;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-list ul li .yd-exchange-right span.yd-location {
+  color: #9c9c9c;
+  font-size: 0.23rem;
+  float: left;
+  margin: 0.5rem 0 0.2rem 0;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-list ul li .yd-exchange-right .yd-exchange-price {
+  width: 100%;
+  margin-bottom: 0.2rem;
+  float: left;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-list ul li .yd-exchange-right .yd-exchange-price strong {
+  font-weight: normal;
+  color: #ff0000;
+  font-size: 0.26rem;
+  float: left;
+  margin-right: 0.2rem;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-list ul li .yd-exchange-right .yd-exchange-price span {
+  float: left;
+  font-size: 0.23rem;
+  color: #9c9c9c;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-list ul li .yd-exchange-right .yd-exchange-stroe img {
+  float: left;
+  width: 0.28rem;
+  height: 0.23rem;
+}
+#yd-SetupBox .yd-exchange-container .yd-exchange-list ul li .yd-exchange-right .yd-exchange-stroe span {
+  color: #9C9C9C;
+  font-size: 0.23rem;
+  margin-left: 0.12rem;
+  float: left;
+}
+#yd-SetupBox .yd-news-container ul li {
+  width: 100%;
+  padding: 0.2rem;
+  border-bottom: 1px dotted #ddd;
+}
+#yd-SetupBox .yd-news-container ul li .yd-news-top {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 0.16rem;
+}
+#yd-SetupBox .yd-news-container ul li .yd-news-top .yd-news-left {
+  height: auto;
+  overflow: hidden;
+  float: left;
+}
+#yd-SetupBox .yd-news-container ul li .yd-news-top .yd-news-left img {
+  float: left;
+  width: 0.29rem;
+  height: 0.22rem;
+  margin-right: 0.2rem;
+  margin-top: 0.05rem;
+}
+#yd-SetupBox .yd-news-container ul li .yd-news-top .yd-news-left span {
+  font-size: 0.26rem;
+  color: #555;
+  float: left;
+}
+#yd-SetupBox .yd-news-container ul li .yd-news-top .yd-news-right {
+  float: right;
+  font-size: 0.23rem;
+  color: #9C9C9C;
+}
+#yd-SetupBox .yd-news-container ul li .yd-news-top .yd-news-read img {
+  width: 0.27rem;
+  height: 0.28rem;
+  margin-top: 1px;
+}
+#yd-SetupBox .yd-news-container ul li .yd-news-bottom {
+  padding-left: 0.5rem;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-news-container ul li .yd-news-bottom p {
+  color: #9C9C9C;
+  font-size: 0.23rem;
+}
+#yd-SetupBox .yd-Setup-tit {
+  width: 100%;
+  height: 0.8rem;
+  border-bottom: 1px solid #ddd;
+}
+#yd-SetupBox .yd-Setup-tit .yd-collect-left {
+  float: left;
+  width: 12%;
+  height: 0.8rem;
+  position: relative;
+}
+#yd-SetupBox .yd-Setup-tit .yd-collect-left img {
+  width: 0.19rem;
+  height: 0.34rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-SetupBox .yd-Setup-tit ul {
+  width: 80%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+#yd-SetupBox .yd-Setup-tit ul li {
+  float: left;
+  font-size: 0.3rem;
+  color: #555;
+  line-height: 0.8rem;
+  width: 25%;
+}
+#yd-SetupBox .yd-Setup-tit ul li.active {
+  color: #e60012;
+}
+#yd-SetupBox .yd-collect-list {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-collect-list ul {
+  padding: 0.22rem 0.1rem 0 0.1rem;
+  overflow: hidden;
+  height: auto;
+}
+#yd-SetupBox .yd-collect-list ul li {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 0.2rem;
+}
+#yd-SetupBox .yd-collect-list ul li .yd-li-img {
+  width: 32%;
+  height: 2rem;
+  float: left;
+  margin-right: 0.2rem;
+}
+#yd-SetupBox .yd-collect-list ul li .yd-li-img img {
+  width: 2rem;
+  height: 2rem;
+}
+#yd-SetupBox .yd-collect-list ul li .yd-li-right {
+  float: left;
+  width: 64%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-collect-list ul li .yd-li-right p {
+  width: 100%;
+  float: left;
+  margin-top: 0.22rem;
+  color: #555;
+  font-size: 0.26rem;
+}
+#yd-SetupBox .yd-collect-list ul li .yd-li-right .yd-li-price {
+  float: left;
+  margin-top: 0.85rem;
+  width: 100%;
+}
+#yd-SetupBox .yd-collect-list ul li .yd-li-right .yd-li-price span {
+  float: left;
+  color: #e60012;
+  font-size: 0.26rem;
+}
+#yd-SetupBox .yd-collect-list ul li .yd-li-right .yd-li-price strong {
+  width: 1.68rem;
+  height: 0.5rem;
+  float: right;
+  border: 1px solid #e60012;
+  border-radius: 0.05rem;
+  color: #e60012;
+  font-size: 0.23rem;
+  text-align: center;
+  line-height: 0.5rem;
+  font-weight: normal;
+}
+#yd-SetupBox .yd-goods-content .yd-goods-title.yd-room-title ul li {
+  width: 33.3%;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all ul {
+  padding: 0.2rem 0.1rem 0 0.1rem;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all ul li {
+  width: 100%;
+  height: 1.88rem;
+  border: 1px solid #ddd;
+  border-radius: 0.05rem;
+  margin-bottom: 0.2rem;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all ul li .yd-room-wrapper {
+  margin: 0 0.18rem;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all ul li .yd-room-wrapper h2 {
+  padding: 0.2rem 0 0.1rem 0;
+  display: block;
+  border-bottom: 1px dotted #ddd;
+  color: #555;
+  font-size: 0.23rem;
+  font-weight: normal;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all ul li .yd-room-wrapper .yd-room-detail {
+  margin-top: 0.1rem;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all ul li .yd-room-wrapper .yd-room-detail .yd-room-top {
+  float: left;
+  overflow: hidden;
+  width: 100%;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all ul li .yd-room-wrapper .yd-room-detail .yd-room-top .yd-room-left {
+  float: left;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all ul li .yd-room-wrapper .yd-room-detail .yd-room-top .yd-room-left img {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-right: 0.1rem;
+  float: left;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all ul li .yd-room-wrapper .yd-room-detail .yd-room-top .yd-room-left span {
+  color: #555;
+  font-size: 0.23rem;
+  float: left;
+  line-height: 0.6rem;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all ul li .yd-room-wrapper .yd-room-detail .yd-room-top .yd-room-date {
+  float: right;
+  font-size: 0.23rem;
+  color: #555;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all ul li .yd-room-wrapper .yd-room-detail .yd-room-bottom {
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin-top: 0.05rem;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all ul li .yd-room-wrapper .yd-room-detail .yd-room-bottom strong.yd-room-ending {
+  float: left;
+  font-weight: normal;
+  color: #e60012;
+  font-size: 0.23rem;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all ul li .yd-room-wrapper .yd-room-detail .yd-room-bottom strong.yd-room-stop {
+  float: left;
+  font-weight: normal;
+  color: #c6c6c6;
+  font-size: 0.23rem;
+}
+#yd-SetupBox .yd-goods-content .yd-order .yd-room-all ul li .yd-room-wrapper .yd-room-detail .yd-room-bottom a {
+  float: right;
+  width: 1.18rem;
+  height: 0.34rem;
+  border: 1px solid #e60012;
+  border-radius: 0.05rem;
+  color: #e60012;
+  font-size: 0.23rem;
+  text-align: center;
+  line-height: 0.34rem;
+  display: inline-block;
+}
+.postion {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-negotiation-header {
+  width: 100%;
+  height: 0.8rem;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+#yd-negotiation-header .yd-negot-left {
+  float: left;
+  width: 15%;
+  height: 0.8rem;
+  position: relative;
+}
+#yd-negotiation-header .yd-negot-left img {
+  width: 0.19rem;
+  height: 0.34rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-negotiation-header .yd-negot-center {
+  float: left;
+  width: 70%;
+  height: 0.8rem;
+  text-align: center;
+}
+#yd-negotiation-header .yd-negot-center span {
+  color: #555;
+  font-size: 0.3rem;
+  line-height: 0.8rem;
+  float: left;
+  width: 100%;
+}
+#yd-negotiation-header .yd-negot-right {
+  float: left;
+  width: 15%;
+  height: 0.8rem;
+  position: relative;
+}
+#yd-negotiation-header .yd-negot-right img {
+  width: 0.41rem;
+  height: 0.31rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-negot-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-negot-container .yd-negot-number {
+  width: 100%;
+  height: 0.7rem;
+}
+#yd-negot-container .yd-negot-number span {
+  line-height: 0.7rem;
+  color: #555;
+  font-size: 0.3rem;
+  margin-left: 0.2rem;
+  float: left;
+}
+#yd-negot-container .yd-negot-download {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-top: 1px solid #ddd;
+}
+#yd-negot-container .yd-negot-download ul {
+  padding: 0 0.2rem;
+  width: auto;
+  height: auto;
+}
+#yd-negot-container .yd-negot-download ul li {
+  border-bottom: 1px dotted #ddd;
+  width: 100%;
+  height: auto;
+  padding: 0.28rem 0 0.2rem 0;
+  overflow: hidden;
+}
+#yd-negot-container .yd-negot-download ul li .yd-down-top {
+  padding-bottom: 0.28rem;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+#yd-negot-container .yd-negot-download ul li .yd-down-top .yd-down-date {
+  float: left;
+}
+#yd-negot-container .yd-negot-download ul li .yd-down-top .yd-down-date span {
+  color: #9c9c9c;
+  font-size: 0.23rem;
+  float: left;
+}
+#yd-negot-container .yd-negot-download ul li .yd-down-load {
+  float: right;
+  width: 1.18rem;
+  height: 0.34rem;
+  border: 1px solid #e60012;
+  border-radius: 0.05rem;
+  text-align: center;
+  line-height: 0.34rem;
+  color: #ed1717;
+  font-size: 0.23rem;
+  background: #ffefef;
+}
+#yd-negot-container .yd-negot-download ul li .yd-down-bottom {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-negot-container .yd-negot-download ul li .yd-down-bottom .yd-down-login {
+  float: left;
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-right: 0.1rem;
+}
+#yd-negot-container .yd-negot-download ul li .yd-down-bottom .yd-down-login img {
+  width: 0.6rem;
+  height: 0.6rem;
+  float: left;
+}
+#yd-negot-container .yd-negot-download ul li .yd-down-bottom .yd-down-other {
+  float: left;
+}
+#yd-negot-container .yd-negot-download ul li .yd-down-bottom .yd-down-other span {
+  color: #555;
+  font-size: 0.23rem;
+  float: left;
+  width: 100%;
+  font-weight: bold;
+}
+#yd-negot-container .yd-negot-download ul li .yd-down-bottom .yd-down-other p {
+  color: #555;
+  font-size: 0.23rem;
+  float: left;
+}
+#yd-negot-container .yd-negot-download .yd-negot-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0 0.1rem;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+#yd-negot-container .yd-negot-download .yd-negot-bottom .yd-negot-input {
+  width: 100%;
+  height: 0.56rem;
+  border: 1px solid #ddd;
+  border-radius: 0.05rem;
+}
+#yd-negot-container .yd-negot-download .yd-negot-bottom .yd-negot-input input {
+  border: none;
+  outline: none;
+  float: left;
+}
+#yd-negot-container .yd-negot-download .yd-negot-bottom .yd-negot-check {
+  padding: .24rem 0;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+}
+#yd-negot-container .yd-negot-download .yd-negot-bottom .yd-negot-check a {
+  float: left;
+  display: inline-block;
+  margin-right: 0.4rem;
+}
+#yd-negot-container .yd-negot-download .yd-negot-bottom .yd-negot-check a img {
+  float: left;
+}
+#yd-negot-container .yd-negot-download .yd-negot-bottom .yd-negot-check a.yd-photo {
+  width: 0.44rem;
+  height: 0.36rem;
+}
+#yd-negot-container .yd-negot-download .yd-negot-bottom .yd-negot-check a.yd-photo img {
+  width: 0.44rem;
+  height: 0.36rem;
+}
+#yd-negot-container .yd-negot-download .yd-negot-bottom .yd-negot-check a.yd-camera {
+  width: 0.44rem;
+  height: 0.38rem;
+}
+#yd-negot-container .yd-negot-download .yd-negot-bottom .yd-negot-check a.yd-camera img {
+  width: 0.44rem;
+  height: 0.38rem;
+}
+#yd-negot-container .yd-negot-download .yd-negot-bottom .yd-negot-check a.yd-enclosure {
+  width: 0.36rem;
+  height: 0.42rem;
+}
+#yd-negot-container .yd-negot-download .yd-negot-bottom .yd-negot-check a.yd-enclosure img {
+  width: 0.36rem;
+  height: 0.42rem;
+}
+#yd-SetupBox .yd-inform-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-inform-container ul {
+  padding: 0.2rem;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-inform-container ul li {
+  width: 22.5%;
+  height: auto;
+  float: left;
+  margin-left: 0.2rem;
+  position: relative;
+}
+#yd-SetupBox .yd-inform-container ul li .yd-inform-img {
+  width: 100%;
+  height: 100%;
+}
+#yd-SetupBox .yd-inform-container ul li .yd-inform-img img {
+  width: 1.36rem;
+  height: 1.36rem;
+  float: left;
+}
+#yd-SetupBox .yd-inform-container ul li span {
+  color: #555;
+  font-size: 0.23rem;
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 0.1rem;
+}
+#yd-SetupBox .yd-inform-container ul li:first-child {
+  margin-left: 0;
+}
+#yd-SetupBox .yd-inform-container ul li .yd-remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0.24rem;
+  height: 0.24rem;
+}
+#yd-SetupBox .yd-inform-container ul li .yd-found {
+  width: 0.2rem;
+  height: 0.6rem;
+  position: absolute;
+  top: 0;
+  left: -0.2rem;
+}
+#yd-SetupBox .yd-inform-container .yd-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0 0.2rem;
+  height: auto;
+  width: 100%;
+}
+#yd-SetupBox .yd-inform-container .yd-btn .yd-end {
+  width: 100%;
+  height: 0.8rem;
+  background: #e60012;
+  color: #fff;
+  font-size: 0.3rem;
+  text-align: center;
+  line-height: 0.8rem;
+  margin-bottom: 0.2rem;
+}
+#yd-SetupBox .yd-inform-container .yd-btn .yd-prev {
+  width: 100%;
+  height: 0.8rem;
+  background: #9c9c9c;
+  color: #fff;
+  font-size: 0.3rem;
+  text-align: center;
+  line-height: 0.8rem;
+  margin-bottom: 0.4rem;
+}
+#yd-SetupBox .yd-com-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-com-container .yd-com-evaluate {
+  width: 100%;
+  height: 0.99rem;
+  border-bottom: 1px solid #ddd;
+}
+#yd-SetupBox .yd-com-container .yd-com-evaluate ul {
+  width: 100%;
+  height: 100%;
+}
+#yd-SetupBox .yd-com-container .yd-com-evaluate ul li {
+  float: left;
+  margin-left: 0.2rem;
+  width: 1.38rem;
+  height: 0.58rem;
+  border: 1px solid #ddd;
+  text-align: center;
+  position: relative;
+}
+#yd-SetupBox .yd-com-container .yd-com-evaluate ul li span {
+  color: #555;
+  font-size: 0.3rem;
+  line-height: 0.6rem;
+  float: left;
+  width: 100%;
+}
+#yd-SetupBox .yd-com-container .yd-com-evaluate ul li img {
+  width: 0.34rem;
+  height: 0.33rem;
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#yd-SetupBox .yd-com-container .yd-com-evaluate ul li.active {
+  border: 2px solid #e60012;
+}
+#yd-SetupBox .yd-com-container .yd-com-evaluate ul li.active img {
+  display: block;
+}
+.yd-com-container .yd-com-publish {
+  width: 100%;
+  height: 3.25rem;
+  border-bottom: 1px solid #ddd;
+}
+.yd-com-container .yd-com-publish textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 1.7rem;
+  padding: 0.2rem;
+  resize: none;
+  float: left;
+}
+.yd-com-container .yd-com-publish .yd-com-photo {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  padding: 0 0.2rem;
+}
+.yd-com-container .yd-com-publish .yd-com-photo img {
+  float: left;
+  width: 1.35rem;
+  height: 1.35rem;
+}
+.yd-com-container .yd-com-publish .yd-com-photo input {
+  display: none;
+}
+.yd-com-container .yd-com-publish .yd-com-photo dl img {
+  margin-right: 0.2rem;
+}
+.yd-com-container .yd-com-name {
+  width: 100%;
+  height: 0.85rem;
+  border-bottom: 1px solid #ddd;
+  padding: 0 0.2rem;
+}
+.yd-com-container .yd-com-name .yd-name-left {
+  float: left;
+}
+.yd-com-container .yd-com-name .yd-name-left .yd-name-circle {
+  width: 0.4rem;
+  height: 0.4rem;
+  float: left;
+  margin-right: 0.1rem;
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  margin-top: 23%;
+}
+.yd-com-container .yd-com-name .yd-name-left .yd-name-circle img {
+  width: 0.25rem;
+  height: 0.15rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: none;
+}
+.yd-com-container .yd-com-name .yd-name-left span {
+  color: #555;
+  font-size: 0.23rem;
+  float: left;
+  line-height: 0.86rem;
+}
+.yd-com-container .yd-com-name .yd-name-left .yd-name-circle.active {
+  background: #e60012;
+}
+.yd-com-container .yd-com-name .yd-name-left .yd-name-circle.active img {
+  display: block;
+}
+.yd-com-container .yd-com-name .yd-name-right {
+  color: #c6c6c6;
+  font-size: 0.23rem;
+  float: right;
+  line-height: 0.86rem;
+}
+.yd-com-container .yd-com-stroe {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.yd-com-container .yd-com-stroe .yd-stroe-fen {
+  padding: 0.2rem;
+  height: auto;
+  overflow: hidden;
+}
+.yd-com-container .yd-com-stroe .yd-stroe-fen img {
+  width: 0.43rem;
+  height: 0.34rem;
+  float: left;
+}
+.yd-com-container .yd-com-stroe .yd-stroe-fen span {
+  margin-left: 0.12rem;
+  color: #555;
+  font-size: 0.23rem;
+  float: left;
+  line-height: 0.4rem;
+}
+.yd-com-stroe .yd-stroe-now {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0 0.2rem;
+}
+.yd-com-stroe .yd-stroe-now .yd-now-one {
+  margin-bottom: 0.3rem;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.yd-com-stroe .yd-stroe-now .yd-now-one span {
+  color: #555;
+  font-size: 0.23rem;
+  float: left;
+  line-height: 0.4rem;
+}
+.yd-com-stroe .yd-stroe-now .yd-now-one .yd-now-img {
+  float: left;
+}
+.yd-com-stroe .yd-stroe-now .yd-now-one .yd-now-img img {
+  width: 0.39rem;
+  height: 0.35rem;
+  margin-left: 0.2rem;
+  float: left;
+}
+#yd-SetupBox .yd-invoice-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0 0.1rem;
+}
+#yd-SetupBox .yd-invoice-container .yd-invoice-inform {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-SetupBox .yd-invoice-container .yd-invoice-inform .yd-inform-title {
+  margin-top: 0.2rem;
+  width: 100%;
+  height: 0.64rem;
+  background: #f1f1f1;
+  color: #555;
+  font-size: 0.23rem;
+  line-height: 0.64rem;
+  padding: 0 0.14rem;
+  font-weight: bold;
+}
+.yd-invoice-inform ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.yd-invoice-inform ul li {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  height: 0.63rem;
+}
+.yd-invoice-inform ul li span {
+  float: left;
+  width: 40%;
+  height: 100%;
+  color: #555;
+  font-size: 0.23rem;
+  line-height: 0.64rem;
+  padding-left: 0.14rem;
+}
+.yd-invoice-inform ul li strong {
+  width: 60%;
+  color: #555;
+  font-size: 0.23rem;
+  float: left;
+  line-height: 0.64rem;
+  font-weight: normal;
+}
+.yd-invoice-container .yd-invoice-platform {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0 0.1rem;
+}
+.yd-invoice-container .yd-invoice-platform h1 {
+  font-weight: normal;
+  color: #e60012;
+  font-size: 0.23rem;
+  padding: 0.2rem 0;
+}
+.yd-invoice-container .yd-invoice-platform ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.yd-invoice-container .yd-invoice-platform li {
+  width: 100%;
+  height: 0.6rem;
+  border: 1px solid #ddd;
+  border-radius: 0.05rem;
+  margin-bottom: 0.2rem;
+}
+.yd-invoice-container .yd-invoice-platform li input {
+  border: none;
+  outline: none;
+  padding: 0 0.1rem;
+  float: left;
+  height: 100%;
+  width: 90%;
+}
+.yd-invoice-container .yd-invoice-platform .yd-invoice-button {
+  width: 100%;
+  height: 0.82rem;
+  padding: 0 0.1rem;
+  margin-top: 0.5rem;
+}
+.yd-invoice-container .yd-invoice-platform .yd-invoice-button button {
+  width: 100%;
+  height: 0.82rem;
+  background: #e60012;
+  text-align: center;
+  line-height: 0.83rem;
+  color: #fff;
+  font-size: 0.3rem;
+  border: none;
+  outline: none;
+  border-radius: 0.05rem;
+  float: left;
+}
+.yd-Setup-title i.yd-app-right {
+  width: 0.3rem;
+  height: 0.3rem;
+  float: right;
+  margin-top: 0.23rem;
+  margin-right: 0.25rem;
+  background: url(../img/Chord/edit.png) no-repeat;
+  background-size: 100%;
+}
+.yd-Setup-title i.yd-app-right a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.yd-apply-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.yd-apply-container ul.yd-apply-platform {
+  width: 100%;
+  height: 0.62rem;
+  background: #e60012;
+}
+.yd-apply-container ul.yd-apply-platform li {
+  float: left;
+  width: 50%;
+  height: 0.62rem;
+  text-align: center;
+}
+.yd-apply-container ul.yd-apply-platform li span {
+  color: #fff;
+  font-size: 0.26rem;
+  float: left;
+  width: 1.02rem;
+  padding: 0.08rem 0;
+  margin-left: 35%;
+}
+.yd-apply-container ul.yd-apply-platform li.active span {
+  border-bottom: 1px solid #fff;
+}
+.yd-apply-container ul.yd-apply-order {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.yd-apply-container ul.yd-apply-order li {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.yd-apply-container ul.yd-apply-order li .yd-apply-number {
+  height: 0.63rem;
+  border-bottom: 1px dotted #ddd;
+  margin: 0 0.1rem;
+}
+.yd-apply-container ul.yd-apply-order li .yd-apply-number span,
+.yd-apply-container ul.yd-apply-order li .yd-apply-number strong {
+  float: left;
+  line-height: 0.64rem;
+  color: #555;
+  font-size: 0.23rem;
+  padding-left: 0.1rem;
+}
+.yd-apply-container ul.yd-apply-order li .yd-apply-number strong {
+  float: right;
+  padding-left: 0;
+  font-weight: normal;
+}
+.yd-apply-container ul.yd-apply-order li .yd-apply-detail {
+  padding: 0.2rem 0.1rem;
+  margin: 0 0.2rem;
+  height: auto;
+  width: 94%;
+  overflow: hidden;
+}
+.yd-apply-container ul.yd-apply-order li .yd-apply-detail .yd-apply-one,
+.yd-apply-container ul.yd-apply-order li .yd-apply-detail .yd-apply-two,
+.yd-apply-container ul.yd-apply-order li .yd-apply-detail .yd-apply-three {
+  float: left;
+  width: 30%;
+  height: auto;
+  overflow: hidden;
+}
+.yd-apply-container ul.yd-apply-order li .yd-apply-detail .yd-apply-one span,
+.yd-apply-container ul.yd-apply-order li .yd-apply-detail .yd-apply-two span,
+.yd-apply-container ul.yd-apply-order li .yd-apply-detail .yd-apply-three span {
+  color: #9c9c9c;
+  font-size: 0.23rem;
+  float: left;
+  width: 100%;
+}
+.yd-apply-container ul.yd-apply-order li .yd-apply-detail .yd-apply-one strong,
+.yd-apply-container ul.yd-apply-order li .yd-apply-detail .yd-apply-two strong,
+.yd-apply-container ul.yd-apply-order li .yd-apply-detail .yd-apply-three strong {
+  color: #555;
+  font-size: 0.23rem;
+  float: left;
+  font-weight: normal;
+  line-height: 0.5rem;
+}
+.yd-apply-container ul.yd-apply-order li .yd-apply-detail .yd-apply-two {
+  width: 50%;
+}
+.yd-apply-container ul.yd-apply-order li .yd-apply-detail .yd-apply-three {
+  width: 20%;
+}
+.yd-apply-container ul.yd-apply-order li .yd-apply-detail .yd-apply-three strong.active {
+  color: #e60012;
+}
+.yd-apply-container ul.yd-apply-order li .yd-apply-btn {
+  width: 100%;
+  height: 0.94rem;
+  background: #f1f1f1;
+  padding-right: 0.1rem;
+}
+.yd-apply-container ul.yd-apply-order li .yd-apply-btn a {
+  float: right;
+  width: 1.16rem;
+  height: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.05rem;
+  text-align: center;
+  line-height: 0.5rem;
+  color: #555;
+  font-size: 0.23rem;
+  margin-left: 0.2rem;
+  background: #fff;
+  margin-top: 0.25rem;
+}
+.yd-logistic-container {
+  width: 100%;
+  height: auto;
+  background: #f1f1f1;
+}
+.yd-logistic-container .yd-logistic-top {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0.2rem;
+  background: #fff;
+}
+.yd-logistic-container .yd-logistic-top .yd-top-img {
+  width: 21%;
+  height: 1.18rem;
+  border: 1px solid #ddd;
+  margin-right: 0.2rem;
+  float: left;
+}
+.yd-logistic-container .yd-logistic-top .yd-top-img img {
+  width: 1.23rem;
+  height: 1.18rem;
+  float: left;
+}
+.yd-logistic-container .yd-top-inform {
+  float: left;
+  width: 75%;
+  height: auto;
+  overflow: hidden;
+}
+.yd-logistic-container .yd-top-inform span {
+  width: 100%;
+  color: #555;
+  font-size: 0.26rem;
+  float: left;
+}
+.yd-logistic-container .yd-top-inform span strong {
+  font-weight: normal;
+  color: #e60012;
+  font-size: 0.26rem;
+}
+.yd-logistic-container .yd-top-inform p {
+  color: #555;
+  font-size: 0.26rem;
+  float: left;
+}
+.yd-logistic-center {
+  margin-top: 0.2rem;
+  width: 100%;
+  height: auto;
+  padding: 0.2rem 0;
+  background: #fff;
+  overflow: hidden;
+}
+.yd-logistic-center .yd-log-left {
+  float: left;
+  margin-left: 0.2rem;
+  width: 26%;
+}
+.yd-logistic-center .yd-log-left img {
+  width: 0.74rem;
+  height: 0.74rem;
+  float: left;
+  margin-right: 0.2rem;
+}
+.yd-logistic-center .yd-log-left span {
+  color: #9C9C9C;
+  font-size: 0.23rem;
+  float: left;
+  margin-top: 0.1rem;
+}
+.yd-logistic-center .yd-log-left strong {
+  font-weight: normal;
+  color: #555;
+  font-size: 0.23rem;
+  float: left;
+  margin-top: 0.1rem;
+}
+.yd-logistic-center .yd-log-right {
+  float: right;
+  margin-right: 0.2rem;
+}
+.yd-logistic-center .yd-log-right .yd-tel {
+  float: left;
+  width: 0.37rem;
+  height: 0.37rem;
+  margin-right: 0.3rem;
+  margin-top: 0.2rem;
+}
+.yd-logistic-center .yd-log-right .yd-next {
+  float: left;
+  width: 0.1rem;
+  height: 0.2rem;
+  margin-top: 0.3rem;
+}
+.yd-logistic-add {
+  margin-top: 0.2rem;
+  background: #fff;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0.1rem 0.2rem 0 0.2rem;
+}
+.yd-logistic-add ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-top: 0.3rem;
+}
+.yd-logistic-add ul li {
+  border-left: 1px solid #ddd;
+  position: relative;
+  color: #9c9c9c;
+  padding: 0.2rem 0 0 0.8rem;
+  margin-left: 0.4rem;
+}
+.yd-logistic-add ul li i {
+  position: absolute;
+  left: -0.08rem;
+  top: 20%;
+  width: 0.15rem;
+  height: 0.16rem;
+  background: url(../img/Chord/circle_grey.png) no-repeat;
+  background-size: 100%;
+}
+.yd-logistic-add ul li p {
+  color: #9c9c9c;
+  font-size: 0.23rem;
+  text-align: justify;
+}
+.yd-logistic-add ul li span {
+  width: 100%;
+  height: 1px;
+  display: block;
+  background: #ddd;
+  margin-top: 0.2rem;
+}
+.yd-logistic-add ul li.yd-first {
+  padding-top: 0;
+}
+.yd-logistic-add ul li.yd-first i {
+  width: 0.28rem;
+  height: 0.28rem;
+  background: url(../img/Chord/circle_green.png) no-repeat;
+  background-size: 100%;
+  left: -0.15rem;
+  top: 0;
+}
+.yd-store-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.yd-store-container .yd-store-filter {
+  width: 100%;
+  height: 0.67rem;
+  border-bottom: 1px solid #ddd;
+  padding: 0 0.1rem;
+}
+.yd-store-container .yd-store-filter li {
+  width: 25%;
+  height: 0.66rem;
+  float: left;
+  font-size: 0.26rem;
+  color: #555;
+  text-align: center;
+  line-height: 0.68rem;
+}
+.yd-store-container .yd-store-filter li.active {
+  border-bottom: 2px solid #e60012;
+}
+.yd-store-container .yd-store-banner {
+  margin-top: 0.2rem;
+  width: 100%;
+  height: 3rem;
+}
+.yd-store-container .yd-store-banner .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.yd-store-container .yd-store-banner a {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+.yd-store-container .yd-store-banner img {
+  width: 100%;
+  height: 3rem;
+}
+.yd-store-show {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0 0.2rem;
+  margin-top: 0.2rem;
+}
+.yd-store-show li {
+  float: left;
+  border: 1px solid #ddd;
+  width: 48%;
+  height: 3.42rem;
+  margin-left: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.yd-store-show li a {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+.yd-store-show li .yd-show-img {
+  width: 100%;
+  height: 2.35rem;
+}
+.yd-store-show li .yd-show-img img {
+  width: 2.84rem;
+  height: 2.35rem;
+}
+.yd-store-show li .yd-show-text {
+  padding: 0.2rem;
+}
+.yd-store-show li .yd-show-text p {
+  width: 100%;
+  color: #555;
+  font-size: 0.23rem;
+  float: left;
+}
+.yd-store-show li .yd-show-text strong {
+  font-weight: normal;
+  font-size: 0.23rem;
+  color: #e60012;
+  float: left;
+  margin-top: 0.1rem;
+}
+.yd-store-show li:nth-child(odd) {
+  margin-left: 0;
+}
+.yd-store-ban {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}

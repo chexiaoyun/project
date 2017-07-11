@@ -1,0 +1,228 @@
+.clear::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.dis {
+  display: inline-block;
+}
+.cases-detail {
+  margin-top: 2.3rem;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.56rem;
+}
+.cases-detail .detail-wrapper {
+  padding: 0 0.18rem;
+}
+.cases-detail .detail-wrapper .detail-top {
+  background: #fff;
+  padding: 0.26rem 0.25rem;
+}
+.cases-detail .detail-wrapper .detail-top h1 {
+  color: #333333;
+  font-size: 0.32rem;
+  font-weight: normal;
+}
+.cases-detail .detail-wrapper .detail-top p {
+  padding-left: 0.1rem;
+}
+.cases-detail .detail-wrapper .detail-top p span {
+  color: #949494;
+  font-size: 0.24rem;
+  float: left;
+  margin-top: 0.25rem;
+}
+.cases-detail .detail-wrapper .detail-top p span strong {
+  font-weight: normal;
+  color: #917A62;
+  font-size: 0.24rem;
+}
+.cases-detail .detail-wrapper .detail-top p i {
+  margin-right: 0.1rem;
+  display: inline-block;
+  float: left;
+  margin-top: 0.28rem;
+}
+.cases-detail .detail-wrapper .detail-top p.time i {
+  width: 0.23rem;
+  height: 0.23rem;
+  background: url(../images/clock.png);
+  background-size: 0.23rem 0.23rem;
+}
+.cases-detail .detail-wrapper .detail-top p.locat i {
+  width: 0.2rem;
+  height: 0.26rem;
+  background: url(../images/loca.png);
+  background-size: 0.2rem 0.26rem;
+}
+.cases-detail .detail-wrapper .detail-top .btn {
+  margin-top: 0.48rem;
+}
+.cases-detail .detail-wrapper .detail-top .btn span {
+  width: 2.1rem;
+  height: 0.6rem;
+  text-align: center;
+  line-height: 0.6rem;
+  display: inline-block;
+  float: left;
+}
+.cases-detail .detail-wrapper .detail-top .btn span:first-child {
+  background: #917a62;
+  color: #fff;
+  font-size: 0.26rem;
+  margin-right: 0.4rem;
+}
+.cases-detail .detail-wrapper .detail-top .btn span:nth-child(2) {
+  border: 0.02rem solid #a99377;
+  box-sizing: border-box;
+  font-size: 0.26rem;
+  color: #a99377;
+}
+.cases-detail .detail-wrapper .detail-bottom {
+  margin-top: 0.15rem;
+  padding: 0 0.1rem;
+  background: #fff;
+}
+.cases-detail .detail-wrapper .detail-bottom .detail-head {
+  padding: 0.25rem 0;
+}
+.cases-detail .detail-wrapper .detail-bottom h1 {
+  color: #917a62;
+  font-size: 0.28rem;
+  padding-left: 0.2rem;
+  border-left: 0.04rem solid #917a62;
+}
+.cases-detail .detail-wrapper .detail-bottom .bottom-text {
+  border-top: 0.02rem solid #f0f0f0;
+}
+.cases-detail .detail-wrapper .detail-bottom .bottom-text .detail-img {
+  margin: 0.3rem 4% 0.5rem;
+  width: 93%;
+  height: 3.33rem;
+}
+.cases-detail .detail-wrapper .detail-bottom .bottom-text .detail-img img {
+  width: 100%;
+  height: 100%;
+}
+.cases-detail .detail-wrapper .detail-bottom .bottom-text .detail-text {
+  height: auto;
+  padding: 0 0.18rem 0.7rem;
+}
+.cases-detail .detail-wrapper .detail-bottom .bottom-text .detail-text p {
+  font-size: 0.26rem;
+  color: #333333;
+  line-height: 0.5rem;
+}
+.order {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 101;
+  display: none;
+}
+.order .activity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 98%;
+  height: 7.26rem;
+  background: #fff;
+}
+.order .activity .order-head {
+  width: 100%;
+  height: 0.95rem;
+  background: #c0a78b;
+}
+.order .activity .order-head span {
+  float: left;
+  line-height: 0.95rem;
+  margin-left: 0.52rem;
+  color: #fcfcfc;
+  font-size: 0.3rem;
+}
+.order .activity .order-head i {
+  float: right;
+  margin-right: 0.29rem;
+  background: url(../images/hide.png);
+  width: 0.36rem;
+  height: 0.36rem;
+  background-size: 0.36rem 0.36rem;
+  margin-top: 0.28rem;
+}
+.order .activity .order-body {
+  text-align: center;
+}
+.order .activity form {
+  text-align: center;
+  padding: 0.16rem 0 0.66rem 0;
+}
+.order .activity form input {
+  border: none;
+  outline: none;
+  float: left;
+  margin-top: 4%;
+  padding-left: 0.2rem;
+}
+.order .activity form .name,
+.order .activity form .sex,
+.order .activity form .num,
+.order .activity form .phone {
+  width: 4.62rem;
+  height: 0.7rem;
+  border: 0.02rem solid #e8e8e8;
+  display: inline-block;
+  float: left;
+  margin-left: 19%;
+  margin-top: 0.4rem;
+}
+.order .activity form .name span,
+.order .activity form .sex span,
+.order .activity form .num span,
+.order .activity form .phone span {
+  color: #999;
+  font-size: 0.26rem;
+  width: 20%;
+  border-right: 0.02rem solid #e8e8e8;
+  float: left;
+  margin-top: 4%;
+}
+.order .activity form select {
+  border: none;
+  outline: none;
+  float: left;
+  margin-top: 4%;
+  width: 78%;
+}
+.order .activity form .min-btn {
+  float: left;
+  margin-left: 19%;
+}
+.order .activity form .min-btn span {
+  color: #999;
+  font-size: 0.26rem;
+  width: 2.02rem;
+  height: 0.68rem;
+  border: 0.02rem solid #cdcdcd;
+  text-align: center;
+  line-height: 0.7rem;
+  display: inline-block;
+}
+.order .activity form .min-btn span:first-child {
+  margin-right: 0.3rem;
+}
+.order .activity form .min-btn span:first-child:hover {
+  background: #c0a78b;
+  color: #fff;
+}
+.order .activity form .min-btn span:last-child {
+  background: #c0a78b;
+  color: #fff;
+  border: none;
+}

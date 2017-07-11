@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <title>发布需求</title>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/demand.css"/>
+</head>
+<body>
+    <div id="yd-demand-header">
+        <div class="yd-demand-left">
+            <a href="../index.html"><img src="../images/project_c/back.png" alt=""/></a>
+        </div>
+        <div class="yd-demand-content">
+            <span>发布需求</span>
+        </div>
+    </div>
+    <div id="yd-demand-container">
+        <div class="yd-demand-describe">
+            <div class="yd-describe-tip">
+                <span>描述你的需求</span>
+            </div>
+            <div class="yd-describe-textarea">
+                <form action="" method="post">
+                    <textarea name="" id="" cols="" rows=""></textarea>
+                </form>
+                <div class="yd-load-photo">
+                    <div class="yd-enclosure">
+                        <dl></dl>
+                        <div class="yd-add-pic">
+                            <!--<span></span>-->
+                            <img src="../images/project_c/photo.png" alt=""/>
+                            <input class="yd-menu-first" type="file" accept="" multiple="multiple" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yd-demand-choice">
+            <h1>选择分类</h1>
+            <div class="yd-demand-minchoice">
+                <div class="yd-demand-one">
+                    <select name="" id="">
+                        <option value="fb">分包工程</option>
+                        <option value="fb">分包工程</option>
+                        <option value="fb">分包工程</option>
+                    </select>
+                </div>
+                <div class="yd-demand-one">
+                    <select name="" id="">
+                        <option value="fb">分包工程</option>
+                        <option value="fb">分包工程</option>
+                        <option value="fb">分包工程</option>
+                    </select>
+                </div>
+                <div class="yd-demand-one">
+                    <select name="" id="">
+                        <option value="fb">分包工程</option>
+                        <option value="fb">分包工程</option>
+                        <option value="fb">分包工程</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="yd-demand-choice">
+            <h1>项目所在地</h1>
+            <div class="yd-demand-minchoice">
+                <div class="yd-demand-one">
+                    <select name="" id="">
+                        <option value="fb">市</option>
+                        <option value="fb">市</option>
+                        <option value="fb">市</option>
+                    </select>
+                </div>
+                <div class="yd-demand-one">
+                    <select name="" id="">
+                        <option value="fb">区/县</option>
+                        <option value="fb">区/县</option>
+                        <option value="fb">区/县</option>
+                    </select>
+                </div>
+                <div class="yd-demand-one">
+                    <select name="" id="">
+                        <option value="fb">乡镇/街道</option>
+                        <option value="fb">乡镇/街道</option>
+                        <option value="fb">乡镇/街道</option>
+                    </select>
+                </div>
+                <div class="yd-demand-one">
+                    <input type="text" placeholder="详细地址"/>
+                </div>
+            </div>
+        </div>
+        <div class="yd-demand-money">
+            <div class="yd-demand-name">赏金</div>
+            <input type="text" placeholder="输入您核实的价格，选填"/>
+        </div>
+        <div class="yd-demand-tel clear">
+            <h1>联系方式</h1>
+            <div class="yd-tel">
+                <input type="text"/>
+            </div>
+            <a href="demand_list.html"><button>提交</button></a>
+        </div>
+    </div>
+
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script>
+        $(".yd-enclosure .yd-add-pic img").click(function(){
+            $(this).next("input").click();
+        });
+
+        // 删除图片
+//        $(".yd-enclosure dl").on("click","dd i",function(){
+//            $(this).parents("dd").remove();
+//        });
+
+        // 图片选择
+
+        $(".yd-menu-first").on("change",function(){
+            var objUrl = getObjectURL(this.files[0]) ;
+            if (objUrl) {
+                $(this).parent("div").prev("dl").append("<dd><img src='" + objUrl + "' /></dd>");
+            }
+        });
+
+
+        // 创建Blob对象
+        function getObjectURL(file) {
+            var url = null ;
+            if (window.createObjectURL!=undefined) {
+                url = window.createObjectURL(file) ;
+            } else if (window.URL!=undefined) {
+                url = window.URL.createObjectURL(file) ;
+            } else if (window.webkitURL!=undefined) {
+                url = window.webkitURL.createObjectURL(file) ;
+            }
+            return url ;
+        };
+    </script>
+</body>
+</html>

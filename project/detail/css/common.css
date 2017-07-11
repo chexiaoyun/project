@@ -1,0 +1,66 @@
+/*reset*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft YaHei";
+  color: #565656;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+body {
+  font-size: 16px;
+  background: #f1f1f1;
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: none;
+}
+.yd-txt-rt {
+  text-align: right;
+}
+.yd-txt-lt {
+  text-align: left;
+}
+.yd-txt-center {
+  text-align: center;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.yd-clearfix:before,
+.yd-clearfix:after {
+  content: " ";
+  display: table;
+}
+.yd-clearfix:after {
+  clear: both;
+}
+.yd-float-rt {
+  float: right;
+}
+.yd-float-lt {
+  float: left;
+}
+.yd-pos-relative {
+  position: relative;
+}
+.yd-pos-absolute {
+  position: absolute;
+}
+.yd-vertical-base {
+  vertical-align: baseline;
+}
+.yd-vertical-top {
+  vertical-align: top;
+}

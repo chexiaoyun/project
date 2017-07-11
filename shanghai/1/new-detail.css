@@ -1,0 +1,147 @@
+.new-body{
+	width: 100%;
+	height:auto;
+	border:1px solid #ddd;
+	border-left:0;
+	border-right:0;
+	overflow: hidden;
+}
+.new-left{
+	width: 750px;
+	padding:40px 90px 126px 360px;
+	overflow: hidden;
+	border-right:1px solid #ddd;
+	float: left;
+}
+.new-ad{
+	width: 750px;
+	height: 300px;
+}
+.new-ad img{
+	width: 100%;
+	height: 100%;
+}
+.new-show{
+	margin-top:22px;
+	overflow: hidden;
+}
+.new-show h1{
+	color:#333;
+	font-size: 26px;
+	font-weight: normal;
+}
+.new-show span{
+	color:#999;
+	font-size: 14px;
+	margin:33px 0;
+	display: block;
+}
+.new-show p{
+	color:#999;
+	font-size: 14px;
+	margin-bottom: 28px;
+	line-height:25px;
+}
+.new-show i.fin{
+	background: #026536;
+	width: 44px;
+	height: 9px;
+	display: block;
+}
+.new-show img{
+	width: 710px;
+	margin-bottom: 30px;
+}
+.new-right{
+	float:left;
+	padding:40px 0 0 20px;
+	overflow: hidden;
+	width: 280px;
+}
+.new-right .latest{
+	overflow: hidden;
+}
+.new-right .latest .latest-list{
+	float: left;
+	width: 19px;
+	margin-right: 13px;
+	margin-top:3px;
+}
+.latest-list i{
+	display: block;
+	width: 19px;
+	height: 3px;
+	background: #026536;
+	margin-top:3px;
+}
+.latest-list i:first-child{
+	margin-top: 0;
+}
+.new-right h1{
+	color:#333;
+	font-size: 18px;
+	font-weight: normal;
+	float: left;
+}
+.new-right ul{
+	overflow: hidden;
+}
+.new-right ul li{
+	margin-top:42px;
+	overflow: hidden;
+}
+.new-right ul li .test-img{
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+}
+.new-right ul li .test-img img{
+	width: 100%;
+}
+.new-right ul li .test-list{
+	float: left;
+	width: 192px;
+}
+.new-right ul li .test-list h5{
+	color:#333;
+	font-weight:normal;
+	font-size: 16px;
+}
+.new-right ul li .test-list span{
+	color:#999;
+	font-size: 12px;
+}
+
+
+.detail-text{
+	margin-top: 70px;
+}
+.detail-text h1{
+	color:#444;
+	font-size: 42px;
+	font-weight: normal;
+	padding-left:25px;
+	border-left:7px solid #026536;
+}
+.detail-text ul{
+	overflow: hidden;
+	cursor: pointer;
+}
+.detail-text ul li{
+	border-bottom:1px solid #d8d8d8;
+	padding:39px 0;
+	overflow: hidden;
+}
+.detail-text ul li i{
+	width: 10px;
+	height: 10px;
+	background: #026536;
+	float: left;
+	margin-right: 17px;
+	margin-top:3px;
+}
+.detail-text ul li span{
+	color:#888;
+	font-size: 16px;
+}

@@ -1,0 +1,261 @@
+@import "common";
+
+#yd-login-container{
+  width: 100%;
+  height: 877px;
+  min-width: 1200px;
+  .yd-login-wrapper{
+    width: 1200px;
+    height: 877px;
+    margin:0 auto;
+  }
+  .yd-login-left{
+    float: left;
+    width: 600px;
+    height: 877px;
+    text-align: center;
+    span.yd-login-show{
+      background: url(../images/login_1.png) no-repeat;
+      display: inline-block;
+      margin-top: 104px;
+      width: 400px;
+      height: 110px;
+      margin-bottom: 64px;
+    }
+    span.yd-register-show{
+      background: url(../images/login_2.png) no-repeat;
+      display: inline-block;
+      width: 515px;
+      height: 245px;
+      margin-top: 73px;
+    }
+  }
+  .yd-login-big{
+    width: 100%;
+    height: 877px;
+    overflow: hidden;
+    text-align: center;
+    .yd-login-banner{
+      width: 100%;
+      height: 800px;
+      position: relative;
+      text-align: center;
+      display: inline-block;
+      .yd-login-img{
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        text-align: center;
+        height: 800px;
+        margin-top:50px;
+        opacity: 0;
+        filter:alpha(opacity=0);
+        -moz-opacity:00;
+        -khtml-opacity: 00;
+        img{
+          vertical-align: bottom;
+        }
+      }
+      .yd-login-img:first-child{
+        margin-top:85px;
+        opacity: 1;
+        filter:alpha(opacity=100);
+        -moz-opacity:1;
+        -khtml-opacity: 1;
+      }
+    }
+    .yd-login-circle{
+      width: 100%;
+      height: 14px;
+      text-align: center;
+      margin-top: 10px;
+      li{
+        width: 14px;
+        height: 14px;
+        float: left;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        background: #ddd;
+        margin-right: 40px;
+        cursor: pointer;
+      }
+      li:first-child{
+        margin-left: 270px;
+      }
+      li.active{
+        background: #35c3ec;
+      }
+    }
+  }
+}
+.yd-login-right{
+  float: left;
+  width: auto;
+  height:auto;
+  overflow: hidden;
+  margin-top: 250px;
+  span.yd-line{
+    width: 1px;
+    height: 403px;
+    background: @bgColor;
+    float: left;
+    display: inline-block;
+  }
+  form{
+    float: left;
+    padding:55px 87px 0 87px;
+    width: 402px;
+    .yd-login-span{
+      width: 402px;
+      height: auto;
+      overflow: hidden;
+      //margin-top: 55px;
+      float: left;
+      span{
+        color:@fontColor;
+        font-size:20px;
+        float: left;
+      }
+      a{
+        float: right;
+        color:@color;
+        font-size:16px;
+      }
+      strong{
+        float: right;
+        color:@color;
+        font-size:16px;
+        font-weight: normal;
+      }
+    }
+    .yd-register-span.yd-login-span{
+      a{
+        color:#35c3ec;
+      }
+    }
+    .yd-login-tel{
+      width: 400px;
+      height: 44px;
+      border:1px solid @bgColor;
+      background: #fff;
+      margin-top: 58px;
+      float: left;
+      border-radius: 10px;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+    }
+    input{
+      border:0;
+      outline: none;
+      padding:0 23px;
+      width: 80%;
+      margin-top: 14px;
+      background: none;
+    }
+    ::-webkit-input-placeholder{
+      color:@color;
+    }
+    ::-moz-placeholder{
+      color:@color;
+    }
+    :-moz-placeholder{
+      color:@color;
+    }
+    :-ms-input-placeholder{
+      color:@color;
+    }
+    .yd-login-tell{
+      margin-top: 22px;
+    }
+    .yd-forget{
+      width: 100%;
+      text-align: right;
+      margin-top:10px;
+      color:#2cc5f7;
+      font-size: 14px;
+      float: right;
+    }
+    button{
+      border:0;
+      outline:none;
+      width: 402px;
+      height: 46px;
+      background: #35c3ec;
+      text-align: center;
+      margin-top:34px;
+      line-height: 46px;
+      color:#fff;
+      border-radius: 10px;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+}
+.yd-login-number{
+  width: 402px;
+  height: 46px;
+  float: left;
+  margin-top: 58px;
+  .yd-number-left{
+    float: left;
+    width: 268px;
+    height: 44px;
+    border:1px solid #ddd;
+    background: #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+  }
+  .yd-number-right{
+    float: right;
+    width: 120px;
+    height: 46px;
+    background: #35c3ec;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    line-height: 46px;
+    color:#fff;
+    font-size:16px;
+    cursor: pointer;
+  }
+}
+.yd-register-right.yd-login-right{
+  form{
+    padding-top:0;
+  }
+  .yd-line{
+    margin-top: 50px;
+  }
+}
+.yd-send_code{
+  display: none;
+  float: right;
+  width: 120px;
+  height: 46px;
+  background: #ddd;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  text-align: center;
+  line-height: 46px;
+  color:#fff;
+  font-size:16px;
+  cursor: pointer;
+  .yd-obtain,.yd-repeat{
+    width: 120px;
+    height: 46px;
+    background: #ddd;
+    text-align: center;
+    color:#fff;
+    line-height: 46px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    cursor: pointer;
+  }
+}

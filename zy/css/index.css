@@ -1,0 +1,311 @@
+.clear::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.dis {
+  display: inline-block;
+}
+#header {
+  background: #fff;
+  height: 1.10rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#header .head-left {
+  width: 15%;
+  height: 1.10rem;
+  float: left;
+  position: relative;
+}
+#header .head-left i.dis {
+  background: url(../images/menu.png);
+  background-size: 0.6rem 0.6rem;
+  height: 0.6rem;
+  width: 0.6rem;
+  margin-top: 30%;
+  margin-left: 18%;
+  float: left;
+}
+#header .head-left i.dis.fail {
+  background: url(../images/fail.png);
+  width: 0.36rem;
+  height: 0.38rem;
+  background-size: 0.36rem 0.38rem;
+  margin-top: 35%;
+  margin-left: 35%;
+}
+#consult {
+  margin-top: 1.10rem;
+}
+#consult .consult-banner {
+  width: 100%;
+  height: 5.95rem;
+}
+#consult .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+#consult .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+#consult .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+#consult .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+#consult .swiper-pagination-bullet {
+  width: 0.13rem;
+  height: 0.13rem;
+  border: 0.02rem solid #fff;
+  background: none;
+  opacity: 1;
+}
+#consult .swiper-pagination-bullet-active {
+  background: #fff;
+}
+#consult .project {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  margin-top: 0.23rem;
+}
+#consult .project .project-wrapper {
+  margin: 0 0.2rem;
+}
+#consult .project .project-wrapper .project-head {
+  padding: 0.3rem 0;
+}
+#consult .project .project-wrapper .project-head h1 {
+  font-size: 0.28rem;
+  color: #494949;
+  padding-left: 0.23rem;
+  border-left: 0.06rem solid #a78d71;
+  float: left;
+}
+#consult .project .project-wrapper .project-head a {
+  float: right;
+  font-size: 0.26rem;
+  color: #a78d71;
+}
+#consult .project .project-wrapper .project-head a i {
+  width: 0.14rem;
+  height: 0.24rem;
+  background: url(../images/next.png);
+  background-size: 0.14rem 0.24rem;
+  float: right;
+  margin-left: 0.2rem;
+}
+#consult .project .project-wrapper .project-list {
+  width: 100%;
+  height: auto;
+}
+#consult .project .project-wrapper .project-list li {
+  padding: 0.28rem 0;
+  border-top: 0.02rem solid #e6e6e6;
+}
+#consult .project .project-wrapper .project-list li .list-img {
+  width: 1.81rem;
+  height: 1.26rem;
+  float: left;
+}
+#consult .project .project-wrapper .project-list li .list-img img {
+  width: 100%;
+  hieght: 100%;
+}
+#consult .project .project-wrapper .project-list li .list-content {
+  float: left;
+  margin-left: 0.24rem;
+  width: 65%;
+}
+#consult .project .project-wrapper .project-list li .list-content p {
+  color: #494949;
+  font-size: 0.28rem;
+}
+#consult .project .project-wrapper .project-list li .list-content p span {
+  color: #917a62;
+  font-size: 0.22rem;
+}
+#consult .project .project-wrapper .project-list li .list-content p:first-child {
+  margin-bottom: 0.1rem;
+}
+#consult .assess {
+  margin-bottom: 0.2rem;
+  background: #fff;
+  margin-top: 0.2rem;
+  width: 100%;
+  height: auto;
+}
+#consult .assess .assess-wrapper {
+  padding: 0 0.2rem;
+}
+#consult .assess .assess-wrapper .assess-head {
+  padding: 0.3rem 0;
+}
+#consult .assess .assess-wrapper .assess-head h1 {
+  font-size: 0.28rem;
+  color: #494949;
+  padding-left: 0.22rem;
+  border-left: 0.06rem solid #a78d71;
+}
+#consult .assess .assess-wrapper .assess-form {
+  width: 100%;
+  height: auto;
+  border-top: 0.02rem solid #e6e6e6;
+}
+#consult .assess .assess-wrapper .assess-form input {
+  padding-left: 0.26rem;
+  color: #494949;
+  width: 85%;
+  border: none;
+  outline: none;
+  float: left;
+  background: #fcfcfc;
+  margin-top: 10%;
+}
+#consult .assess .assess-wrapper .assess-form input-placeholder {
+  color: #c8c8c8;
+}
+#consult .assess .assess-wrapper .assess-form .all {
+  margin-top: 0.46rem;
+}
+#consult .assess .assess-wrapper .assess-form .all .name {
+  width: 30%;
+  height: 0.7rem;
+  border: 0.02rem solid #e8e8e8;
+  margin-right: 0.25rem;
+  background: #fcfcfc;
+  float: left;
+}
+#consult .assess .assess-wrapper .assess-form .all .select {
+  border: 0.02rem solid #e8e8e8;
+  width: 21%;
+  background: #fcfcfc;
+  height: 0.7rem;
+  float: left;
+  margin-right: 0.25rem;
+}
+#consult .assess .assess-wrapper .assess-form .all .select select {
+  border: none;
+  background: #fcfcfc;
+  float: left;
+  margin-top: 12%;
+  text-align: center;
+  outline: none;
+  width: 100%;
+  padding-left: 0.18rem;
+}
+#consult .assess .assess-wrapper .assess-form .all .locat {
+  border: 0.02rem solid #e8e8e8;
+  width: 38%;
+  height: 0.7rem;
+  background: #fcfcfc;
+  float: left;
+}
+#consult .assess .assess-form .country {
+  margin-top: 0.25rem;
+}
+#consult .assess .assess-form .country .min-country {
+  width: 55%;
+  height: 0.7rem;
+  background: #fcfcfc;
+  border: 0.02rem solid #e8e8e8;
+  margin-right: 0.25rem;
+  float: left;
+}
+#consult .assess .assess-form .country .min-country input {
+  margin-top: 7%;
+}
+#consult .assess .assess-form .country .budget {
+  width: 38%;
+  height: 0.7rem;
+  border: 0.02rem solid #e8e8e8;
+  float: left;
+  background: #fcfcfc;
+}
+#consult .assess .assess-form .phone {
+  margin-top: 0.25rem;
+  width: 100%;
+  height: 0.72rem;
+  box-sizing: border-box;
+  border: 0.02rem solid #e8e8e8;
+  background: #fcfcfc;
+}
+#consult .assess .assess-form .phone input {
+  margin-top: 3%;
+}
+#consult .assess .assess-form .btn {
+  margin-top: 0.53rem;
+  background: #c0a78b;
+  width: 100%;
+  height: 0.8rem;
+  border-radius: 0.05rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.8rem;
+  border: none;
+  outline: none;
+  font-size: 0.3rem;
+  margin-bottom: 0.56rem;
+}
+#consult .choice {
+  margin-top: 0.2rem;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+#consult .choice .choice-wrapper {
+  padding: 0 0.2rem;
+}
+#consult .choice .choice-wrapper .choice-head {
+  padding: 0.3rem 0;
+}
+#consult .choice .choice-wrapper .choice-head h1 {
+  font-size: 0.28rem;
+  padding-left: 0.22rem;
+  border-left: 0.06rem solid #a78d71;
+  float: left;
+}
+#consult .choice .choice-wrapper .choice-head a {
+  float: right;
+  color: #a78d71;
+  font-size: 0.26rem;
+}
+#consult .choice .choice-wrapper .choice-head a i {
+  background: url(../images/next.png);
+  width: 0.14rem;
+  height: 0.24rem;
+  background-size: 0.14rem 0.24rem;
+  float: right;
+  margin-left: 0.2rem;
+}
+#consult .choice .choice-wrapper .choice-list li {
+  width: 48.8%;
+  height: auto;
+  float: left;
+}
+#consult .choice .choice-wrapper .choice-list li .choimg {
+  width: 100%;
+  height: 2.14rem;
+}
+#consult .choice .choice-wrapper .choice-list li .choimg img {
+  width: 100%;
+  height: 100%;
+}
+#consult .choice .choice-wrapper .choice-list li span {
+  color: #494949;
+  font-size: 0.26rem;
+  float: left;
+  padding-top: 0.2rem;
+  padding-bottom: 0.46rem;
+  padding-left: 0.22rem;
+}
+#consult .choice .choice-wrapper .choice-list li:nth-child(odd) {
+  margin-right: 0.14rem;
+}

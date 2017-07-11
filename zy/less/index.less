@@ -1,0 +1,344 @@
+@width:100%;
+@titColor:#333;
+@fontColor:#666;
+@timeColor:#949494;
+@footColor:#383b3d;
+@headColor:#a99178;
+@spanColor:#494949;
+@btnColor:#c0a78b;
+@line:#e8e8e8;
+@holder:#c8c8c8;
+.clear::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+.dis{
+    display:inline-block;
+}
+#header{
+    background: #fff;
+    height:1.10rem;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    .head-left{
+        width:15%;
+        height:1.10rem;
+        float: left;
+        position:relative;
+        i.dis{
+           background:url(../images/menu.png);
+           background-size: 0.6rem 0.6rem;;
+           height:0.6rem;
+           width:0.6rem;
+           margin-top:30%;
+           margin-left:18%;
+           float:left;
+        }
+        i.dis.fail{
+            background:url(../images/fail.png);
+            width:0.36rem;
+            height:0.38rem;
+            background-size:0.36rem 0.38rem;
+            margin-top:35%;
+            margin-left:35%;
+        }
+    }
+}
+#consult{
+    margin-top:1.10rem;
+    .consult-banner{
+        width:100%;
+        height:5.95rem;
+    }
+    .swiper-container{
+        width:100%;
+        height:100%;
+    }
+    .swiper-wrapper{
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide{
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            
+        }
+    }
+    .swiper-pagination-bullet{
+        width:0.13rem;
+        height:0.13rem;
+        border:0.02rem solid #fff;
+        background: none;
+        opacity:1;
+    }
+    .swiper-pagination-bullet-active{
+        background: #fff;
+    }
+}
+#consult{
+    .project{
+        background: #fff;
+        width:100%;
+        height:auto;
+        margin-top:0.23rem;
+        .project-wrapper{
+            margin:0 0.2rem;
+            .project-head{
+                padding:0.3rem 0;
+                h1{
+                    font-size:0.28rem;
+                    color:#494949;
+                    padding-left:0.23rem;
+                    border-left:0.06rem solid #a78d71;
+                    float:left;
+                }
+                a{
+                    float:right;
+                    font-size:0.26rem;
+                    color:#a78d71;
+                    i{
+                        width:0.14rem;
+                        height:0.24rem;
+                        background: url(../images/next.png);
+                        background-size:0.14rem 0.24rem;
+                        float:right;
+                        margin-left:0.2rem;
+                    }
+                }
+            }
+            .project-list{
+                width:100%;
+                height:auto;
+                li{
+                    padding:0.28rem 0;
+                    border-top:0.02rem solid #e6e6e6;
+                    .list-img{
+                        width:1.81rem;
+                        height:1.26rem;
+                        float:left;
+                        img{
+                            width:100%;
+                            hieght:100%;
+                        }
+                    }
+                    .list-content{
+                        float:left;
+                        margin-left:0.24rem;
+                        width:65%;
+                        p{
+                            color:#494949;
+                            font-size:0.28rem;
+                            span{
+                                color:#917a62;
+                                font-size:0.22rem;
+                            }
+                        }
+                        p:first-child{
+                            margin-bottom:0.1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#consult{
+    .assess{
+        margin-bottom:0.2rem;
+        background: #fff;
+        margin-top:0.2rem;
+        width:100%;
+        height:auto;
+        .assess-wrapper{
+            padding:0 0.2rem;
+            .assess-head{
+                padding:0.3rem 0;
+                h1{
+                    font-size:0.28rem;
+                    color:#494949;
+                    padding-left:0.22rem;
+                    border-left:0.06rem solid #a78d71;
+                }
+            }
+        }
+    }
+}
+@formColor:#fcfcfc;
+#consult{
+    .assess{
+        .assess-wrapper{
+            .assess-form{
+                width:100%;
+                height:auto;
+                border-top:0.02rem solid #e6e6e6;
+                input{
+                    padding-left:0.26rem;
+                    color:@spanColor;
+                    width: 85%;
+                    border:none;
+                    outline:none;
+                    float:left;
+                    background: @formColor;
+                    margin-top:10%;
+                }
+                input-placeholder{
+                    color:@holder;
+                }
+                .all{
+                    margin-top:0.46rem;
+                    .name{
+                        width:30%;
+                        height:0.7rem;
+                        border:0.02rem solid @line;
+                        margin-right:0.25rem;
+                        background: @formColor;
+                        float:left;
+                    }
+                    .select{
+                        border:0.02rem solid @line;
+                        width: 21%;
+                        background: @formColor;
+                        height:0.7rem;
+                        float:left;
+                        margin-right:0.25rem;
+                        input{
+//                          padding:0;
+                        }
+                        select{
+                            border:none;
+                            background:@formColor;
+                            float: left;
+                            margin-top: 12%;
+                            text-align: center;
+                            outline: none;
+                            width:100%;
+                            padding-left:0.18rem;
+                        }
+                    }
+                    .locat{
+                        border:0.02rem solid @line;
+                        width:38%;
+                        height:0.7rem;
+                        background:@formColor;
+                        float:left;
+                    }
+                }
+            }
+        }
+    }
+}
+#consult .assess .assess-form{
+    .country{
+        margin-top:0.25rem;
+        .min-country{
+            width: 55%;
+            height:0.7rem;
+            background: @formColor;
+            border:0.02rem solid @line;
+            margin-right:0.25rem;
+            float:left;
+            input{
+                margin-top: 7%;
+            }
+        }
+        .budget{
+            width:38%;
+            height:0.7rem;
+            border:0.02rem solid @line;
+            float:left;
+            background:@formColor;
+        }
+    }
+    .phone{
+        margin-top:0.25rem;
+        width:100%;
+        height:0.72rem;
+        box-sizing: border-box;
+        border:0.02rem solid @line;
+        background: @formColor;
+        input{
+            margin-top:3%;
+        }
+    }
+    .btn{
+        margin-top:0.53rem;
+        background: @btnColor;
+        width:100%;
+        height:0.8rem;
+        border-radius: 0.05rem;
+        color:#fff;
+        text-align: center;
+        line-height: 0.8rem;
+        border:none;
+        outline:none;
+        font-size: 0.3rem;
+        margin-bottom:0.56rem;
+    }
+}
+#consult {
+    .choice{
+        margin-top:0.2rem;
+        width:100%;
+        height:auto;
+        background: #fff;
+        .choice-wrapper{
+            padding:0 0.2rem;
+            .choice-head{
+                padding:0.3rem 0;
+                h1{
+                    font-size:0.28rem;
+                    padding-left:0.22rem;
+                    border-left:0.06rem solid #a78d71;
+                    float:left;
+                }
+                a{
+                    float:right;
+                    color:#a78d71;
+                    font-size:0.26rem;
+                    i{
+                        background: url(../images/next.png);
+                        width:0.14rem;
+                        height:0.24rem;
+                        background-size:0.14rem 0.24rem;
+                        float:right;
+                        margin-left:0.2rem;
+                    }
+                }
+                
+            }
+            .choice-list{
+                li{
+                    width:48.8%;
+                    height:auto;
+                    float:left;
+                    .choimg{
+                        width:100%;
+                        height:2.14rem;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                    span{
+                        color:#494949;
+                        font-size:0.26rem;
+                        float:left;
+                        padding-top:0.2rem;
+                        padding-bottom:0.46rem;
+                        padding-left:0.22rem;
+                    }
+                }
+                li:nth-child(odd){
+                    margin-right:0.14rem;
+                }
+            }
+        }
+    }
+}

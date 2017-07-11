@@ -1,0 +1,85 @@
+.clear::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.dis {
+  display: inline-block;
+}
+#header {
+  background: #fff;
+  height: 1.10rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#header .head-left {
+  width: 15%;
+  height: 1.10rem;
+  float: left;
+  position: relative;
+}
+#header .head-left i.dis {
+  background: url(../images/menu.png);
+  background-size: 0.6rem 0.6rem;
+  height: 0.6rem;
+  width: 0.6rem;
+  margin-top: 30%;
+  margin-left: 18%;
+  float: left;
+}
+#header .head-left i.dis.fail {
+  background: url(../images/fail.png);
+  width: 0.36rem;
+  height: 0.38rem;
+  background-size: 0.36rem 0.38rem;
+  margin-top: 35%;
+  margin-left: 35%;
+}
+.contact-show {
+  margin-top: 2.3rem;
+  width: 100%;
+  height: auto;
+  padding-bottom: 2.5rem;
+}
+.contact-show .contact-wrapper {
+  padding: 0 0.18rem;
+}
+.contact-show .contact-wrapper ul {
+  width: 100%;
+  height: auto;
+}
+.contact-show .contact-wrapper ul li {
+  background: #fff;
+  padding: 0.4rem 0.3rem;
+  margin-top: 0.2rem;
+}
+.contact-show .contact-wrapper ul li .locat {
+  color: #666;
+  font-size: 0.32rem;
+  float: left;
+  display: block;
+}
+.contact-show .contact-wrapper ul li .locat i {
+  background: url(../images/ding.png);
+  width: 0.28rem;
+  height: 0.37rem;
+  background-size: 0.28rem 0.37rem ;
+  margin-right: 0.16rem;
+  display: inline-block;
+  margin-top: 0.02rem;
+  float: left;
+}
+.contact-show .contact-wrapper ul li p {
+  padding-left: 0.45rem;
+  float: left;
+  margin-top: 0.2rem;
+}
+.contact-show .contact-wrapper ul li p span {
+  color: #999;
+  font-size: 0.24rem;
+  float: left;
+  display: block;
+  margin-top: 0.1rem;
+}

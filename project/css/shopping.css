@@ -1,0 +1,369 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft YaHei";
+  color: #565656;
+  list-style: none;
+  font-weight: normal;
+}
+body {
+  background: #f1f1f1;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+.clear {
+  display: block;
+  clear: both;
+  content: '';
+}
+body {
+  background: #fbfbfb;
+}
+.position {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-shop-header {
+  width: 100%;
+  height: 0.79rem;
+  border-bottom: 1px solid #dddddd;
+  background: #fff;
+}
+#yd-shop-header .yd-shop-center {
+  width: 80%;
+  height: 100%;
+  float: left;
+}
+#yd-shop-header .yd-shop-center span {
+  color: #555555;
+  font-size: 0.3rem;
+  float: left;
+  margin-left: 50%;
+  line-height: 0.8rem;
+}
+#yd-shop-header .yd-shop-center span strong {
+  color: #555555;
+  font-size: 0.3rem;
+}
+#yd-shop-header .yd-shop-right {
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  line-height: 0.8rem;
+  font-size: 0.26rem;
+  color: #555555;
+}
+#yd-shop-footer {
+  width: 100%;
+  height: 0.92rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 2px solid #e60012;
+  background: #fff;
+}
+#yd-shop-footer ul {
+  width: 100%;
+  height: 100%;
+}
+#yd-shop-footer ul li {
+  width: 33.3%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+#yd-shop-footer ul li i {
+  float: left;
+  font-size: 0.48rem;
+  margin-left: 38%;
+  margin-top: 0.08rem;
+}
+#yd-shop-footer ul li span {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 0.23rem;
+  color: #555555;
+}
+#yd-shop-footer ul li.active i {
+  color: #e60012;
+}
+#yd-shop-footer ul li.active span {
+  color: #e60012;
+}
+#yd-shop-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #fbfbfb;
+}
+#yd-shop-container .yd-shop-wrapper {
+  padding: 0 0.2rem 2rem;
+  overflow: auto;
+}
+#yd-shop-container .yd-shop-wrapper ul {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#yd-shop-container .yd-shop-wrapper ul li {
+  background: #fff;
+  width: 100%;
+  height: 3rem;
+  position: relative;
+  margin-top: 0.2rem;
+  box-sizing: border-box;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-title {
+  margin: 0 0.25rem;
+  padding: 0.26rem 0;
+  overflow: hidden;
+  border-bottom: 1px solid #dddddd;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-title .yd-title-left {
+  width: 90%;
+  float: left;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-title .yd-title-left img {
+  width: 0.29rem;
+  height: 0.26rem;
+  float: left;
+  margin-right: 0.2rem;
+  margin-top: 0.02rem;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-title .yd-title-left span {
+  font-size: 0.26rem;
+  color: #e60012;
+  float: left;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-title .yd-title-right {
+  width: 10%;
+  float: right;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-title .yd-title-right img {
+  width: 0.23rem;
+  height: 0.24rem;
+  float: right;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods {
+  padding: 0.1rem 0.2rem;
+  overflow: hidden;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods .yd-shop-img {
+  width: 32%;
+  height: 1.8rem;
+  margin-right: 0.2rem;
+  float: left;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods .yd-shop-img img {
+  width: 1.8rem;
+  height: 1.8rem;
+  float: left;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods .yd-shop-right {
+  width: 63%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods .yd-shop-right p {
+  font-size: 0.23rem;
+  width: 100%;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods .yd-shop-right span {
+  font-size: 0.23rem;
+  color: #9c9c9c;
+  float: left;
+  margin: 0.1rem 0;
+  width: 100%;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods .yd-shop-right .yd-goods-num {
+  width: 100%;
+  float: left;
+  height: 0.62rem;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods .yd-shop-right .yd-goods-num .yd-number {
+  width: 1.36rem;
+  height: 0.58rem;
+  border: 1px solid #dddddd;
+  float: left;
+  background: #fff;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods .yd-shop-right .yd-goods-num .yd-number .yd-num-left {
+  border-right: 1px solid #dddddd;
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  background: #fbfbfb;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods .yd-shop-right .yd-goods-num .yd-number .yd-num-left img {
+  width: 0.14rem;
+  height: 0.04rem;
+  vertical-align: middle;
+  float: left;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods .yd-shop-right .yd-goods-num .yd-number .yd-num-right {
+  border-left: 1px solid #dddddd;
+  width: 20%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  position: relative;
+  background: #fbfbfb;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods .yd-shop-right .yd-goods-num .yd-number .yd-num-right img {
+  width: 0.2rem;
+  height: 0.2rem;
+  vertical-align: middle;
+  float: left;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods .yd-shop-right .yd-goods-num .yd-number .yd-num-input {
+  width: 57%;
+  height: 100%;
+  float: left;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods .yd-shop-right .yd-goods-num .yd-number .yd-num-input input {
+  border: none;
+  outline: none;
+  color: #9c9c9c;
+  font-size: 0.23rem;
+  line-height: 0.58rem;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+#yd-shop-container .yd-shop-wrapper ul li .yd-shop-goods .yd-shop-right .yd-goods-num .yd-price {
+  font-size: 0.3rem;
+  color: #e60012;
+  margin-left: 0.2rem;
+  float: left;
+  line-height: 0.6rem;
+}
+#yd-shop-container .yd-shop-wrapper ul li img.true {
+  width: 0.55rem;
+  height: 0.55rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+#yd-shop-container .yd-shop-wrapper ul li.active {
+  border: 2px solid #e60012;
+}
+#yd-shop-container .yd-shop-wrapper ul li.active img.true {
+  display: block;
+}
+#yd-shop-container .yd-shop-all {
+  position: fixed;
+  bottom: 0.94rem;
+  left: 0;
+  width: 100%;
+  height: 0.8rem;
+  background: #fff;
+}
+#yd-shop-container .yd-shop-all .yd-all-left {
+  width: 75%;
+  height: 0.8rem;
+  float: left;
+}
+#yd-shop-container .yd-shop-all .yd-all-left .yd-all-color {
+  float: left;
+}
+#yd-shop-container .yd-shop-all .yd-all-left .yd-all-color .yd-circle {
+  width: 0.42rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  margin: 0 0.2rem;
+  float: left;
+  border: 1px solid #dddddd;
+  margin-top: 13%;
+  position: relative;
+  box-sizing: border-box;
+}
+#yd-shop-container .yd-shop-all .yd-all-left .yd-all-color .yd-circle img {
+  width: 0.25rem;
+  height: 0.19rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-shop-container .yd-shop-all .yd-all-left .yd-all-color .yd-circle.active {
+  background: #e60012;
+  width: 0.42rem;
+  height: 0.4rem;
+  border: none;
+}
+#yd-shop-container .yd-shop-all .yd-all-left .yd-all-color .yd-circle.active img {
+  display: block;
+}
+#yd-shop-container .yd-shop-all .yd-all-left .yd-all-color span {
+  color: #555555;
+  font-size: 0.26rem;
+  float: left;
+  line-height: 0.8rem;
+}
+#yd-shop-container .yd-shop-all .yd-all-left .yd-count {
+  margin-left: 0.22rem;
+  float: left;
+}
+#yd-shop-container .yd-shop-all .yd-all-left .yd-count span {
+  font-size: 0.26rem;
+  color: #555555;
+  line-height: 0.8rem;
+  float: left;
+}
+#yd-shop-container .yd-shop-all .yd-all-left .yd-count span strong {
+  color: #e60012;
+  font-size: 0.26rem;
+}
+#yd-shop-container .yd-shop-all .yd-all-left em {
+  margin-left: 0.2rem;
+  float: left;
+  color: #9c9c9c;
+  font-size: 0.23rem;
+  font-style: normal;
+  line-height: 0.8rem;
+}
+#yd-shop-container .yd-shop-all .yd-all-right {
+  width: 25%;
+  height: 0.8rem;
+  background: #e60012;
+  text-align: center;
+  float: left;
+}
+#yd-shop-container .yd-shop-all .yd-all-right span {
+  color: #fff;
+  font-size: 0.3rem;
+  float: left;
+  line-height: 0.8rem;
+  width: 100%;
+}
+#yd-shop-container .yd-shop-all .yd-all-right span strong {
+  font-size: 0.3rem;
+  color: #fff;
+}

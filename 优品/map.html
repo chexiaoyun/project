@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />    
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="msapplication-tap-highlight" content="no" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" />
+	<title>优品-推荐商品</title>
+	<link rel="stylesheet" href="css/index2.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/index.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=2c9f2aeb4f403bee7d674579a7274802"></script>
+	<style type="text/css">
+	body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="p_hleft">
+			<a href="show.html"><i class="iconfont">&#xe602;</i></a>
+		</div>
+		<div class="p_hcenter search">
+			<h1>地图</h1>
+		</div>
+		<div class="p_hright">
+			<i class="iconfont">&#xe622;</i>
+		</div>
+	</div>
+	<div id="allmap">
+		
+	</div>
+	<script type="text/javascript">
+		// 百度地图API功能
+		var map = new BMap.Map("allmap");    // 创建Map实例
+		map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
+		map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+		map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+		map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+	</script>
+</body>
+</html>

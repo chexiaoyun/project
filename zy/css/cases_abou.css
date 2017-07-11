@@ -1,0 +1,24 @@
+.clear::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.dis {
+  display: inline-block;
+}
+.cases-detail {
+  margin-top: 2.1rem;
+  width: 100%;
+  height: auto;
+}
+.cases-detail .detail-wrapper {
+  padding: 0 0.18rem;
+}
+.cases-detail .detail-wrapper .datail-top {
+  background: #fff;
+  padding: 0.26rem 0.25rem;
+}
+.cases-detail .detail-wrapper .datail-top h1 {
+  color: #333333;
+  font-size: 0.32rem;
+}

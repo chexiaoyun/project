@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft YaHei";
+  color: #565656;
+  list-style: none;
+  font-weight: normal;
+}
+body {
+  background: #f1f1f1;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+.clear {
+  display: block;
+  clear: both;
+  content: '';
+}
+body {
+  background: #fff;
+}
+.position {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-classify-header {
+  width: 100%;
+  height: 0.8rem;
+  background: #fff;
+}
+#yd-classify-header .yd-classify-left {
+  width: 12%;
+  height: 0.8rem;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+#yd-classify-header .yd-classify-left img {
+  width: 0.19rem;
+  height: 0.34rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-classify-header .yd-classify-content {
+  width: 68%;
+  height: 0.8rem;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+#yd-classify-header .yd-classify-content img {
+  width: 1.04rem;
+  height: 0.39rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-classify-header .yd-classify-right {
+  width: 20%;
+  height: 0.8rem;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+#yd-classify-header .yd-classify-right img {
+  width: 0.33rem;
+  height: 0.33rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-classify-header .yd-classify-right span {
+  color: #555555;
+  font-size: 0.23rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  line-height: 0.8rem;
+  margin-right: 0.1rem;
+}
+#yd-classify-header .yd-classify-right a {
+  width: 50%;
+  height: 0.8rem;
+  float: left;
+  position: relative;
+}
+#yd-service-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-service-container .yd-service-title {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  height: 0.68rem;
+  width: 100%;
+}
+#yd-service-container .yd-service-title ul {
+  width: 100%;
+  height: 0.7rem;
+}
+#yd-service-container .yd-service-title ul li {
+  float: left;
+  font-size: 0.26rem;
+  color: #555555;
+  width: 25%;
+  height: 0.67rem;
+  line-height: 0.67rem;
+  text-align: center;
+}
+#yd-service-container .yd-service-title ul li select {
+  border: none;
+  outline: none;
+  width: 90%;
+  height: 100%;
+  float: left;
+  font-size: 0.26rem;
+  color: #555555;
+  background: #fff;
+}
+#yd-service-container .yd-service-title ul li.active {
+  border-bottom: 2px solid #e60012;
+}
+#yd-service-container .yd-service-list {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-service-container .yd-service-list ul {
+  padding: 0.2rem 0.1rem;
+  height: auto;
+  overflow: hidden;
+}
+#yd-service-container .yd-service-list ul li {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 0.12rem;
+}
+#yd-service-container .yd-service-list ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#yd-service-container .yd-service-list ul li .yd-list-img {
+  width: 40%;
+  height: 2.5rem;
+  float: left;
+}
+#yd-service-container .yd-service-list ul li .yd-list-img img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+#yd-service-container .yd-service-list ul li .yd-list-right {
+  float: left;
+  width: 55%;
+  height: auto;
+  overflow: hidden;
+  margin-left: 0.27rem;
+}
+#yd-service-container .yd-service-list ul li .yd-list-right p {
+  color: #555555;
+  font-size: 0.26rem;
+  float: left;
+  width: 100%;
+  margin-top: 0.2rem;
+}
+#yd-service-container .yd-service-list ul li .yd-list-right span.yd-list-location {
+  margin-top: 0.24rem;
+  color: #9c9c9c;
+  font-size: 0.23rem;
+  float: left;
+}
+#yd-service-container .yd-service-list ul li .yd-list-right .yd-list-price {
+  margin-top: 0.24rem;
+  width: 100%;
+  float: left;
+}
+#yd-service-container .yd-service-list ul li .yd-list-right .yd-list-price strong {
+  font-size: 0.26rem;
+  color: #ff0000;
+  font-weight: normal;
+  float: left;
+}
+#yd-service-container .yd-service-list ul li .yd-list-right .yd-list-price span {
+  margin-left: 0.18rem;
+  display: inline-block;
+  font-size: 0.23rem;
+  color: #9c9c9c;
+  float: left;
+}
+#yd-service-container .yd-service-list ul li .yd-list-right .yd-list-shop {
+  float: left;
+  margin-top: 0.24rem;
+}
+#yd-service-container .yd-service-list ul li .yd-list-right .yd-list-shop img {
+  width: 0.25rem;
+  height: 0.23rem;
+  margin-right: 0.1rem;
+  float: left;
+}
+#yd-service-container .yd-service-list ul li .yd-list-right .yd-list-shop span {
+  font-size: 0.23rem;
+  color: #9c9c9c;
+  float: left;
+}

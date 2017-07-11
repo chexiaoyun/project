@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft YaHei";
+  color: #565656;
+  list-style: none;
+  font-weight: normal;
+}
+body {
+  background: #f1f1f1;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+.clear {
+  display: block;
+  clear: both;
+  content: '';
+}
+#yd-demand-header {
+  width: 100%;
+  height: 0.8rem;
+  background: #fff;
+}
+#yd-demand-header .yd-demand-left {
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+#yd-demand-header .yd-demand-left img {
+  width: 0.19rem;
+  height: 0.34rem;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#yd-demand-header .yd-demand-content {
+  width: 82%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+#yd-demand-header .yd-demand-content span {
+  font-size: 0.3rem;
+  color: #555555;
+  float: left;
+  width: 100%;
+  line-height: 0.8rem;
+}
+#yd-demand-container {
+  width: 100%;
+  height: auto;
+}
+#yd-demand-container .yd-demand-describe {
+  background: #fff;
+  width: 100%;
+  height: auto;
+}
+#yd-demand-container .yd-demand-describe .yd-describe-tip {
+  width: 100%;
+  height: 0.6rem;
+  background: #e60012;
+}
+#yd-demand-container .yd-demand-describe .yd-describe-tip span {
+  font-size: 0.26rem;
+  line-height: 0.6rem;
+  padding-left: 0.1rem;
+  color: #fff;
+  float: left;
+}
+#yd-demand-container .yd-demand-describe form {
+  width: 100%;
+  height: auto;
+}
+#yd-demand-container .yd-demand-describe textarea {
+  border: none;
+  border-bottom: 1px solid #dddddd;
+  resize: none;
+  width: 97%;
+  height: 2.8rem;
+  float: left;
+  outline: none;
+  padding: 0.1rem;
+}
+#yd-demand-container .yd-demand-describe .yd-load-photo {
+  padding: 0.2rem 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-demand-container .yd-demand-describe .yd-load-photo .yd-enclosure {
+  width: 100%;
+  height: 100%;
+}
+#yd-demand-container .yd-demand-describe .yd-load-photo .yd-enclosure .yd-add-pic .yd-menu-first {
+  display: none;
+}
+#yd-demand-container .yd-demand-describe .yd-load-photo img {
+  width: 0.42rem;
+  height: 0.36rem;
+  margin-left: 0.1rem;
+  float: left;
+}
+#yd-demand-container .yd-demand-choice {
+  margin-top: 0.2rem;
+  background: #fff;
+  padding: 0.3rem 0;
+  width: 100%;
+}
+#yd-demand-container .yd-demand-choice h1 {
+  padding: 0 0.1rem 0 0.1rem;
+  font-size: 0.26rem;
+  color: #555555;
+}
+#yd-demand-container .yd-demand-choice .yd-demand-minchoice {
+  padding: 0 0.1rem;
+}
+#yd-demand-container .yd-demand-choice .yd-demand-minchoice .yd-demand-one {
+  border: 1px solid #dddddd;
+  border-radius: 0.05rem;
+  width: 100%;
+  height: 0.6rem;
+  margin-top: 0.2rem;
+}
+#yd-demand-container .yd-demand-choice .yd-demand-minchoice .yd-demand-one select {
+  border: none;
+  width: 100%;
+  float: left;
+  outline: none;
+  height: 100%;
+  background: #fff;
+}
+#yd-demand-container .yd-demand-choice .yd-demand-minchoice .yd-demand-one input {
+  border: none;
+  outline: none;
+  float: left;
+  width: 95%;
+  height: 100%;
+  padding: 0 0.1rem;
+}
+#yd-demand-container .yd-demand-money {
+  margin-top: 0.2rem;
+  background: #fff;
+  width: 100%;
+  height: 0.64rem;
+}
+#yd-demand-container .yd-demand-money .yd-demand-name {
+  width: 20%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  border-right: 1px solid #dddddd;
+  font-size: 0.26rem;
+  color: #555555;
+  float: left;
+  display: inline-block;
+  margin-top: 2%;
+}
+#yd-demand-container .yd-demand-money input {
+  border: none;
+  outline: none;
+  font-size: 0.23rem;
+  color: #c6c6c6;
+  float: left;
+  padding-left: 0.1rem;
+  width: 70%;
+  margin-top: 0.23rem;
+}
+#yd-demand-container .yd-demand-tel {
+  margin-top: 0.2rem;
+  padding: 0 0.1rem;
+  background: #fff;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 1.16rem;
+}
+#yd-demand-container .yd-demand-tel h1 {
+  font-size: 0.26rem;
+  color: #555555;
+  padding-top: 0.32rem;
+}
+#yd-demand-container .yd-demand-tel .yd-tel {
+  margin: 0.2rem 0 0.3rem 0;
+  border: 1px solid #dddddd;
+  height: 0.64rem;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+#yd-demand-container .yd-demand-tel .yd-tel input {
+  border: none;
+  outline: none;
+  float: left;
+  height: 100%;
+  padding: 0 0.1rem;
+}
+#yd-demand-container button {
+  background: #e60012;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  height: 0.84rem;
+  font-size: 0.26rem;
+  line-height: 0.84rem;
+  border: none;
+  outline: none;
+  float: left;
+  border-radius: 0.05rem;
+}

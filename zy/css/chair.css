@@ -1,0 +1,87 @@
+.clear::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.dis {
+  display: inline-block;
+}
+#header {
+  background: #fff;
+  height: 1.10rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#header .head-left {
+  width: 15%;
+  height: 1.10rem;
+  float: left;
+  position: relative;
+}
+#header .head-left i.dis {
+  background: url(../images/menu.png);
+  background-size: 0.6rem 0.6rem;
+  height: 0.6rem;
+  width: 0.6rem;
+  margin-top: 30%;
+  margin-left: 18%;
+  float: left;
+}
+#header .head-left i.dis.fail {
+  background: url(../images/fail.png);
+  width: 0.36rem;
+  height: 0.38rem;
+  background-size: 0.36rem 0.38rem;
+  margin-top: 35%;
+  margin-left: 35%;
+}
+.chair-show {
+  width: 100%;
+  height: auto;
+  margin-top: 2.4rem;
+}
+.chair-show ul {
+  margin-top: 0.26rem;
+  background: #fff;
+}
+.chair-show ul li {
+  padding: 0.3rem 0;
+  margin: 0 0.25rem;
+  border-top: 0.02rem solid #e6e6e6;
+}
+.chair-show ul li .chair-img {
+  width: 26%;
+  height: 1.26rem;
+  float: left;
+  margin-right: 0.22rem;
+}
+.chair-show ul li .chair-img img {
+  width: 100%;
+  height: 100%;
+}
+.chair-show ul li .chair-meet {
+  width: 70%;
+  float: left;
+}
+.chair-show ul li .chair-meet strong {
+  color: #494949;
+  font-size: 0.28rem;
+  font-weight: normal;
+  margin-bottom: 0.1rem;
+  float: left;
+  display: block;
+}
+.chair-show ul li .chair-meet p {
+  color: #949494;
+  font-size: 0.22rem;
+  float: left;
+}
+.chair-show ul li .chair-meet p span {
+  color: #917a62;
+  font-size: 0.22rem;
+}
+.chair-show ul li:first-child {
+  border-top: 0;
+}

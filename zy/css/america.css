@@ -1,0 +1,103 @@
+.clear::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.dis {
+  display: inline-block;
+}
+#header {
+  background: #fff;
+  height: 1.10rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#header .head-left {
+  width: 15%;
+  height: 1.10rem;
+  float: left;
+  position: relative;
+}
+#header .head-left i.dis {
+  background: url(../images/menu.png);
+  background-size: 0.6rem 0.6rem;
+  height: 0.6rem;
+  width: 0.6rem;
+  margin-top: 30%;
+  margin-left: 18%;
+  float: left;
+}
+#header .head-left i.dis.fail {
+  background: url(../images/fail.png);
+  width: 0.36rem;
+  height: 0.38rem;
+  background-size: 0.36rem 0.38rem;
+  margin-top: 35%;
+  margin-left: 35%;
+}
+.america-show {
+  width: 100%;
+  height: auto;
+  margin-top: 1.1rem;
+  padding-bottom: 0.86rem;
+}
+.america-show .america-head {
+  width: 100%;
+  height: 0.99rem;
+  border-top: 0.02rem solid #e8e8e8;
+  background: #fff;
+}
+.america-show .america-head strong {
+  font-weight: normal;
+  color: #a99377;
+  font-size: 0.3rem;
+  padding-left: 0.2rem;
+  border-left: 0.04rem solid #a99377;
+  margin-left: 0.2rem;
+  margin-top: 4%;
+  float: left;
+}
+.america-show .america-head span {
+  float: right;
+  margin-right: 0.24rem;
+  color: #494949;
+  font-size: 0.24rem;
+  margin-top: 4%;
+}
+.america-show .america-head span i {
+  width: 0.29rem;
+  height: 0.15rem;
+  background: url(../images/bottom.png);
+  background-size: 0.29rem 0.15rem ;
+  display: inline-block;
+  margin-left: 0.17rem;
+}
+.america-show .america-wrapper {
+  padding: 0 0.2rem;
+}
+.america-show .america-wrapper ul li {
+  width: 48.5%;
+  height: auto;
+  background: #fff;
+  float: left;
+  margin-top: 0.25rem;
+}
+.america-show .america-wrapper ul li .li-img {
+  width: 100%;
+  height: 2.41rem;
+}
+.america-show .america-wrapper ul li .li-img img {
+  width: 100%;
+  height: 100%;
+}
+.america-show .america-wrapper ul li span {
+  color: #494949;
+  font-size: 0.26rem;
+  float: left;
+  padding: 0.18rem 0 0.18rem 0.18rem;
+}
+.america-show .america-wrapper ul li:nth-child(odd) {
+  margin-right: 0.17rem;
+}

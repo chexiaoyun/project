@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Microsoft YaHei;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: 0;
+}
+body {
+  background: #fff;
+}
+#yd-header {
+  width: 100%;
+  height: 100px;
+  min-width: 1200px;
+  background: #fff;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+}
+#yd-header .yd-header-wrapper {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+}
+#yd-header .yd-header-wrapper .yd-head-logo {
+  float: left;
+  width: auto;
+  height: 100px;
+  overflow: hidden;
+}
+#yd-header .yd-header-wrapper .yd-head-logo img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+#yd-header .yd-header-wrapper .yd-head-ind {
+  float: left;
+  width: 76px;
+  height: auto;
+}
+#yd-header .yd-header-wrapper .yd-head-ind strong {
+  font-weight: normal;
+  color: #06a7e7;
+  font-size: 30px;
+  width: 100%;
+  margin-top: 20px;
+  float: left;
+  letter-spacing: 8px;
+}
+#yd-header .yd-header-wrapper .yd-head-ind span {
+  color: #06a7e7;
+  font-size: 14px;
+}
+.yd-head-nav {
+  margin-left: 180px;
+  float: left;
+  width: auto;
+  height: 100px;
+  overflow: hidden;
+}
+.yd-head-nav li {
+  float: left;
+  font-size: 18px;
+  margin-left: 67px;
+  text-align: center;
+  line-height: 100px;
+}
+.yd-head-nav li a {
+  color: #666666;
+  display: block;
+}
+.yd-head-nav li.active a {
+  color: #06a7e7;
+}
+.yd-head-nav li:first-child {
+  margin-left: 0;
+}
+.yd-head-right {
+  float: right;
+  width: auto;
+  height: 100px;
+}
+.yd-head-right a {
+  color: #ee6a56;
+  font-size: 14px;
+  float: left;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  line-height: 100px;
+}
+.yd-head-right span {
+  color: #666666;
+  font-size: 18px;
+  float: left;
+  margin-left: 14px;
+  margin-right: 14px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  line-height: 100px;
+}
+.yd-head-right .yd-head-author {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 37px;
+}
+.yd-head-right .yd-head-author img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+#yd-container {
+  width: 100%;
+  height: 881px;
+  background: url(../images/banner.png) no-repeat;
+  background-size: cover;
+  min-width: 1200px;
+}
+#yd-container .yd-container-wrapper {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+#yd-container .yd-container-wrapper span.yd-school {
+  background: url(../images/school.png) no-repeat;
+  width: 583px;
+  height: 112px;
+  display: inline-block;
+  margin-top: 166px;
+  *display: inline;
+  zoom: 1;
+}
+#yd-container .yd-container-wrapper .yd-click {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 50px;
+}
+#yd-container .yd-container-wrapper .yd-click a {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 34px;
+  border-radius: 5px;
+  line-height: 36px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+#yd-container .yd-container-wrapper .yd-click a.yd-login {
+  width: 183px;
+  height: 36px;
+  background: #06a7e7;
+}
+#yd-container .yd-container-wrapper .yd-click a.yd-register {
+  width: 181px;
+  height: 34px;
+  border: 1px solid #fff;
+}
+#yd-container .yd-container-wrapper .yd-click a:first-child {
+  margin-left: 0;
+}
+#yd-container .yd-container-wrapper .yd-click a:hover {
+  background: #06a7e7;
+}
+.yd-container-wrapper .yd-code {
+  margin-top: 67px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+.yd-container-wrapper .yd-code img {
+  width: 160px;
+  height: 161px;
+}
+.yd-container-wrapper .yd-code span {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+}
+#yd-footer {
+  width: 100%;
+  min-width: 1200px;
+  height: 100px;
+  background: #dddddd;
+  text-align: center;
+  line-height: 100px;
+  color: #666666;
+  font-size: 18px;
+}
+#yd-login-container {
+  width: 100%;
+  height: 877px;
+  min-width: 1200px;
+}
+#yd-login-container .yd-login-wrapper {
+  width: 1200px;
+  height: 877px;
+  margin: 0 auto;
+}
+#yd-login-container .yd-login-left {
+  float: left;
+  width: 600px;
+  height: 877px;
+  text-align: center;
+}
+#yd-login-container .yd-login-left span.yd-login-show {
+  background: url(../images/login_1.png) no-repeat;
+  display: inline-block;
+  margin-top: 104px;
+  width: 400px;
+  height: 110px;
+  margin-bottom: 64px;
+}
+#yd-login-container .yd-login-left span.yd-register-show {
+  background: url(../images/login_2.png) no-repeat;
+  display: inline-block;
+  width: 515px;
+  height: 245px;
+  margin-top: 73px;
+}
+#yd-login-container .yd-login-big {
+  width: 100%;
+  height: 877px;
+  overflow: hidden;
+  text-align: center;
+}
+#yd-login-container .yd-login-big .yd-login-banner {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+#yd-login-container .yd-login-big .yd-login-banner .yd-login-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 800px;
+  margin-top: 50px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -moz-opacity: 00;
+  -khtml-opacity: 00;
+}
+#yd-login-container .yd-login-big .yd-login-banner .yd-login-img img {
+  vertical-align: bottom;
+}
+#yd-login-container .yd-login-big .yd-login-banner .yd-login-img:first-child {
+  margin-top: 85px;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+}
+#yd-login-container .yd-login-big .yd-login-circle {
+  width: 100%;
+  height: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+#yd-login-container .yd-login-big .yd-login-circle li {
+  width: 14px;
+  height: 14px;
+  float: left;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background: #ddd;
+  margin-right: 40px;
+  cursor: pointer;
+}
+#yd-login-container .yd-login-big .yd-login-circle li:first-child {
+  margin-left: 270px;
+}
+#yd-login-container .yd-login-big .yd-login-circle li.active {
+  background: #35c3ec;
+}
+.yd-login-right {
+  float: left;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  margin-top: 250px;
+}
+.yd-login-right span.yd-line {
+  width: 1px;
+  height: 403px;
+  background: #dddddd;
+  float: left;
+  display: inline-block;
+}
+.yd-login-right form {
+  float: left;
+  padding: 55px 87px 0 87px;
+  width: 402px;
+}
+.yd-login-right form .yd-login-span {
+  width: 402px;
+  height: auto;
+  overflow: hidden;
+  float: left;
+}
+.yd-login-right form .yd-login-span span {
+  color: #333333;
+  font-size: 20px;
+  float: left;
+}
+.yd-login-right form .yd-login-span a {
+  float: right;
+  color: #666666;
+  font-size: 16px;
+}
+.yd-login-right form .yd-login-span strong {
+  float: right;
+  color: #666666;
+  font-size: 16px;
+  font-weight: normal;
+}
+.yd-login-right form .yd-register-span.yd-login-span a {
+  color: #35c3ec;
+}
+.yd-login-right form .yd-login-tel {
+  width: 400px;
+  height: 44px;
+  border: 1px solid #dddddd;
+  background: #fff;
+  margin-top: 58px;
+  float: left;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.yd-login-right form input {
+  border: 0;
+  outline: none;
+  padding: 0 23px;
+  width: 80%;
+  margin-top: 14px;
+  background: none;
+}
+.yd-login-right form ::-webkit-input-placeholder {
+  color: #666666;
+}
+.yd-login-right form ::-moz-placeholder {
+  color: #666666;
+}
+.yd-login-right form :-moz-placeholder {
+  color: #666666;
+}
+.yd-login-right form :-ms-input-placeholder {
+  color: #666666;
+}
+.yd-login-right form .yd-login-tell {
+  margin-top: 22px;
+}
+.yd-login-right form .yd-forget {
+  width: 100%;
+  text-align: right;
+  margin-top: 10px;
+  color: #2cc5f7;
+  font-size: 14px;
+  float: right;
+}
+.yd-login-right form button {
+  border: 0;
+  outline: none;
+  width: 402px;
+  height: 46px;
+  background: #35c3ec;
+  text-align: center;
+  margin-top: 34px;
+  line-height: 46px;
+  color: #fff;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  cursor: pointer;
+}
+.yd-login-number {
+  width: 402px;
+  height: 46px;
+  float: left;
+  margin-top: 58px;
+}
+.yd-login-number .yd-number-left {
+  float: left;
+  width: 268px;
+  height: 44px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.yd-login-number .yd-number-right {
+  float: right;
+  width: 120px;
+  height: 46px;
+  background: #35c3ec;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  text-align: center;
+  line-height: 46px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.yd-register-right.yd-login-right form {
+  padding-top: 0;
+}
+.yd-register-right.yd-login-right .yd-line {
+  margin-top: 50px;
+}
+.yd-send_code {
+  display: none;
+  float: right;
+  width: 120px;
+  height: 46px;
+  background: #ddd;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  text-align: center;
+  line-height: 46px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.yd-send_code .yd-obtain,
+.yd-send_code .yd-repeat {
+  width: 120px;
+  height: 46px;
+  background: #ddd;
+  text-align: center;
+  color: #fff;
+  line-height: 46px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  cursor: pointer;
+}

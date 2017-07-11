@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>选择城市</title>
+     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/int.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/index2.js"></script>
+    <script src="js/index.js"></script>
+    <style>
+        /*body{
+            padding-top: 1.9rem;
+        }*/
+    </style>
+</head>
+<body style="background: #eeeeee">
+    <div class="header">
+        <div class="p_hleft">
+            <a href="index.html"><i class="iconfont">&#xe602;</i></a>
+        </div>
+        <div class="p_hcenter search">
+            <h1>选择城市</h1>
+        </div>
+    </div>
+    <div class="xq-input">
+        <input type="text" value="" placeholder="输入地点名称">
+    </div>
+    <div class="xq-cunzhuang">
+    <div class="xq-locat clear">
+        <span>定位地点</span>
+        <div class="location">
+            <a href="#">上海&nbsp;&nbsp;虹口</a>
+        </div>
+    </div>
+        <ul class="choose clear">
+            <!--<li class="chooseli">霸王村</li>-->
+            <!--<li class="chooseli">石头村</li>-->
+            <!--<li class="chooseli">草庙村</li>-->
+        </ul>
+        <ul class="remen">
+            <li class="title">热门城市</li>
+            <li class="cunzhuang clear">
+                <span>上海</span>
+                <span>北京</span>
+                <span>广州</span>
+                <span>深圳</span>
+                <span>武汉</span>
+                <span>天津</span>
+                <span>西安</span>
+                <span>南京</span>
+                <span>杭州</span>
+            </li>
+        </ul>
+        <ul class="fenlei">
+            <li class="title">A</li>
+            <li class="city">安吉</li>
+            <li class="city">安顺</li>
+            <li class="city">安阳</li>
+        </ul>
+        <ul class="fenlei">
+            <li class="title">B</li>
+            <li class="city">白城</li>
+            <li class="city">白山</li>
+            <li class="city">保定</li>
+        </ul>
+        <ul class="fenlei">
+            <li class="title">C</li>
+            <li class="city">安吉</li>
+            <li class="city">安顺</li>
+            <li class="city">安阳</li>
+        </ul>
+        <ul class="fenlei">
+            <li class="title">D</li>
+            <li class="city">安吉</li>
+            <li class="city">安顺</li>
+            <li class="city">安阳</li>
+        </ul>
+        <ul class="fenlei">
+            <li class="title">E</li>
+            <li class="city">安吉</li>
+            <li class="city">安顺</li>
+            <li class="city">安阳</li>
+        </ul>
+        <ul class="fenlei">
+            <li class="title">F</li>
+            <li class="city">安吉</li>
+            <li class="city">安顺</li>
+            <li class="city">安阳</li>
+        </ul>
+        <ul class="fenlei">
+            <li class="title">G</li>
+            <li class="city">安吉</li>
+            <li class="city">安顺</li>
+            <li class="city">安阳</li>
+        </ul>
+        <ul class="fenlei">
+            <li class="title">H</li>
+            <li class="city">安吉</li>
+            <li class="city">安顺</li>
+            <li class="city">安阳</li>
+        </ul>
+        <ul class="fenlei">
+            <li class="title">I</li>
+            <li class="city">安吉</li>
+            <li class="city">安顺</li>
+            <li class="city">安阳</li>
+        </ul>
+        <div class="zimu">
+            <span>#</span>
+            <span>A</span>
+            <span>B</span>
+            <span>C</span>
+            <span>D</span>
+            <span>E</span>
+            <span>F</span>
+            <span>G</span>
+            <span>H</span>
+            <span>I</span>
+            <span>J</span>
+            <span>K</span>
+            <span>L</span>
+            <span>M</span>
+            <span>N</span>
+            <span>O</span>
+            <span>P</span>
+            <span>Q</span>
+            <span>R</span>
+            <span>S</span>
+            <span>T</span>
+            <span>U</span>
+            <span>V</span>
+            <span>W</span>
+            <span>X</span>
+            <span>Y</span>
+            <span>Z</span>
+        </div>
+    </div>
+    <div class="xq-citysearch dis-none">
+        <div class="citylist">
+            <ul class="ul">
+                <li class="title">
+                    <span class="span1">
+                        <img src="images/citysearch_03.png" alt="">
+                    </span>
+                    <span class="span2">苏州</span>
+                </li>
+                <li class="li">
+                    <span class="span1">石家庄</span>
+                    <span class="span2">&gt</span>
+                </li>
+                <li class="li">
+                    <span class="span1">唐山</span>
+                    <span class="span2">&gt</span>
+                </li>
+                <li class="li">
+                    <span class="span1">秦皇岛</span>
+                    <span class="span2">&gt</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="xq-delcity dis-none">
+        <div class="delcity">
+            <p class="p1">提示</p>
+            <p class="p2">确定要移除“霸王村”？</p>
+            <ul class="btn">
+                <li>确定</li>
+                <li>取消</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

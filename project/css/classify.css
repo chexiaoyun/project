@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft YaHei";
+  color: #565656;
+  list-style: none;
+  font-weight: normal;
+}
+body {
+  background: #f1f1f1;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+.clear {
+  display: block;
+  clear: both;
+  content: '';
+}
+#yd-classify-header {
+  width: 100%;
+  height: 0.8rem;
+  background: #fff;
+}
+#yd-classify-header .yd-classify-left {
+  width: 15%;
+  height: 0.8rem;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+#yd-classify-header .yd-classify-left img {
+  width: 0.19rem;
+  height: 0.34rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-classify-header .yd-classify-content {
+  width: 70%;
+  height: 0.8rem;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+#yd-classify-header .yd-classify-content img {
+  width: 1.04rem;
+  height: 0.39rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-classify-header .yd-classify-right {
+  width: 15%;
+  height: 0.8rem;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+#yd-classify-header .yd-classify-right img {
+  width: 0.33rem;
+  height: 0.33rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#yd-classify-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-classify-container .yd-classify-wrapper {
+  width: 100%;
+}
+#yd-classify-container .yd-classify-wrapper .yd-classify-title {
+  width: 100%;
+  height: 0.63rem;
+  border-top: 1px soli #dddddd;
+}
+#yd-classify-container .yd-classify-wrapper .yd-classify-title h1 {
+  line-height: 0.64rem;
+  margin-left: 0.2rem;
+  color: #555555;
+  font-size: 0.26rem;
+}
+#yd-classify-container .yd-classify-list {
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  padding: 0 0.1rem 0.3rem;
+}
+#yd-classify-container .yd-classify-list .yd-list-left {
+  float: left;
+  width: 1.7rem;
+  width: 27%;
+  height: auto;
+}
+#yd-classify-container .yd-classify-list .yd-list-left ul {
+  width: 1.7rem;
+  height: auto;
+  overflow: hidden;
+}
+#yd-classify-container .yd-classify-list .yd-list-left ul li {
+  width: 1.7rem;
+  height: 0.87rem;
+  border-top: 1px solid #fff;
+  background: #f1f1f1;
+  text-align: center;
+}
+#yd-classify-container .yd-classify-list .yd-list-left ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  float: left;
+  color: #9c9c9c;
+  font-size: 0.23rem;
+  line-height: 0.88rem;
+}
+#yd-classify-container .yd-classify-list .yd-list-left ul li:first-child {
+  border: none;
+}
+#yd-classify-container .yd-classify-list .yd-list-left ul li.active {
+  background: #fff;
+}
+#yd-classify-container .yd-classify-list .yd-list-left ul li.active a {
+  color: #555555;
+}
+#yd-classify-container .yd-classify-list .yd-list-left ul li.yd-other a {
+  line-height: 0.45rem;
+}
+#yd-classify-container .yd-list-right {
+  float: left;
+  margin: 0 0.4rem;
+  width: 59%;
+  overflow: auto;
+  height: 100%;
+}
+#yd-classify-container .yd-list-right .yd-subpackage {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-classify-container .yd-list-right .yd-subpackage h5 {
+  margin-top: 0.28rem;
+  color: #555555;
+  font-size: 0.23rem;
+}
+#yd-classify-container .yd-list-right .yd-subpackage ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#yd-classify-container .yd-list-right .yd-subpackage ul li {
+  width: 26%;
+  height: auto;
+  margin-top: 0.3rem;
+  overflow: hidden;
+  float: left;
+  margin-left: 0.4rem;
+}
+#yd-classify-container .yd-list-right .yd-subpackage ul li .yd-sub-img {
+  width: 0.96rem;
+  height: 0.96rem;
+  float: left;
+}
+#yd-classify-container .yd-list-right .yd-subpackage ul li .yd-sub-img img {
+  width: 100%;
+  height: 0.96rem;
+  float: left;
+}
+#yd-classify-container .yd-list-right .yd-subpackage ul li span {
+  float: left;
+  font-size: 0.23rem;
+  color: #555555;
+  margin-top: 0.15rem;
+  width: 100%;
+  text-align: center;
+  height: 0.3rem;
+}
+#yd-classify-container .yd-list-right .yd-subpackage ul li:first-child,
+#yd-classify-container .yd-list-right .yd-subpackage ul li:nth-child(4) {
+  margin-left: 0;
+}

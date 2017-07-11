@@ -1,0 +1,129 @@
+.clear::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.dis {
+  display: inline-block;
+}
+.pm-show {
+  width: 100%;
+  height: auto;
+  margin-top: 1.1rem;
+}
+.pm-show .pm-img {
+  width: 100%;
+  height: 4.61rem;
+  position: relative;
+}
+.pm-show .pm-img img {
+  width: 100%;
+  height: 100%;
+}
+.pm-show .pm-img .pm-assess {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 1rem;
+}
+.pm-show .pm-img .pm-assess span {
+  width: 49%;
+  margin-top: 5%;
+  color: #fff;
+  font-size: 0.26rem;
+  display: inline-block;
+  float: left;
+}
+.pm-show .pm-img .pm-assess span i {
+  display: inline-block;
+  margin: 0 0.28rem 0 25%;
+  float: left;
+}
+.pm-show .pm-img .pm-assess span:first-child {
+  border-right: 0.02rem solid #fff;
+}
+.pm-show .pm-img .pm-assess span:first-child i {
+  width: 0.41rem;
+  height: 0.40rem;
+  background: url(../images/free.png);
+  background-size: 0.41rem 0.40rem ;
+}
+.pm-show .pm-img .pm-assess span:nth-child(2) i {
+  width: 0.44rem;
+  height: 0.4rem;
+  background: url(../images/consult.png);
+  background-size: 0.44rem 0.4rem ;
+  display: inline-block;
+}
+.pm-survey,
+.pm-good {
+  background: #fff;
+  width: 100%;
+  height: auto;
+}
+.pm-survey .pm-wrapper,
+.pm-good .pm-wrapper {
+  padding: 0 0.2rem;
+}
+.pm-survey .pm-wrapper .pm-head,
+.pm-good .pm-wrapper .pm-head {
+  padding: 0.25rem 0;
+}
+.pm-survey .pm-wrapper .pm-head strong,
+.pm-good .pm-wrapper .pm-head strong {
+  float: left;
+  padding-left: 0.2rem;
+  border-left: 0.06rem solid #a18a6f;
+  color: #a18a6f;
+  font-size: 0.26rem;
+  font-weight: normal;
+}
+.pm-survey .pm-wrapper .pm-head span,
+.pm-good .pm-wrapper .pm-head span {
+  float: right;
+  margin-right: 0.4rem;
+  color: #666666;
+  font-size: 0.26rem;
+}
+.pm-survey .pm-wrapper .pm-head span i,
+.pm-good .pm-wrapper .pm-head span i {
+  width: 0.29rem;
+  height: 0.16rem;
+  background: url(../images/bottom.png);
+  background-size: 0.29rem 0.15rem ;
+  float: right;
+  display: inline-block;
+  margin-left: 0.12rem;
+  margin-top: 7%;
+}
+.pm-survey .pm-wrapper .min-act,
+.pm-good .pm-wrapper .min-act {
+  padding: 0.42rem 0.44rem;
+  border-top: 0.02rem solid #e8e8e8;
+}
+.pm-survey .pm-wrapper p.act,
+.pm-good .pm-wrapper p.act {
+  color: #666666;
+  font-size: 0.26rem;
+  line-height: 0.4rem;
+  height: 1.6rem;
+  overflow: hidden;
+}
+.pm-good {
+  margin-top: 0.2rem;
+  padding-bottom: 0.3rem;
+}
+.pm-good .pm-list {
+  width: 100%;
+}
+.pm-good .pm-list p {
+  color: #666666;
+  font-size: 0.26rem;
+  line-height: 0.4rem;
+  margin-top: 0.33rem;
+}
+.pm-good .pm-head {
+  border-bottom: 0.02rem solid #e8e8e8;
+}

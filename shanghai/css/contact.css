@@ -1,0 +1,285 @@
+.contact-banner{
+	width: 100%;
+	height:296px;
+	position: relative;
+	background: url(../images/contact1.png) center center;
+}
+.contact-id{
+	height: 296px;
+	width: 640px;
+	position: absolute;
+	top:0;
+	left:50%;
+	margin-left: -320px;
+}
+.child-id{
+	display: inline-block;
+	position: absolute;
+	top:47px;
+	left:45px;
+}
+.child-id1{
+	display: inline-block;
+	position: absolute;
+	top:79px;
+	left:123px;
+}
+.child-id2{
+	display: inline-block;
+	position: absolute;
+	top:230px;
+	left:131px;
+}
+.child-id3{
+	display: inline-block;
+	position: absolute;
+	top:157px;
+	left:174px;
+}
+.child-id4{
+	display: inline-block;
+	position: absolute;
+	top:51px;
+	left:243px;
+}
+.child-id5{
+	display: inline-block;
+	position: absolute;
+	top:87px;
+	left:278px;
+}
+.child-id6{
+	display: inline-block;
+	position: absolute;
+	top:159px;
+	left:454px;
+}
+.child-id7{
+	display: inline-block;
+	position: absolute;
+	top:112px;
+	right:258.5px;
+}
+.child-id8{
+	display: inline-block;
+	position: absolute;
+	top:112px;
+	right:127px;
+}
+.child-id9{
+	display: inline-block;
+	position: absolute;
+	top:205px;
+	right:109.5px;
+}
+.contact-id p{
+	width: 165px;
+	/*height: 59px;*/
+	border-radius: 10px;
+	padding:12px 22px;
+	background: #fff;
+	color:#016535;
+	font-size: 14px;
+	line-height: 20px;
+	position: absolute;
+	left:-85px;
+	*top:40px;
+	display: none;
+	cursor: pointer;
+	z-index: 50;
+}
+.contact-id .child-id8 p{
+	color:#fb4d65;
+}
+.contact-id  i{
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.contact-id  em{
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.contact-wrap{
+	width: 100%;
+	height:auto;
+	overflow: hidden;
+}
+.contact-wrap h1{
+	padding:77px 0;
+	font-weight: normal;
+	border-bottom:1px dashed #999;
+	text-align: center;
+	font-size: 42px;
+}
+.contact-form{
+	width: 100%;
+	height: auto;
+	border-bottom:1px dashed #999;
+	overflow: hidden;
+}
+.contact-form form{
+	width: 1000px;
+	height:auto;
+	padding:68px 0;
+	margin:0 auto;
+	overflow: hidden;
+}
+.form-name{
+	width: 480px;
+	height: 60px;
+	background: #f2f2f2;
+	margin-bottom:50px;
+}
+.form-name input{
+	border:none;
+	*border:0 none;
+	outline: none;
+	padding-left: 30px;
+	background: #f2f2f2;
+	height: 50px;
+	float: left;
+	font-size: 24px;
+	color:#333;
+	margin-top:5px;
+}
+.form-object{
+	overflow: hidden;
+	display: block;
+	*padding-bottom:50px;
+}
+.contact-form input::-webkit-input-placeholder{
+	color:#999;
+	font-size: 24px;
+}
+.contact-form input::-moz-placeholder{
+	color:#999;
+	font-size: 24px;
+}
+.contact-form input::-ms-input-placeholder{
+	color:#999;
+	font-size: 24px;
+}
+.form-object .form-name{
+	float: left;
+	overflow: hidden;
+	display: inline-block;
+}
+.form-object .ending{
+	float: left;
+	margin-left: 49px;
+	display: inline-block;
+}
+.ending span{
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background: #e2dcdc;
+	float: left;
+	margin-right: 18px;
+	cursor: pointer;
+}
+.ending.active span{
+	background: #016535;
+}
+.ending p{
+	float: left;
+	color:#999;
+	font-size: 20px;
+	width: 364px;
+	cursor: pointer;
+}
+.form-message{
+	margin-bottom:50px;
+	width: 729px;
+	height: 270px;
+	background: #f2f2f2;
+}
+.form-message input{
+	border:none;
+	*border:0 none;
+	outline: none;
+	padding:10px 20px;
+	background: #f2f2f2;
+	font-size: 24px;
+	color:#333;
+}
+.contact-form button{
+	border:none;
+	*border:0 none;
+	width: 180px;
+	height: 70px;
+	background: #016535;
+	color:#fff;
+	text-align: center;
+	line-height: 70px;
+	font-size: 30px;
+}
+.contact-list{
+	padding:80px 0 0 0;
+	*padding-bottom:80px;
+	overflow: hidden;
+	border:1px dashed #ddd;
+	width: 100%;
+	display: inline-block;
+}
+.list-wrap{
+	width: 1000px;
+	height: auto;
+	margin:0 auto;
+	overflow: hidden;
+}
+.list{
+	width: 500px;
+	min-width: 391px;
+	height:260px;
+	overflow:hidden;
+	float: left;	
+	margin-bottom:114px;
+}
+.list-title{
+	border-left:6px solid #016535;
+	padding-left:17px;
+}
+.list-title h5{
+	color:#444;
+	font-size: 20px;
+}
+.list-title span{
+	color:#444;
+	font-size: 20px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.list-text{
+	margin-top: 38px;
+	overflow: hidden;
+	padding-left:24px;
+	width: 100%;
+}
+.list1{
+	overflow: hidden;
+	margin-top: 10px;
+
+}
+.list1 strong{
+	font-weight: normal;
+	color:#666;
+	font-size: 18px;
+	float: left;
+}
+.list1 span{
+	color:#666;
+	font-size: 18px;
+	float: left;
+	width: 316px;
+	line-height: 22px;
+}
+.list2{
+	height:250px;
+}

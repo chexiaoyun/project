@@ -1,0 +1,472 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    font-family: "microsoft yahei";
+}
+a{
+    text-decoration: none;
+}
+img{
+    border:none;
+}
+body{
+    background:#f5f5f5;
+}
+
+@width:100%;
+@titColor:#333;
+@fontColor:#666;
+@timeColor:#949494;
+@footColor:#383b3d;
+@headColor:#a99178;
+@spanColor:#494949;
+@formColor:#fcfcfc;
+@line:#e8e8e8;
+@holder:#c8c8c8;
+@btnColor:#c0a78b;
+.clear::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+.dis{
+    display:inline-block;
+}
+#header{
+    background: #fff;
+    height:1.10rem;
+    width:@width;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+    .head-left{
+        width:15%;
+        height:1.10rem;
+        float: left;
+        i{
+           background:url(../images/back.png);
+           background-size: 0.19rem 0.35rem;;
+           height:0.35rem;
+           width:0.19rem;
+           .dis;
+           margin-top:35%;
+           margin-left:25%;
+           float:left;
+        }
+    }
+    .head-content{
+        width:70%;
+        height:1.10rem;
+        float:left;
+        .logo-left{
+            float:left;
+            height:100%;
+            width:0.97rem;
+            margin-left:18%;
+            img{
+                width:0.97rem;
+                height:0.53rem;
+                margin-top: 32%;
+                float: left;
+            }
+        }
+        .logo-right{
+            float:left;
+            span{
+               font-size:0.16rem;
+               color:@headColor;
+               display: block;
+            }
+            span:first-child{
+               letter-spacing: 0.1rem; 
+               margin-top:0.35rem; 
+               margin-bottom:0.08rem;
+            }
+        }
+    }
+    .head-right{
+        width:15%;
+        height:1.10rem;
+        float:left;
+        i{
+            height:0.48rem;
+            width:0.48rem;
+            background:url(../images/tel.png);
+            background-size:0.48rem;
+            .dis;
+           margin-left:30%;
+            margin-top:30%;
+            float:left;
+        }
+    }
+}
+#header{
+    ul{
+       width:3rem;
+       height:auto;
+       border-top:0.02rem solid @line;
+       position:absolute;
+       top:1.1rem;
+       left:0;
+       background: #fff;
+       display: none;
+       z-index: 1000;
+        li{
+           margin:0.3rem 0.35rem;
+           border-top:0.02rem solid #f0f0f0;
+            a{
+               font-size:0.26rem;
+               color:#999;
+               width:100%;
+               height:100%;
+               margin-top:10%;
+               float:left;
+            }
+        }
+        li:first-child{
+            border:none;
+            margin-top:0.22rem;
+        }
+        li.active{
+            a{
+                color:@titColor;
+            }
+        }
+    } 
+}
+#footer{
+    margin-bottom:1rem;
+    .footer-top{
+        width:100%;
+        height:1.65rem;
+        background: #383b3d;
+    }
+    .contact{
+        width:55%;
+        text-align: center;
+        float: left;
+        .min-contact{
+            border-right:0.02rem solid #6b6e70;
+            margin:0.38rem 0.2rem 0.35rem;
+        }
+        img{
+            width:0.61rem;
+            height:0.62rem;
+            margin-right:0.1rem;
+            float:left;
+            margin-top: 0.03rem;
+        }
+        .tel{
+            float:left;
+            display: inline-block;
+            width:74%;
+            span{
+                font-size:0.32rem;
+                color:#bfc0c4;
+                float:left;
+            }
+            strong{
+                font-weight:normal;
+                font-size:0.18rem;
+                color:#bfc0c4;
+                float:left;
+            }
+        }
+    }
+}
+#footer{
+    .location{
+        width:44%;
+        font-size:0.22rem;
+        color:#bfc0c4;
+        float:left;
+        padding-top:0.4rem;
+    }
+}
+#footer{
+    .footer-bottom{
+        width:100%;
+        height:auto;
+        text-align: center;
+        padding:0.35rem 0 0.32rem;
+        .footer-about{
+//          width:100%;
+            padding:0 8%;
+            text-align: center;
+            a{
+                font-size:0.24rem;
+                color:@timeColor;
+                padding:0 0.24rem;
+                border-left:0.02rem solid #a3a3a3;
+                display:inline-block;
+                float: left;
+            }
+            a:first-child{
+                border-left:none;
+            }
+        }
+    }
+    p{
+       color:#bfb9b9;
+       font-size:0.22rem; 
+       margin-top: 0.14rem;
+    }
+}
+.online{
+    width:100%;
+    height:1rem;
+    position:fixed;
+    bottom:0;
+    left:0;
+    li{
+        width:50%;
+        float:left;
+        a{
+            width:100%;
+            height:100%;
+            text-align: center;
+            line-height: 1rem;
+            float:left;
+            i{
+                margin-right:0.24rem;
+                float:left;
+                margin-left: 25%;
+                margin-top: 7%;
+            }
+            span{
+                font-size:0.28rem;
+                float:left;
+                display: inline-block;
+            }
+        }
+    }
+    li:first-child{
+        background: #2e3642;
+        i{
+            background: url(../images/play.png);
+            width:0.37rem;
+            height:0.44rem;
+            background-size:0.37rem 0.44rem;
+        }
+        span{
+            color:#96a2b2;
+        }
+    }
+    li:nth-child(2){
+        background: #a98e73;
+        i{
+            background: url(../images/news.png);
+            width:0.47rem;
+            height:0.47rem;
+            background-size:0.47rem 0.47rem;
+        }
+        span{
+            color:#fff7ef;
+        }
+    }
+}
+#nav{
+    width:100%;
+    height:1rem;
+    position:fixed;
+    top:1.1rem;
+    left:0;
+    background: #fff;
+    border-top:0.02rem solid #fafafa;
+    ul{
+        width:100%;
+        height:1rem;
+        position: relative;
+        li{
+            width:20%;
+            float:left;
+            height:1rem;
+            a{
+                width:100%;
+                margin:0.34rem 0;
+                float:left;
+                font-size:0.3rem;
+                color:#666;
+                text-align: center;
+                border-left:0.02rem solid @line;
+            }   
+        }
+        li:first-child a{
+            border-left:none;
+        }
+        li.active{
+                border-bottom:0.05rem solid #A99377;
+            a{
+                color:#a99377;
+
+            }
+        }
+    }
+}
+.more{
+       margin:0.2rem 0;
+       background: #fff;
+       width:100%;
+       height:0.8rem; 
+       font-size:0.28rem;
+       color:#a08466;
+       text-align: center;
+       display: block;
+       line-height:0.8rem;
+}
+.cases-more{
+        width:99.3%;
+        height:0.76rem;
+        border:0.02rem solid #ececec;
+        background: #fff;
+        text-align: center;
+        line-height: 0.78rem;
+        font-size:0.28rem;
+        color:@spanColor;
+        margin-top:0.25rem;
+        margin-bottom:0.4rem;
+        display: block;
+}
+.assess{
+    margin-bottom:0.5rem;
+    background: #fff;
+    margin-top:0.2rem;
+    width:100%;
+    height:auto;
+    .assess-wrapper{
+        padding:0 0.2rem;
+        .assess-head{
+            padding:0.3rem 0;
+            h1{
+                font-size:0.28rem;
+                color:#494949;
+                padding-left:0.22rem;
+                border-left:0.06rem solid #a78d71;
+            }
+        }
+    }
+}
+
+@formColor:#fcfcfc;
+.assess{
+    .assess-wrapper{
+        .assess-form{
+            width:100%;
+            height:auto;
+            border-top:0.02rem solid #e6e6e6;
+            input{
+                padding-left:0.26rem;
+                color:@spanColor;
+                width: 85%;
+                border:none;
+                outline:none;
+                float:left;
+                background: @formColor;
+                margin-top:10%;
+            }
+            input-placeholder{
+                color:@holder;
+            }
+            .all{
+                margin-top:0.46rem;
+                .name{
+                    width:30%;
+                    height:0.7rem;
+                    border:0.02rem solid @line;
+                    margin-right:0.25rem;
+                    background: @formColor;
+                    float:left;
+                }
+                .select{
+                    border:0.02rem solid @line;
+                    width: 21%;
+                    background: @formColor;
+                    height:0.7rem;
+                    float:left;
+                    margin-right:0.25rem;
+                    input{
+//                          padding:0;
+                    }
+                    select{
+                        border:none;
+                        background:@formColor;
+                        float: left;
+                        margin-top: 12%;
+                        text-align: center;
+                        outline: none;
+                        width:100%;
+                        padding-left:0.18rem;
+                    }
+                }
+                .locat{
+                    border:0.02rem solid @line;
+                    width:38%;
+                    height:0.7rem;
+                    background:@formColor;
+                    float:left;
+                }
+            }
+        }
+    }
+}
+
+.assess .assess-form{
+    .country{
+        margin-top:0.25rem;
+        .min-country{
+            width: 55%;
+            height:0.7rem;
+            background: @formColor;
+            border:0.02rem solid @line;
+            margin-right:0.25rem;
+            float:left;
+            input{
+                margin-top: 5%;
+            }
+        }
+        .budget{
+            width:38%;
+            height:0.7rem;
+            border:0.02rem solid @line;
+            float:left;
+            background:@formColor;
+        }
+    }
+    .phone{
+        margin-top:0.25rem;
+        width:100%;
+        height:0.72rem;
+        box-sizing: border-box;
+        border:0.02rem solid @line;
+        background: @formColor;
+        input{
+            margin-top:3%;
+        }
+    }
+    .btn{
+        margin-top:0.53rem;
+        background: @btnColor;
+        width:100%;
+        height:0.8rem;
+        border-radius: 0.05rem;
+        color:#fff;
+        text-align: center;
+        line-height: 0.8rem;
+        border:none;
+        outline:none;
+        font-size: 0.3rem;
+        margin-bottom:0.56rem;
+    }
+}
+.guip{
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top:1.1rem;
+    left:0;
+    width:100%;
+    height:20rem;
+    z-index: 1;
+    display:none;
+}

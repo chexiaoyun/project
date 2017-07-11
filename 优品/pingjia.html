@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />    
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="msapplication-tap-highlight" content="no" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" />
+	<title>优品-发表评价</title>
+	<link rel="stylesheet" href="css/index2.css"/>
+	<link rel="stylesheet" href="iconfont/iconfont.css"/>
+	<script src="js/jquery.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body class="ping">
+	<div class="header">
+		<div class="p_hleft">
+			<a href="d_payment.html"><i class="iconfont">&#xe602;</i></a>
+		</div>
+		<div class="p_hcenter p_dcenter">
+			<h1>发表评价</h1>
+		</div>
+		<div class="p_hright">
+			<i class="iconfont">&#xe607;</i>
+			<span></span>
+		</div>
+	</div>
+	<div class="d_content">
+		<div class="d_ping">
+			<div class="d_pimg">
+				<img src="images/s4.png" alt="">
+			</div>
+			<input type="file" accept="video/*;capture=camcorder" style="display:none">
+			<form action="" method="post">
+				<textarea name="" id="" rows="4" placeholder="亲！写出您的15字评价吧..."></textarea>
+			</form>
+			<div class="d_jia"><i class="iconfont">&#xe630;</i></div>
+			<div class="d_xing">
+				<span>商品评价</span>
+				<i class="iconfont">&#xe625;</i>
+				<i class="iconfont">&#xe625;</i>
+				<i class="iconfont">&#xe625;</i>
+				<i class="iconfont">&#xe625;</i>
+				<i class="iconfont">&#xe625;</i>
+			</div>
+		</div>
+		<div class="d_fabu">发布</div>
+	</div>
+
+	<script>
+	$(function(){
+		$('.d_jia').click(function(){
+			$('.d_ping').find('input').click();
+		});
+	})
+	</script>
+	<script>
+	$(function(){
+		$('.d_jia').click(function(){
+			$('.d_ping').find('input').click();
+		});
+	});
+	</script>
+	<script>
+	$(function(){
+		$('.d_jia').click(function(){
+			$('.d_ping').find('input').show();
+		});
+	});
+	</script>
+</body>
+</html>

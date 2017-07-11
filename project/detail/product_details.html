@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <title>工程网-商品详情-选择分类</title>
+    <script src="js/flexible.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/product_select.css"/>
+</head>
+<body>
+<!--header-->
+<header id="header" class="yd-header-slider">
+    <div class="swiper-container p-d-swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide yd-header-slide-item">
+                <a class="p-s-link" href="#"><img src="images/demo_img/p_d_banner01.png" alt="banner1"/></a>
+            </div>
+            <div class="swiper-slide yd-header-slide-item">
+                <a class="p-s-link" href="#"><img src="images/demo_img/p_d_banner01.png" alt="banner1"/></a>
+            </div>
+            <div class="swiper-slide yd-header-slide-item">
+                <a class="p-s-link" href="#"><img src="images/demo_img/p_d_banner01.png" alt="banner1"/></a>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <a class="yd-btn-previous-page" href="../demand/goods_list.html"></a>
+    <div class="h-s-right-indicator"><span></span><span></span><span></span></div>
+</header>
+<!--product name-->
+<section class="yd-sec yd-service-box">
+    <div class="yd-service-name yd-clearfix">
+        <div class="yd-float-lt">南翔挖掘机</div>
+        <div class="yd-float-rt"><a href="#"><i></i>分享</a></div>
+    </div>
+    <p class="yd-s-price yd-clearfix">¥8888.00</p>
+    <div class="yd-s-info yd-clearfix">
+        <div>快递：免运费</div>
+        <div class="yd-float-lt">成交量：222</div>
+        <div>江苏 扬州</div>
+    </div>
+</section>
+<!--color select-->
+<section class="yd-sec yd-color-select yd-common-font">
+    <a class="yd-toggle-btn" id="modal-toggle" href="#yd-product-sel-modal">选择&nbsp;&nbsp;颜色分类</a>
+</section>
+<!--contact info-->
+<section class="yd-sec yd-contact yd-common-font">
+    <p>联系人：<span>罗先生</span><code class="yd-c-red yd-ml-30">13855558888</code></p>
+</section>
+<!--shop info-->
+<section class="yd-sec yd-shop-info-wrapper">
+    <div class="yd-shop-title yd-clearfix">
+        <div class="yd-shop-logo">
+            <img src="images/demo_img/store_logo.png" alt="南翔设备旗舰店"/>
+        </div>
+        <div class="yd-shop-name">
+            <h2>南翔设备旗舰店</h2>
+            <div class="yd-vip-shop">VIP会员</div>
+        </div>
+    </div>
+    <ul class="yd-shop-grades yd-clearfix">
+        <li>
+            <h4>4.9 ↑</h4>
+            <h3>宝贝描述</h3>
+        </li>
+        <li>
+            <h4>4.9 ↑</h4>
+            <h3>卖家服务</h3>
+        </li>
+        <li>
+            <h4>4.9 ↑</h4>
+            <h3>物流服务</h3>
+        </li>
+    </ul>
+    <ul class="yd-btn-box">
+        <li><a href="##">收藏店铺</a></li>
+        <li><a href="../member/Store.html">进入店铺</a></li>
+    </ul>
+</section>
+<!--product details-->
+<section class="yd-sec yd-service-intros">
+    <ul class="yd-nav-tabs yd-clearfix">
+        <li class="yd-active"><a href="##">商品详情</a></li>
+        <li><a href="##">商品规格</a></li>
+        <li><a href="##">评价</a></li>
+    </ul>
+    <div class="yd-tab-content">
+        <div class="yd-tab-pane" id="panel-1"  >
+            <div class="yd-p-imgBox">
+                <img src="images/demo_img/p_1.jpg" alt=""/>
+                <img src="images/demo_img/p_2.jpg" alt=""/>
+                <img src="images/demo_img/p_3.jpg" alt=""/>
+                <img src="images/demo_img/p_4.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="yd-tab-pane" id="panel-2" style="display:none;">
+            <ul>
+                <li>
+                    <strong>型号</strong>
+                    <span>SS28</span>
+                </li>
+                <li>
+                    <strong>颜色分类</strong>
+                    <span>黄色</span>
+                </li>
+                <li>
+                    <strong>重量</strong>
+                    <span>8T</span>
+                </li>
+            </ul>
+        </div>
+        <div class="yd-tab-pane" id="panel-3" style="display:none;">
+            <ul>
+                <li>
+                    <div class="yd-sell">
+                        <div class="yd-sell-img">
+                            <img src="images/demo_img/head.png" alt=""/>
+                        </div>
+                        <span>买家</span>
+                    </div>
+                    <span class="yd-sell-date">2016-11-17</span>
+                    <p class="yd-sell-say">宝贝很好，非常满意，价格实惠！</p>
+                </li>
+                <li>
+                    <div class="yd-sell">
+                        <div class="yd-sell-img">
+                            <img src="images/demo_img/head.png" alt=""/>
+                        </div>
+                        <span>买家</span>
+                    </div>
+                    <span class="yd-sell-date">2016-11-17</span>
+                    <p class="yd-sell-say">宝贝很好，非常满意，价格实惠！</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<footer id="footer" class="yd-footer">
+    <ul class="yd-clearfix">
+        <li class="yd-icon-qq"><a href="#">QQ</a></li>
+        <li class="yd-icon-shop"><a href="../member/Store.html">店铺</a></li>
+        <li class="yd-icon-star-empty"><a href="#">收藏</a></li>
+        <li><a class="yd-pd-0" href="#">立即购买</a></li>
+        <li><a class="yd-pd-0 yd-bg-cart-btn" href="#">加入购物车</a></li>
+    </ul>
+</footer>
+
+<!--modal-->
+<div class="yd-modal fade" id="yd-product-sel-modal">
+    <div class="yd-modal-dialog">
+            <div class="yd-modal-content">
+                <div class="yd-modal-body yd-common-pd yd-pb-20">
+                        <div class="yd-modal-media yd-pb-20 yd-clearfix">
+                            <div class="yd-modal-imgBox yd-float-lt">
+                                <img src="images/demo_img/thumnail.png" alt=""/>
+                            </div>
+                            <div class="yd-product-info yd-float-lt">
+                                <p class="yd-mb-20">¥8888.00</p>
+                                <div class="yd-product-store yd-mb-21">库存1200件</div>
+                                <div>选择&nbsp;&nbsp;颜色分类</div>
+                            </div>
+                            <a class="yd-close" href="#" data-dismiss="modal"></a>
+                        </div>
+                        <div class="yd-color-list">
+                            <ul>
+                                <li class="yd-color-list-item"><a href="#">蓝色</a></li>
+                                <li class="yd-color-list-item"><a href="#">橙色</a></li>
+                            </ul>
+                        </div>
+                        <div class="yd-buy-num yd-clearfix">
+                            <span class="yd-float-lt yd-font-26">购买数量</span>
+                            <div class="yd-input-box yd-float-rt">
+                                <a class="yd-p-btn yd-p-btn-minus" href="javascript:void(0)"></a><span>1</span><a class="yd-p-btn yd-p-btn-plus" href="javascript:void(0)"></a>
+                            </div>
+                        </div>
+                </div>
+                <div class="yd-modal-footer">
+                    <a class="yd-f-btn yd-float-lt yd-bg-info" href="../demand/shopping.html">加入购物车</a>
+                    <a class="yd-f-btn yd-float-rt yd-bg-danger" href="../demand/confirm_order.html">立即购买</a>
+                </div>
+            </div>
+    </div>
+</div>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/product_details_catlog_sel.js"></script>
+<script>
+    new Swiper ('.swiper-container', {
+        loop: true,
+        autoplay: 3000,
+        pagination: '.swiper-pagination'
+    });
+
+    //商品数量的加减
+    $('.yd-input-box .yd-p-btn-plus').click(function(){
+        var num = parseInt( $(this).prev("span").html() );
+        num++;
+        $(this).prev('span').html(num);
+    });
+    $('.yd-input-box .yd-p-btn-minus').click(function(){
+       var num = parseInt( $(this).next('span').html() );
+        if( num>1 ){
+            num--;
+        }
+        $(this).next('span').html(num);
+    });
+
+    $('.yd-service-intros .yd-nav-tabs li').click(function(){
+        $(this).addClass('yd-active').siblings('li').removeClass('yd-active');
+        $(this).parent('ul').siblings('.yd-tab-content').find('.yd-tab-pane').eq($(this).index()).show().siblings('.yd-tab-pane').hide();
+    });
+</script>
+</body>
+</html>

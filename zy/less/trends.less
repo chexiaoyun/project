@@ -1,0 +1,135 @@
+@width:100%;
+@titColor:#333;
+@fontColor:#666;
+@timeColor:#949494;
+@footColor:#383b3d;
+@headColor:#a99178;
+@spanColor:#494949;
+@formColor:#fcfcfc;
+@line:#e8e8e8;
+@bLeft:#a99377;
+.clear::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+.dis{
+    display:inline-block;
+}
+#header{
+    background: #fff;
+    height:1.10rem;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    .head-left{
+        width:15%;
+        height:1.10rem;
+        float: left;
+        position:relative;
+        i.dis{
+           background:url(../images/menu.png);
+           background-size: 0.6rem 0.6rem;;
+           height:0.6rem;
+           width:0.6rem;
+           margin-top:30%;
+           margin-left:18%;
+           float:left;
+        }
+        i.dis.fail{
+            background:url(../images/fail.png);
+            width:0.36rem;
+            height:0.38rem;
+            background-size:0.36rem 0.38rem;
+            margin-top:35%;
+            margin-left:35%;
+        }
+    }
+}
+.trends-show{
+    width:100%;
+    height:auto;
+    margin-top:2.1rem;
+    .trends-wrapper{
+        padding:0 0.15rem;
+        .trends-head{
+            padding:0.25rem 0 0.28rem;
+            li{
+                color:@fontColor;
+                font-size:0.28rem;
+                margin-left:0.22rem;
+                float:left;
+                padding:0.13rem 0.26rem;
+            }
+            li:first-child{
+                margin-left:0;
+            }
+            li.active{
+                background: #fffbf5;
+                color:#c0a78b;
+                border:0.02rem solid #af9b81;
+                border-radius: 0.5rem;
+            }
+        }
+    }
+}
+.trends-show{
+    .trends-wrapper{
+        .trends-body{
+            width:100%;
+            height:auto;
+            margin-bottom:0.25rem;
+            li{
+                padding:0.43rem 0.25rem;
+                margin-top:0.15rem;
+                background: #fff;
+                .trends-time{
+                    width:22%;
+                    height:0.97rem;
+                    float:left;
+                    text-align: center;
+                    span{
+                        display: inline-block;
+                        text-align: right;
+                        color:@timeColor;
+                        font-size: 0.24rem;
+                        float: left;
+                        em{
+                            color:#a99377;
+                            font-size:0.42rem;
+                            font-style:normal;
+                            display: block;
+                        }
+                    }
+                }
+                .trends-content{
+                    width:73%;
+                    padding:0 0 0 0.26rem;
+                    float:left;
+                    border-left:0.02rem solid #eee;
+                    a{
+                        width:100%;
+                        height:100%;
+                        display: inline-block;
+                        h1{
+                            font-size:0.28rem;
+                            color:@spanColor;
+                            font-weight:normal;
+                        }
+                        p{
+                            color:#b8b8b8;
+                            font-size:0.2rem;
+                            line-height: 0.45rem;
+                            height:0.8rem;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+            li:first-child{
+                margin-top:0;
+            }
+        }
+    }
+}

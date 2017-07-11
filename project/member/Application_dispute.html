@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Application dispute</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+<body>
+    <div id="yd-demand-header">
+        <div class="yd-demand-left">
+            <a href="Customer_managing.html"><img src="img/Chord/return.png" alt=""/></a>
+        </div>
+        <div class="yd-demand-content">
+            <span>发布需求</span>
+        </div>
+    </div>
+    <div id="yd-demand-container">
+        <div class="yd-demand-describe">
+            <div class="yd-describe-tip">
+                <span>描述你的纠纷</span>
+            </div>
+            <div class="yd-describe-textarea">
+                <form action="" method="post">
+                    <textarea name="" id="" cols="" rows=""></textarea>
+                </form>
+                <div class="yd-load-photo">
+                    <div class="yd-enclosure">
+                        <dl></dl>
+                        <div class="yd-add-pic">
+                            <!--<span></span>-->
+                            <img src="img/Chord/photo.png" alt=""/>
+                            <input class="yd-menu-first" type="file" accept="" multiple="multiple" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yd-demand-tel clear">
+            <button>提交申请</button>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script>
+        $(".yd-enclosure .yd-add-pic img").click(function(){
+            $(this).next("input").click();
+        });
+
+        // 删除图片
+        //        $(".yd-enclosure dl").on("click","dd i",function(){
+        //            $(this).parents("dd").remove();
+        //        });
+
+        // 图片选择
+
+        $(".yd-menu-first").on("change",function(){
+            var objUrl = getObjectURL(this.files[0]) ;
+            if (objUrl) {
+                $(this).parent("div").prev("dl").append("<dd><img src='" + objUrl + "' /></dd>");
+            }
+        });
+
+
+        // 创建Blob对象
+        function getObjectURL(file) {
+            var url = null ;
+            if (window.createObjectURL!=undefined) {
+                url = window.createObjectURL(file) ;
+            } else if (window.URL!=undefined) {
+                url = window.URL.createObjectURL(file) ;
+            } else if (window.webkitURL!=undefined) {
+                url = window.webkitURL.createObjectURL(file) ;
+            }
+            return url ;
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,350 @@
+@import "common";
+@color:#e60012;
+@font-color:#555;
+@font-bcolor:#c6c6c6;
+@border-color:#ddd;
+@price-color:#ff0000;
+@li-color:#9c9c9c;
+@bg-color:#f1f1f1;
+@addColor:#fbfbfb;
+
+body{
+  background: @addColor;
+}
+.position{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+#yd-shop-header{
+  width: 100%;
+  height: 0.79rem;
+  border-bottom:1px solid @border-color;
+  background: #fff;
+  .yd-shop-center{
+    width: 80%;
+    height: 100%;
+    float: left;
+    span{
+      color:@font-color;
+      font-size: 0.3rem;
+      float: left;
+      //width: 100%;
+      margin-left:50%;
+      line-height: 0.8rem;
+      strong{
+        color:@font-color;
+        font-size: 0.3rem;
+      }
+    }
+  }
+  .yd-shop-right{
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.26rem;
+    color:@font-color;
+  }
+}
+
+#yd-shop-footer{
+  width: 100%;
+  height: 0.92rem;
+  background: #fff;
+  position: fixed;
+  bottom:0;
+  left:0;
+  border-top:2px solid @color;
+  background: #fff;
+  ul{
+    width: 100%;
+    height: 100%;
+    li{
+      width: 33.3%;
+      height: 100%;
+      float: left;
+      text-align: center;
+      i{
+        float: left;
+        font-size:0.48rem;
+        margin-left: 38%;
+        margin-top: 0.08rem;
+      }
+      span{
+        width: 100%;
+        float: left;
+        text-align: center;
+        font-size:0.23rem;
+        color:@font-color;
+      }
+    }
+    li.active{
+      i{
+        color:@color;
+      }
+      span{
+        color:@color;
+      }
+    }
+  }
+}
+
+#yd-shop-container{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #fbfbfb;
+  .yd-shop-wrapper{
+    padding:0 0.2rem 2rem;
+    overflow: auto;
+    ul{
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      li{
+        background: #fff;
+        width: 100%;
+        height: 3rem;
+        position: relative;
+        margin-top: 0.2rem;
+        box-sizing: border-box;
+        .yd-shop-title{
+          margin:0 0.25rem;
+          padding:0.26rem 0;
+          overflow: hidden;
+          border-bottom:1px solid @border-color;
+          .yd-title-left{
+            width: 90%;
+            float: left;
+            img{
+              width: 0.29rem;
+              height: 0.26rem;
+              float: left;
+              margin-right: 0.2rem;
+              margin-top: 0.02rem;
+            }
+            span{
+              font-size:0.26rem;
+              color:@color;
+              float: left;
+            }
+          }
+          .yd-title-right{
+            width: 10%;
+            float: right;
+            img{
+              width: 0.23rem;
+              height: 0.24rem;
+              float: right;
+            }
+          }
+        }
+        .yd-shop-goods{
+          padding:0.1rem 0.2rem;
+          overflow: hidden;
+          .yd-shop-img{
+            width: 32%;
+            height: 1.8rem;
+            margin-right:0.2rem;
+            float: left;
+            img{
+              width: 1.8rem;
+              height: 1.8rem;
+              float: left;
+            }
+          }
+          .yd-shop-right{
+            width: 63%;
+            height:auto;
+            overflow: hidden;
+            p{
+              font-size:0.23rem;
+              width: 100%;
+            }
+            span{
+              font-size: 0.23rem;
+              color:@li-color;
+              float: left;
+              margin:0.1rem 0;
+              width: 100%;
+            }
+            .yd-goods-num{
+              width: 100%;
+              float: left;
+              height: 0.62rem;
+              .yd-number{
+                width: 1.36rem;
+                height: 0.58rem;
+                border:1px solid @border-color;
+                float: left;
+                background: #fff;
+                .yd-num-left{
+                  border-right:1px solid @border-color;
+                  float: left;
+                  width: 20%;
+                  height: 100%;
+                  text-align: center;
+                  position: relative;
+                  background: @addColor;
+                  img{
+                    width: 0.14rem;
+                    height: 0.04rem;
+                    vertical-align: middle;
+                    float: left;
+                    .position
+                  }
+                }
+                .yd-num-right{
+                  border-left:1px solid @border-color;
+                  width: 20%;
+                  height: 100%;
+                  float: left;
+                  text-align: center;
+                  position: relative;
+                  background: @addColor;
+                  img{
+                    width: 0.2rem;
+                    height: 0.2rem;
+                    vertical-align: middle;
+                    float: left;
+                    .position
+                  }
+                }
+                .yd-num-input{
+                  width: 57%;
+                  height: 100%;
+                  float: left;
+                  input{
+                    border:none;
+                    outline:none;
+                    color:@li-color;
+                    font-size:0.23rem;
+                    line-height: 0.58rem;
+                    width: 100%;
+                    float: left;
+                    text-align: center;
+                  }
+                }
+              }
+              .yd-price{
+                font-size: 0.3rem;
+                color:@color;
+                margin-left:0.2rem;
+                float: left;
+                line-height: 0.6rem;
+              }
+            }
+          }
+        }
+        img.true{
+          width: 0.55rem;
+          height: 0.55rem;
+          position: absolute;
+          bottom:0;
+          right:0;
+          display: none;
+        }
+      }
+      li.active{
+        border:2px solid @color;
+        img.true{
+          display: block;
+        }
+      }
+    }
+  }
+}
+#yd-shop-container{
+  .yd-shop-all{
+    position: fixed;
+    bottom:0.94rem;
+    left:0;
+    width: 100%;
+    height: 0.8rem;
+    background: #fff;
+    .yd-all-left{
+      width: 75%;
+      height: 0.8rem;
+      float: left;
+      .yd-all-color{
+        float: left;
+        .yd-circle{
+          width: 0.42rem;
+          height: 0.4rem;
+          border-radius: 50%;
+          margin:0 0.2rem;
+          float: left;
+          border:1px solid @border-color;
+          margin-top: 13%;
+          position: relative;
+          box-sizing: border-box;
+          img{
+            width: 0.25rem;
+            height: 0.19rem;
+            .position
+          }
+        }
+        .yd-circle.active{
+          background: @color;
+          width: 0.42rem;
+          height: 0.4rem;
+          border:none;
+          img{
+            display: block;
+          }
+        }
+        span{
+          color:@font-color;
+          font-size:0.26rem;
+          float: left;
+          line-height: 0.8rem;
+        }
+      }
+      .yd-count{
+        margin-left:0.22rem;
+        float: left;
+        span{
+          font-size:0.26rem;
+          color:@font-color;
+          line-height: 0.8rem;
+          float: left;
+          strong{
+            color:@color;
+            font-size:0.26rem;
+          }
+        }
+      }
+      em{
+        margin-left: 0.2rem;
+        float: left;
+        color:@li-color;
+        font-size:0.23rem;
+        font-style: normal;
+        line-height: 0.8rem;
+      }
+    }
+    .yd-all-right{
+      width: 25%;
+      height: 0.8rem;
+      background: @color;
+      text-align: center;
+      float: left;
+      span{
+        color:#fff;
+        font-size: 0.3rem;
+        float: left;
+        line-height: 0.8rem;
+        width: 100%;
+        strong{
+          font-size:0.3rem;
+          color:#fff;
+        }
+      }
+    }
+  }
+}

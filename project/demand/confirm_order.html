@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <title>确认订单</title>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/confirm_order.css"/>
+</head>
+<body>
+    <div id="yd-order-header">
+        <div class="yd-order-left">
+            <a href="">
+                <img src="../images/project_c/back.png" alt=""/>
+            </a>
+        </div>
+        <div class="yd-order-center">
+            <span>确认订单</span>
+        </div>
+    </div>
+    <div id="yd-order-container">
+        <div class="yd-order-address">
+            <div class="yd-address-title"><span>管理地址</span></div>
+            <div class="yd-address-wrapper">
+                <div class="yd-address-text active">
+                    <div class="yd-address-top">
+                        <p>收货人：张某某    13262633117</p>
+                        <p>收货地址：上海市宝山区张庙街道呼玛一村888号101室</p>
+                    </div>
+                    <div class="yd-address-bottom">
+                        <div class="yd-address-left">
+                            <img src="../images/project_c/true.png" alt=""/>
+                            <span>默认地址</span>
+                        </div>
+                        <div class="yd-address-right">
+                            <div class="yd-address-delete">
+                                <a href="##">
+                                    <img src="../images/project_c/delete.png" alt=""/>
+                                    <span>删除</span>
+                                </a>
+                            </div>
+                            <div class="yd-address-edit">
+                                <a href="">
+                                    <img src="../images/project_c/edit.png" alt=""/>
+                                    <span>修改</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yd-order-stroe">
+            <div class="yd-stroe-title">
+                <img src="../images/project_c/stroe.png" alt=""/>
+                <span>南翔设备旗舰店</span>
+            </div>
+            <div class="yd-stroe-goods">
+                <div class="yd-goods-wrapper">
+                    <div class="yd-goods-left">
+                        <img src="../images/demoimg/stroe_img.png" alt=""/>
+                    </div>
+                    <div class="yd-goods-right">
+                        <p>南翔挖掘机</p>
+                        <span>颜色：黄色</span>
+                        <div class="yd-goods-num">
+                            <div class="yd-number">
+                                <div class="yd-num-left">
+                                    <img src="../images/project_c/remove.png" alt=""/>
+                                </div>
+                                <div class="yd-num-input">
+                                    <input type="text" value="1" />
+                                </div>
+                                <div class="yd-num-right">
+                                    <img src="../images/project_c/add_price.png" alt=""/>
+                                </div>
+                            </div>
+                            <div class="yd-price">¥8888.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yd-order-way">
+            <ul>
+                <li>
+                    <a href="##">
+                        <strong>配送方式</strong>
+                        <div class="yd-way1">
+                            <!--<span>自取</span>-->
+                            <!--<img src="../images/project_c/next.png" alt=""/>-->
+                            <select name="" id="">
+                                <option value="">自取</option>
+                                <option value="">代收</option>
+                            </select>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="##">
+                        <strong>店铺优惠</strong>
+                        <div class="yd-way1">
+                            <!--<span>满88减3元</span>-->
+                            <!--<img src="../images/project_c/next.png" alt=""/ >-->
+                            <select name="" id="">
+                                <option value="">满88元减3元</option>
+                                <option value="">满88元减3元</option>
+                            </select>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="##">
+                        <div class="yd-way2">
+                            <strong>支付方式</strong>
+                            <div class="yd-way1">
+                                <span>在线支付</span>
+                                <img src="../images/project_c/next.png" alt=""/ >
+                            </div>
+                        </div>
+                        <div class="yd-way3">
+                            <div class="yd-way-img active">
+                                <img src="../images/project_c/card.png" alt=""/>
+                                <img src="../images/project_c/blue_true.png" alt=""/>
+                            </div>
+                            <div class="yd-way-img">
+                                <img src="../images/project_c/weixin.png" alt=""/>
+                                <img src="../images/project_c/blue_true.png" alt=""/>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="##">
+                        <strong>发票</strong>
+                        <div class="yd-way1">
+                            <!--<span>不需要发票</span>-->
+                            <!--<img src="../images/project_c/next.png" alt=""/ >-->
+                            <select name="" id="">
+                                <option value="">不需要发票</option>
+                                <option value="">需要发票</option>
+                            </select>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="##">
+                        <strong>买家留言</strong>
+                        <div class="yd-way1">
+                            <input type="text" placeholder="选填：对本次交易的说明" />
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="yd-order-pay">
+            <div class="yd-pay-left">
+                <div class="yd-pay-all">
+                    <span>合计：</span>
+                    <strong>¥8888.00</strong>
+                </div>
+                <span>不含运费</span>
+            </div>
+            <div class="yd-pay-right">
+                <a href="payment_success.html">提交订单</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/cart.js"></script>
+
+    <script>
+        $('.yd-address-delete').click(function(){
+            if( confirm('是否删除该地址?') ){
+                $(this).parents('.yd-address-text').remove();
+            }
+        });
+    </script>
+</body>
+</html>
